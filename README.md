@@ -488,6 +488,165 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202517474_upc_edu_pe/IQCYz5Tm
 ## Capítulo III: Requirements Specification
 ## 3.1. User Stories
 
+### US21 - Registrar costo operativo
+
+
+**US22 - Registrar ingreso por cosecha**
+
+**Relacionado con:** EP06
+
+**Descripción:** Como administrador de agroindustria quiero registrar los ingresos obtenidos por cada cosecha para calcular la rentabilidad real de la campaña.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro de ingreso exitoso**
+**Dado** que el usuario tiene una campaña con cosecha registrada
+**Cuando** el usuario ingresa monto obtenido, cantidad vendida y precio por unidad válidos
+**Entonces** el sistema registra el ingreso y lo vincula a la campaña
+
+**Escenario 2:** Ingreso duplicado en la misma fecha
+**Dado** que ya existe un ingreso registrado para esa fecha y cultivo
+**Cuando** el usuario intenta registrar otro ingreso con los mismos datos
+**Entonces** el sistema advierte la posible duplicidad y solicita confirmación
+
+**US23 - Consultar reporte de rentabilidad por campaña**
+
+**Relacionado con:** EP06
+
+**Descripción:** Como administrador de agroindustria quiero visualizar un reporte de rentabilidad por campaña para evaluar si la operación fue financieramente viable.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Reporte generado correctamente**
+**Dado** que la campaña tiene costos e ingresos registrados
+**Cuando** el usuario solicita el reporte de rentabilidad
+**Entonces** el sistema muestra ingresos totales, costos totales y utilidad neta de la campaña
+
+**Escenario 2: Datos insuficientes para generar reporte**
+**Dado** que la campaña no tiene costos o ingresos registrados
+**Cuando** el usuario solicita el reporte
+**Entonces** el sistema indica que no hay datos suficientes para generar el reporte
+
+**EP07 - Alertas y Notificaciones**
+
+**US24 - Configurar umbrales de alerta por lote**
+
+**Relacionado con:** EP07
+
+**Descripción:** Como ingeniero agrónomo quiero configurar umbrales mínimos y máximos para variables agronómicas por lote para recibir alertas cuando se superen los límites establecidos.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Configuración exitosa de umbral**
+**Dado** que el usuario tiene un lote con sensor registrado
+**Cuando** el usuario define un valor mínimo y máximo para una variable (humedad, temperatura o pH) y guarda los cambios
+**Entonces** el sistema almacena la configuración y la asocia al lote
+
+**Escenario 2: Umbral con valores inválidos**
+**Dado** que el usuario intenta configurar un umbral
+**Cuando** el valor mínimo ingresado es mayor o igual al valor máximo
+**Entonces** el sistema rechaza la configuración e indica el error
+
+**US25 - Recibir y gestionar alertas automáticas**
+
+**Relacionado con:** EP07
+
+**Descripción:** Como ingeniero agrónomo quiero recibir alertas automáticas cuando una variable del cultivo supere el umbral configurado para actuar de forma oportuna ante riesgos en el campo.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Alerta generada por umbral superado**
+**Dado** que un sensor registra un valor fuera del rango configurado
+**Cuando** el sistema procesa la lectura del sensor
+**Entonces** el sistema genera una alerta y la notifica al usuario asociado al lote
+
+**Escenario 2: Alerta marcada como atendida**
+**Dado** que el usuario visualiza una alerta activa en el sistema
+**Cuando** el usuario la marca como atendida
+**Entonces** el sistema registra la acción y actualiza el estado de la alerta a resuelta
+
+**EP08 - Autenticación y Gestión de Cuenta**
+
+**US26 - Registrar cuenta de usuario**
+
+**Relacionado con:** EP08
+
+**Descripción:** Como visitante del sitio quiero registrarme con mis datos personales y credenciales para acceder a la plataforma KAMPO.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro exitoso**
+**Dado** que el visitante completa el formulario con nombre, correo, contraseña y tipo de perfil válidos
+**Cuando** el visitante envía el formulario de registro
+**Entonces** el sistema crea la cuenta y redirige al usuario al dashboard principal
+
+**Escenario 2: Correo ya registrado en el sistema**
+**Dado** que el visitante ingresa un correo que ya existe en la plataforma
+**Cuando** el visitante intenta completar el registro
+**Entonces** el sistema rechaza el registro e indica que el correo ya está en uso
+
+**US27 - Iniciar sesión en la plataforma**
+
+**Relacionado con:** EP08
+
+**Descripción:** Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis datos y funciones según mi perfil.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Inicio de sesión exitoso**
+**Dado** que el usuario ingresa credenciales válidas registradas
+**Cuando** el usuario envía el formulario de inicio de sesión
+**Entonces** el sistema autentica al usuario y le otorga acceso al dashboard correspondiente a su perfil
+
+**Escenario 2: Credenciales incorrectas**
+**Dado** que el usuario ingresa un correo o contraseña incorrecto
+**Cuando** el usuario intenta iniciar sesión
+**Entonces** el sistema rechaza el acceso e informa que las credenciales son inválidas
+
+---
+
+**EP09 - Landing Page**
+
+**US28 - Visualizar propuesta de valor en la landing page**
+
+**Relacionado con:** EP09
+
+**Descripción:** Como visitante del sitio quiero ver claramente qué es KAMPO y qué problema resuelve para evaluar si la plataforma es relevante para mi operación agrícola.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Carga correcta de la sección principal**
+**Dado** que el visitante accede a la landing page
+**Cuando** la página termina de cargar
+**Entonces** el sistema muestra el nombre del producto, la propuesta de valor principal y un botón de llamado a la acción visible
+
+**Escenario 2: Visualización responsive en dispositivo móvil**
+**Dado** que el visitante accede desde un smartphone
+**Cuando** la página carga en una pantalla menor a 768px de ancho
+**Entonces** el contenido se adapta sin pérdida de información ni elementos superpuestos
+
+**US29 - Visualizar planes y precios en la landing page**
+
+**Relacionado con:** EP09
+
+**Descripción:** Como visitante del segmento agroindustria quiero ver los planes disponibles y sus precios en la landing page para evaluar cuál se ajusta a mi operación antes de registrarme.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Visualización correcta de los planes**
+
+**Dado** que el visitante navega a la sección de precios de la landing
+**Cuando** la sección carga correctamente
+**Entonces** el sistema muestra los tres planes (Semilla, Cosecha y Hacienda) con sus funciones principales y precios mensuales
+
+**Escenario 2: Redirección al registro desde un plan**
+
+**Dado** que el visitante revisa un plan de su interés
+**Cuando** el visitante hace clic en el botón de ese plan
+**Entonces** el sistema redirige al visitante al formulario de registro
+
+
+
 
 
 ## 3.2. Impact Mapping

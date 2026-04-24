@@ -389,6 +389,22 @@ USER PERSONA 02 - Agroindustria mediana y grande
 ##### 2.3.2. User Task Matrix
 En esta sección se presenta el User Task Matrix considerando los dos segmentos objetivo identificados: ingenieros agrónomos asesores y supervisores, representados por Calor Mendoza, y gestores del sector agroindustrial, representados por Luis Ramos. Las tareas listadas corresponden a actividades que ambos segmentos realizan en su trabajo cotidiano, independientemente de la existencia de la solución propuesta.
 
+| Tarea | Carlos Mendoza (UP1) Frecuencia | Carlos Mendoza (UP1) Importancia | Luis Ramos (UP2) Frecuencia | Luis Ramos (UP2) Importancia |
+|:------|:------------------------------:|:--------------------------------:|:---------------------------:|:----------------------------:|
+| Visitar fundos en campo | Alta | Alta | Media | Alta |
+| Evaluar estado de cultivos | Alta | Alta | Media | Alta |
+| Monitorear condiciones climáticas | Alta | Alta | Media | Alta |
+| Detectar plagas o enfermedades | Alta | Alta | Baja | Alta |
+| Registrar datos de campo | Alta | Alta | Media | Alta |
+| Consolidar información de múltiples fundos | Alta | Alta | Alta | Alta |
+| Acceder al historial de cultivos | Media | Alta | Media | Alta |
+| Decidir sobre riego e insumos | Alta | Alta | Media | Alta |
+| Planificar y proyectar producción | Media | Media | Alta | Alta |
+| Gestionar recursos operativos | Media | Media | Alta | Alta |
+| Comunicarse con clientes / propietarios | Alta | Alta | Media | Media |
+| Elaborar reportes de avance | Alta | Alta | Alta | Alta |
+| Coordinar con equipos de campo | Media | Media | Alta | Alta |
+
 ##### 2.3.3. User Journey Mapping
 ##### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming

@@ -408,6 +408,18 @@ En esta sección se presenta el User Task Matrix considerando los dos segmentos 
 Las tareas con mayor frecuencia e importancia para ambos segmentos son consolidar información de múltiples fundos y elaborar reportes de avance, lo que evidencia que la gestión de datos es el núcleo operativo compartido entre los dos perfiles. La principal diferencia radica en que Carlos Mendoza realiza visitas directas a campo con alta frecuencia y centraliza su trabajo en la supervisión técnica, mientras que Luis Ramos prioriza la planificación, proyección de producción y coordinación de equipos, tareas que Luis Ramos prioriza la planificación, proyección de producción y coordinación de equipos, tareas que ejecuta con mayor frecuencia que el primer segmento. La coincidencia más relevante es que ambos consideran el monitoreo climático, el acceso al historial de cultivos y la detección de plagas como tareas de alta importancia, aunque actualmente carecen de herramientas que las soporten de manera integrada y en tiempo real.
 
 ##### 2.3.3. User Journey Mapping
+SEGMENTO 01
+<p align="center">
+  <img src="assets/img/cap-ii/SEGMENTO 1.png" width="500"/>
+  <br/>
+</p>
+
+SEGMENTO 02
+<p align="center">
+  <img src="assets/img/cap-ii/SEGMENTO 2.png" width="500"/>
+  <br/>
+</p>
+
 ##### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
 

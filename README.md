@@ -371,6 +371,9 @@ En conclusión, este segmento enfrenta una problemática centrada en la falta de
 
 ## 2.3. Needfinding
 ##### 2.3.1. User Personas
+Las User Personas representan arquetipos construidos a partir de la información recopilada en las entrevistas realizadas a los segmentos objetivo, complementadas con el análisis del contexto del sector agrícola. Estas permiten sintetizar comportamientos, necesidades y problemáticas comunes, facilitando la toma de decisiones en el diseño de soluciones centradas en el usuario.
+En este caso, se elaboraron dos User Personas correspondientes a los segmentos identificados: ingenieros agrónomos asesores y actores del sector agroindustrial. Las características incluidas en cada perfil se derivan directamente de los patrones observados en las entrevistas, tales como el uso de herramientas no especializadas, la falta de monitoreo en tiempo real y la necesidad de centralización de información
+
 ##### 2.3.2. User Task Matrix
 ##### 2.3.3. User Journey Mapping
 ##### 2.3.4. Empathy Mapping

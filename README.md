@@ -1118,7 +1118,7 @@ el Sprint 1.
 
 📸 **Figura 1: Gráfico de contribuciones por autor (Contributors)**
 Captura obtenida desde:
-https://github.com/greenspot-kampo/kampo-docs/graphs/contributors
+https://github.com/GreenSpot-app/Kampo-Report/graphs/contributors
 [Insertar screenshot del gráfico de Contributors en GitHub]
 
 Este gráfico muestra el número de commits realizados por cada integrante
@@ -1129,7 +1129,7 @@ de la carga de trabajo entre los miembros del equipo.
 
 📸 **Figura 2: Network graph de ramas y merges (Network)**
 Captura obtenida desde:
-https://github.com/greenspot-kampo/kampo-docs/network
+https://github.com/GreenSpot-app/Kampo-Report/network
 [Insertar screenshot del Network Graph de GitHub]
 
 El network graph muestra el flujo de trabajo GitFlow aplicado durante
@@ -1141,7 +1141,7 @@ Pull Requests revisados por el otro integrante.
 
 📸 **Figura 3: Historial de commits (Commits)**
 Captura obtenida desde:
-https://github.com/greenspot-kampo/kampo-docs/commits/main
+https://github.com/GreenSpot-app/Kampo-Report/graphs/commit-activity
 [Insertar screenshot del historial de commits en la rama main]
 
 El historial de commits evidencia la aplicación consistente de
@@ -1153,7 +1153,7 @@ commits dado el alcance documental del sprint.
 
 📸 **Figura 4: Pulse del repositorio durante el Sprint**
 Captura obtenida desde:
-https://github.com/greenspot-kampo/kampo-docs/pulse
+https://github.com/GreenSpot-app/Kampo-Report/pulse
 [Insertar screenshot del Pulse de actividad del repositorio]
 
 El Pulse muestra el resumen de actividad del repositorio durante el

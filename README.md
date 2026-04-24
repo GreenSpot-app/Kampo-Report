@@ -423,6 +423,11 @@ SEGMENTO 02
 ##### 2.3.4. Empathy Mapping
 El Empathy Mapping permite comprender de manera integral a los usuarios, identificando sus pensamientos, emociones, acciones y entorno. A partir de este análisis, se identifican los principales pains y gains, los cuales permiten detectar oportunidades de mejora y orientar el diseño de la solución propuesta.
 
+USER PERSONA 01
+<p align="center">
+  <img src="assets/img/cap-ii/PERSONA 1.png" width="500"/>
+  <br/>
+</p>
 
 ## 2.4. Big Picture Event Storming
 

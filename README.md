@@ -320,6 +320,18 @@ Entrevista 02:
   En términos tecnológicos, utiliza herramientas básicas y presenta un nivel intermedio de adaptación digital. Su forma de trabajo es principalmente organizativa, enfocada en coordinar múltiples unidades productivas.
   Desde una perspectiva conductual, se observa que valora la claridad y el orden en la información, pero enfrenta limitaciones debido a la falta de herramientas adecuadas. Expresa interés en soluciones que centralicen datos y mejoren la comunicación mediante reportes claros.
 
+Entrevista 04:
+- Nombre: Leonardo
+- Apellido: Ochoa
+- Edad: 54
+- Distrito: Lima
+- Resumen:
+  El entrevistado participa en la gestión de operaciones agrícolas a escala, manejando información proveniente de distintos fundos o unidades productivas.
+  Indica que utiliza principalmente Excel y reportes manuales para consolidar información, lo que refleja una alta dependencia de procesos manuales.
+  Señala que no cuenta con visibilidad en tiempo real sobre el estado de los cultivos, lo que dificulta la planificación y la proyección de producción. Además, menciona que la toma de decisiones depende de información que muchas veces llega con retraso.
+  A nivel tecnológico, presenta familiaridad con herramientas digitales, aunque no utiliza soluciones especializadas. Su enfoque es más estratégico, orientado a la planificación y gestión de recursos.
+  Desde el punto de vista conductual, se caracteriza por priorizar la eficiencia y la precisión en la información. Muestra interés en herramientas que permitan integrar datos en tiempo real y mejorar la toma de decisiones a nivel organizacional.
+
 
 ##### 2.2.3. Análisis de entrevistas
  

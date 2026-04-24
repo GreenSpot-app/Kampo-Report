@@ -838,26 +838,380 @@ de código fuente hasta la publicación en producción.
 
 
 ## 5.2. Landing Page, Services & Applications Implementation
-##### 5.2.X. Sprint n
-###### 5.2.X.1. Sprint Planning n
+##### 5.2.1. Sprint 1
+###### 5.2.1.1. Sprint Planning 1
+
+El Sprint Planning 1 marcó el inicio formal del ciclo de desarrollo de KAMPO.
+En esta reunión el equipo GreenSpot estableció el objetivo del primer sprint,
+identificó las User Stories a incluir y definió los compromisos de entrega.
+Al tratarse del primer sprint, no existe revisión ni retrospectiva de un sprint
+anterior. El foco principal de este sprint es la elaboración completa de la
+documentación del proyecto en formato Markdown, sentando las bases para
+los sprints de implementación posteriores.
+
+<table>
+    <tr>
+        <th><b>Sprint #Number</b></th>
+        <th>Sprint #1</th>
+    </tr>
+    <tr>
+        <th><b>Sprint Planning Background</b></th>
+    </tr>
+    <tr>
+        <th><b>Date</b></th>
+        <th>2026-04-19</th>
+    </tr>
+    <tr>
+        <th><b>Time</b></th>
+        <th>13:00 PM</th>
+    </tr>
+    <tr>
+        <th><b>Location</b></th>
+        <th>Reunión virtual via Google Meet</th>
+    </tr>
+    <tr>
+        <th><b>Prepared By</b></th>
+        <th>Rommel Hurtado — GreenSpot</th>
+    </tr>
+    <tr>
+        <th><b>Attendees (to planning meeting)</b></th>
+        <th> Hurtado Balcazar Rommel Daniel /<br> Ramos Fuentes Rivera Adriana Nicole/<br>Tuesta Girón Kiara Lucia/ <br>Arroyo Gonzales Emily Juliette / <br>Acuache Lucas Mathias Joaquin </th>
+    </tr>
+    <tr>
+        <th><b>Sprint 0 Review Summary</b></th>
+        <th>No aplica. Este es el primer sprint del proyecto.</th>
+    </tr>
+    <tr>
+        <th><b>Sprint 0 Retrospective Summary</b></th>
+        <th>No aplica. Este es el primer sprint del proyecto.</th>
+    </tr>
+    <tr>
+        <th><b>Sprint Goal & User Stories</b></th>
+        <th>
+        </th>
+    </tr>
+    <tr>
+        <th><b>Sprint n Goal</b></th>
+        <th>
+            > Nuestro objetivo es proporcionar documentación completa y estructurada del proyecto KAMPO en formato Markdown, que abarque el contexto del problema, el proceso Lean UX,
+            > los requisitos del usuario y la configuración técnica.
+            > Creemos que esto proporciona una comprensión clara y compartida de la visión del producto,
+            > el problema de negocio y la base técnica al equipo de GreenSpot y
+            > a las partes interesadas del ámbito académico.
+            > Esto se confirmará cuando todas las secciones de la documentación —incluidas:
+            > el Perfil de la Startup, la Declaración del Problema, el Lienzo Lean UX, las Historias de Usuario,
+            > los Segmentos Objetivo y la Gestión de la Configuración del Software— estén completas,
+            > revisadas y incorporadas al repositorio principal.
+        </th>
+    </tr>
+    <tr>
+        <th><b>Sprint 1 Velocity</b></th>
+        <th>20 Story Points</th>
+    </tr>
+    <tr>
+        <th><b>Sum of Story Points</b></th>
+        <th>20 Story Points</th>
+    </tr>
+
+</table>
+
 ###### 5.2.X.2. Aspect Leaders and Collaborators
-###### 5.2.X.3. Sprint Backlog n
-###### 5.2.X.4. Development Evidence for Sprint Review
-###### 5.2.X.5. Execution Evidence for Sprint Review
-###### 5.2.X.6. Services Documentation Evidence for Sprint Review
-###### 5.2.X.7. Software Deployment Evidence for Sprint Review
-###### 5.2.X.8. Team Collaboration Insights during Sprint
+
+|Team Member|github Username|Aspect Name 1|Aspect Name n|
+|---|---|---|---|
+|Rommel Hurtado Balcazar|rommelDN|||
+
+###### 5.2.1.3. Sprint Backlog 1
+
+Durante el Sprint 1, el equipo GreenSpot se enfocó exclusivamente en la
+elaboración de la documentación completa del proyecto KAMPO en formato
+Markdown. Este sprint establece la base conceptual, estratégica y técnica
+del producto, cubriendo desde el perfil de la startup hasta la configuración
+del entorno de desarrollo. El board de control de tareas fue gestionado
+mediante Trello, cuyo acceso público se encuentra en:
+
+🔗 URL del Board: [https://trello.com/b/XXXXXXXX/kampo-sprint-1]
+📸 [Insertar screenshot del board de Trello aquí]
+
+---
+
+| Sprint # | Sprint 1 |
+|---|---|
+
+| US ID | US Título | Task ID | Task Título | Descripción | Estimación (hrs) | Asignado a | Estado |
+|---|---|---|---|---|---|---|---|
+| DOC01 | Startup Profile | T01 | Redactar descripción de GreenSpot | Escribir la descripción de la startup, misión y contexto de KAMPO | 1 | [Integrante 1] | Done |
+| DOC01 | Startup Profile | T02 | Completar perfiles del equipo | Rellenar datos de cada integrante: nombre, código, carrera y resumen de habilidades | 1 | [Integrante 2] | Done |
+| DOC02 | Antecedentes y Problemática | T03 | Investigar fuentes y estadísticas | Recopilar datos del INEI, MIDAGRI, BCRP y otras fuentes sobre agricultura peruana | 2 | [Integrante 1] | Done |
+| DOC02 | Antecedentes y Problemática | T04 | Redactar análisis 5W+2H | Elaborar cada dimensión del framework (Who, What, Where, When, Why, How, How Much) con sustento estadístico | 2 | [Integrante 2] | Done |
+| DOC02 | Antecedentes y Problemática | T05 | Redactar conclusión de problemática | Escribir el párrafo de cierre que conecta el problema con KAMPO como solución | 1 | [Integrante 1] | Done |
+| DOC03 | Lean UX Problem Statements | T06 | Redactar los 3 problem statements | Formular cada statement con dominio, segmento, pain point, gap y pregunta HMW | 2 | [Integrante 2] | Done |
+| DOC04 | Lean UX Assumptions | T07 | Definir Business Outcomes | Redactar los supuestos de resultado de negocio (retención, crecimiento, escalabilidad) | 1 | [Integrante 1] | Done |
+| DOC04 | Lean UX Assumptions | T08 | Definir User Outcomes | Redactar los supuestos del usuario (quién es, dónde encaja el producto, qué resuelve) | 1 | [Integrante 2] | Done |
+| DOC05 | Lean UX Hypothesis Statements | T09 | Redactar hipótesis 1 (riego) | Formular hipótesis sobre reducción de desperdicio hídrico con alertas de sensores | 1 | [Integrante 1] | Done |
+| DOC05 | Lean UX Hypothesis Statements | T10 | Redactar hipótesis 2 (finanzas) | Formular hipótesis sobre adopción del módulo financiero por usuarios activos | 1 | [Integrante 2] | Done |
+| DOC06 | Lean UX Canvas | T11 | Elaborar los 8 bloques del canvas | Completar Business Problem, Outcomes, Users, Benefits, Solutions, Hypotheses, Learn y Experiment | 2 | [Integrante 1] | Done |
+| DOC07 | Segmentos Objetivo | T12 | Redactar segmento 1 (agrónomos) | Describir perfil demográfico, características y propuesta de valor para ingenieros agrónomos | 1 | [Integrante 2] | Done |
+| DOC07 | Segmentos Objetivo | T13 | Redactar segmento 2 (agroindustria) | Describir perfil demográfico, características y propuesta de valor para agroindustria mediana y grande | 1 | [Integrante 1] | Done |
+| DOC08 | Diseño de Entrevistas | T14 | Elaborar guía de entrevista segmento 1 | Redactar preguntas demográficas, de problema y de validación para ingenieros agrónomos | 1 | [Integrante 2] | Done |
+| DOC08 | Diseño de Entrevistas | T15 | Elaborar guía de entrevista segmento 2 | Redactar preguntas demográficas, de problema y de validación para agroindustria | 1 | [Integrante 1] | Done |
+| DOC09 | User Stories y Epics | T16 | Redactar Epics EP01–EP05 con US | Elaborar User Stories US01–US16 con criterios de aceptación en Gherkin | 3 | [Integrante 2] | Done |
+| DOC09 | User Stories y Epics | T17 | Redactar Epics EP06–EP10 con US y TS | Elaborar User Stories US17–US25 y Technical Stories TS01–TS02 en Gherkin | 2 | [Integrante 1] | Done |
+| DOC10 | Software Configuration Management | T18 | Redactar entorno de desarrollo | Listar y describir todas las herramientas por tipo de actividad (dev, deploy, diseño, etc.) | 1 | [Integrante 2] | Done |
+| DOC10 | Software Configuration Management | T19 | Redactar Source Code Management | Definir GitFlow, convenciones de ramas, Semantic Versioning y Conventional Commits | 1 | [Integrante 1] | Done |
+| DOC10 | Software Configuration Management | T20 | Redactar Source Code Style Guide | Especificar guías de estilo para HTML, CSS, TypeScript, Angular, Java y Gherkin | 1 | [Integrante 2] | Done |
+| DOC10 | Software Configuration Management | T21 | Redactar Software Deployment Configuration | Documentar pasos de despliegue para Landing (GitHub Pages), Frontend (Vercel) y Backend (Railway) | 1 | [Integrante 1] | Done |
+
+
+###### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo GreenSpot concentró sus esfuerzos en la
+elaboración y estructuración de la documentación completa del proyecto KAMPO
+en formato Markdown. Los avances principales incluyeron la redacción del
+Startup Profile, el análisis de antecedentes y problemática con el framework
+5W+2H, el proceso Lean UX completo (Problem Statements, Assumptions,
+Hypothesis Statements y Canvas), los segmentos objetivo, las guías de
+entrevista, el conjunto de User Stories y Epics con criterios de aceptación
+en Gherkin, y la configuración del entorno de desarrollo con GitFlow,
+convenciones de código y despliegue. Todos los avances fueron registrados
+mediante commits en el repositorio principal del proyecto en GitHub,
+siguiendo las convenciones de Conventional Commits establecidas en el
+Software Configuration Management.
+
+---
+
+| Repository                   | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------------------------|---|---|---|---|---|
+| greenspot-kampo/kampo-report | main | [hash] | docs(startup): add startup profile and team members | Se redactó la descripción de GreenSpot y los perfiles de los integrantes del equipo con códigos y carreras | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(problem): add background and 5W2H analysis | Se elaboró la sección de antecedentes con fuentes estadísticas y el análisis completo de la problemática en 7 dimensiones | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(lean-ux): add problem statements | Se redactaron los tres Lean UX Problem Statements con enfoque en riego, finanzas y decisiones técnicas del agricultor | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(lean-ux): add assumptions business and user | Se definieron los Business Outcomes y User Outcomes como supuestos base del producto KAMPO | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(lean-ux): add hypothesis statements | Se formularon dos hipótesis validables: reducción de desperdicio hídrico y adopción del módulo financiero | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(lean-ux): add lean ux canvas v2 | Se completaron los 8 bloques del Lean UX Canvas ajustados a los dos segmentos objetivo definitivos | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(segments): add target segments section | Se describieron los dos segmentos objetivo: ingenieros agrónomos y agroindustria mediana y grande | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(interviews): add interview design guides | Se elaboraron las guías de entrevista por segmento con bloques demográfico, de problema y de validación | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(user-stories): add epics EP01 to EP05 with user stories | Se redactaron US01–US16 con criterios de aceptación en formato Gherkin para los primeros cinco epics | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(user-stories): add epics EP06 to EP10 with user and technical stories | Se redactaron US17–US25 y las Technical Stories TS01–TS02 para autenticación, alertas, landing y API | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(scm): add software development environment configuration | Se especificaron todas las herramientas del entorno de desarrollo por tipo de actividad | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(scm): add gitflow and branching conventions | Se definió el modelo GitFlow con convenciones de nomenclatura para feature, release y hotfix branches | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(scm): add source code style guide and conventions | Se establecieron las guías de estilo para HTML, CSS, TypeScript, Angular, Java y Gherkin | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(scm): add deployment configuration for landing, frontend and backend | Se documentaron los pasos de despliegue para GitHub Pages, Vercel y Railway | YYYY-MM-DD |
+| greenspot-kampo/kampo-report | main | [hash] | docs(sprint): add sprint planning 1 and sprint backlog 1 | Se registró el Sprint Planning Meeting y la tabla de Sprint Backlog con tasks descompuestos | YYYY-MM-DD |
+
+###### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo GreenSpot no realizó implementación de
+productos de software ejecutables. El alcance de este sprint estuvo
+centrado exclusivamente en la elaboración de la documentación completa
+del proyecto KAMPO en formato Markdown, incluyendo el Startup Profile,
+análisis de problemática, proceso Lean UX, segmentos objetivo, diseño
+de entrevistas, User Stories con criterios de aceptación en Gherkin,
+y la configuración del entorno de desarrollo y despliegue.
+
+Los principales entregables alcanzados y verificables en este Sprint son:
+
+- Documentación estructurada y versionada en el repositorio GitHub
+  greenspot-kampo/kampo-report, rama main.
+- Conjunto completo de User Stories (US01–US25) y Technical Stories
+  (TS01–TS02) redactadas en formato Gherkin.
+- Lean UX Canvas v2 con los dos segmentos objetivo definitivos.
+- Guías de entrevista por segmento listas para aplicación en campo.
+- Software Configuration Management definido con GitFlow, Semantic
+  Versioning, Conventional Commits y configuración de despliegue
+  en GitHub Pages, Vercel y Railway.
+
+🔗 Repositorio de documentación:
+https://github.com/GreenSpot-app/Kampo-Report
+
+###### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo GreenSpot no realizó implementación ni
+documentación de Web Services con OpenAPI, dado que el alcance de este
+sprint estuvo limitado a la elaboración de la documentación del proyecto
+en formato Markdown. No se cuenta con endpoints desplegados ni con un
+repositorio de Web Services activo en esta etapa.
+
+Sin embargo, como parte del Software Configuration Management definido
+en este sprint, se establecieron las bases para la futura documentación
+de la API REST de KAMPO:
+
+- Se definió Spring Boot con springdoc-openapi como herramienta oficial
+  para la documentación automática de endpoints.
+- Se estableció la convención de versionado de la API bajo el prefijo
+  /api/v1/ para todos los endpoints.
+- Se redactaron las Technical Stories TS01 y TS02 que describen los
+  primeros endpoints a implementar en el Sprint 2:
+  POST /api/v1/crops y GET /api/v1/campaigns/{id}/profitability.
+
+###### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo GreenSpot no realizó despliegue de productos
+de software ejecutables, dado que el alcance de este sprint estuvo centrado
+en la documentación del proyecto. Sin embargo, se llevaron a cabo las
+actividades preparatorias de infraestructura y configuración de entornos
+que habilitarán el despliegue en los sprints siguientes. A continuación
+se detallan las acciones realizadas durante este Sprint en relación con
+Deployment.
+
+---
+
+**1. Creación de la organización en GitHub**
+
+Se creó la organización `greenspot-kampo` en GitHub, bajo la cual se
+alojarán todos los repositorios del proyecto. Esta organización centraliza
+el control de versiones del equipo y permite gestionar permisos por
+repositorio.
+
+- URL de la organización: https://github.com/GreenSpot-app
+- Acción realizada: Creación de organización y adición de ambos
+  integrantes como miembros con rol Owner.
+
+---
+
+**2. Creación del repositorio de documentación**
+
+Se creó el repositorio `kampo-Report` dentro de la organización, donde
+se versiona toda la documentación del proyecto en formato Markdown.
+Se inicializó con un archivo `README.md` y se configuró la rama `main`
+como rama principal.
+
+- URL del repositorio: https://github.com/GreenSpot-app/Kampo-Report
+- Branch principal: main
+
+###### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, las actividades de colaboración del equipo GreenSpot
+se desarrollaron de forma virtual a través de Whatsapp para comunicación
+y coordinación diaria, y GitHub como plataforma central de control de
+versiones y registro de avances. Dado que el alcance de este sprint fue
+la elaboración de documentación en formato Markdown, la colaboración se
+evidencia principalmente en los commits realizados al repositorio
+kampo-docs, donde ambos integrantes participaron activamente en la
+redacción, revisión de las distintas secciones del informe.
+
+---
+
+**Distribución de contribuciones por integrante**
+
+| Integrante | Secciones lideradas | Commits realizados |
+|---|---|---|
+| [Integrante 1] | Startup Profile, Antecedentes y Problemática, Lean UX Canvas, Segmentos Objetivo, SCM Deployment Configuration | [N] commits |
+| [Integrante 2] | Lean UX Problem Statements, Assumptions, Hypothesis Statements, Diseño de Entrevistas, User Stories EP01–EP05, SCM Source Code Style Guide | [N] commits |
+
+---
+
+**Analíticos de colaboración en GitHub**
+
+A continuación se presentan las capturas de los analíticos del repositorio
+kampo-docs que evidencian la participación de ambos integrantes durante
+el Sprint 1.
+
+📸 **Figura 1: Gráfico de contribuciones por autor (Contributors)**
+Captura obtenida desde:
+https://github.com/greenspot-kampo/kampo-docs/graphs/contributors
+[Insertar screenshot del gráfico de Contributors en GitHub]
+
+Este gráfico muestra el número de commits realizados por cada integrante
+durante el periodo del Sprint 1, evidenciando una distribución equilibrada
+de la carga de trabajo entre los miembros del equipo.
+
+---
+
+📸 **Figura 2: Network graph de ramas y merges (Network)**
+Captura obtenida desde:
+https://github.com/greenspot-kampo/kampo-docs/network
+[Insertar screenshot del Network Graph de GitHub]
+
+El network graph muestra el flujo de trabajo GitFlow aplicado durante
+el sprint, evidenciando la creación de feature branches por sección
+documentada y su posterior integración a la rama main mediante
+Pull Requests revisados por el otro integrante.
+
+---
+
+📸 **Figura 3: Historial de commits (Commits)**
+Captura obtenida desde:
+https://github.com/greenspot-kampo/kampo-docs/commits/main
+[Insertar screenshot del historial de commits en la rama main]
+
+El historial de commits evidencia la aplicación consistente de
+Conventional Commits en todos los mensajes registrados durante el
+Sprint 1, con el prefijo docs() utilizado en la totalidad de los
+commits dado el alcance documental del sprint.
+
+---
+
+📸 **Figura 4: Pulse del repositorio durante el Sprint**
+Captura obtenida desde:
+https://github.com/greenspot-kampo/kampo-docs/pulse
+[Insertar screenshot del Pulse de actividad del repositorio]
+
+El Pulse muestra el resumen de actividad del repositorio durante el
+periodo del Sprint 1, incluyendo número de commits, Pull Requests
+abiertos y mergeados, y contribuciones por integrante.
+
+---
 ## 5.3. Validation Interviews
 ##### 5.3.1. Diseño de Entrevistas
 ##### 5.3.2. Registro de Entrevistas
 ##### 5.3.3. Evaluaciones según heurísticas
 ## 5.4. Video About-the-Product
 
-## Conclusiones
 #### Conclusiones y recomendaciones
+
+### Conclusiones
+
+**Sobre los Problem Statements**
+
+El primer Problem Statement identificó la falta de acceso a datos técnicos
+del campo como barrera principal para el pequeño y mediano agricultor
+peruano. A lo largo del Sprint 1, la investigación de antecedentes con
+fuentes del INEI, MIDAGRI y BCRP confirmó que esta brecha es estructural
+y no coyuntural: el 85% de los productores opera sin herramientas digitales
+especializadas, y solo el 7% utiliza tecnología de riego avanzada. Esto
+valida que el problema existe a escala masiva y que KAMPO responde a una
+necesidad real del mercado peruano.
+
+---
+
+**Sobre los Assumptions**
+
+Los User Assumptions identificaron al agricultor peruano con smartphone
+como usuario principal, que utiliza KAMPO como herramienta de consulta
+diaria en la parcela. Este supuesto deberá ser contrastado en las
+entrevistas, especialmente en segmentos de sierra y selva donde la
+conectividad es limitada, lo que podría requerir ajustes en la
+arquitectura de la solución (modo offline, sincronización diferida).
+
+---
+
+**Sobre los criterios de éxito del Lean UX Canvas**
+
+El Sprint 1 permitió estructurar con precisión los ocho bloques del
+Lean UX Canvas, incluyendo la reformulación de los segmentos objetivo
+hacia ingenieros agrónomos y agroindustria mediana y grande, lo que
+generó una mayor coherencia entre el problema identificado, los
+beneficios esperados y las preguntas de validación prioritarias. Este
+ajuste representa un avance cualitativo importante, ya que refina el
+foco del producto antes de invertir recursos en implementación.
+
+---
+
+### Recomendaciones
+
+**Roadmap de productos digitales — Próximos pasos**
+
+Para el Sprint 2 se recomienda priorizar la implementación del Landing
+Page y el flujo de autenticación, dado que son
+los puntos de entrada al producto y los que permitirán reclutar usuarios
+piloto para validación. Paralelamente, se recomienda iniciar las
+entrevistas de validación con al menos tres ingenieros agrónomos y
+dos representantes de agroindustria
+
 #### Video About-the-Team
 
 ## Bibliografía
+
 
 ## Anexos
 

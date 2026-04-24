@@ -429,6 +429,12 @@ USER PERSONA 01
   <br/>
 </p>
 
+USER PERSONA 02
+<p align="center">
+  <img src="assets/img/cap-ii/PERSONA 2.png" width="500"/>
+  <br/>
+</p>
+
 ## 2.4. Big Picture Event Storming
 
 ## 2.5. Ubiquitous Language

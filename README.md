@@ -604,11 +604,11 @@ versiones y colaboración de código fuente para todos los productos digitales
 de KAMPO. Se crearán tres repositorios independientes.
 
 | Producto                           | URL del repositorio |
-|------------------------------------|---------------------|
-| Landing Page                       |                     |
-| Frontend Web Application (Angular) |                     |
-| RESTful Web Services (Spring Boot) |                     |
-| KAMPO Documentacion (MARKDOWN)     |                     |
+|------------------------------------|-|
+| Landing Page                       |https://github.com/GreenSpot-app/Kampo-Landing-Page|
+| Frontend Web Application (Angular) |https://github.com/GreenSpot-app/Kampo-Frontend|
+| RESTful Web Services (Spring Boot) |https://github.com/GreenSpot-app/Kampo-Backend|
+| KAMPO Documentacion (MARKDOWN)     |https://github.com/GreenSpot-app/Kampo-Report|
 
 ---
 

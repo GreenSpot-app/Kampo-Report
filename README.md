@@ -380,6 +380,12 @@ USER PERSONA 01- Ingeniero agrónomo asesor
   <br/>
 </p>
 
+USER PERSONA 02 - Agroindustria mediana y grande
+<p align="center">
+  <img src="assets/img/cap-ii/Luis Ramos.png" width="500"/>
+  <br/>
+</p>
+
 ##### 2.3.2. User Task Matrix
 ##### 2.3.3. User Journey Mapping
 ##### 2.3.4. Empathy Mapping

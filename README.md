@@ -296,6 +296,17 @@ Entrevista 01:
   A nivel tecnológico, presenta un manejo intermedio de herramientas digitales, utilizando principalmente su teléfono móvil como dispositivo principal. En términos de comportamiento, se muestra orientado a la eficiencia, pero limitado por procesos manuales.
   Manifiesta interés en una solución que le permita centralizar la información, automatizar reportes y mejorar la comunicación con sus clientes, lo que evidencia una clara necesidad de optimización en su flujo de trabajo.
 
+Entrevista 02:
+- Nombre: Nills
+- Apellido: Bocanegra
+- Edad: 52
+- Distrito: Chiclayo
+- Resumen:
+  El entrevistado realiza labores de supervisión directa en campo, encargándose del seguimiento del estado de los cultivos y de la ejecución de actividades agrícolas.
+  Su proceso de trabajo combina registros manuales, como libretas de campo, con herramientas digitales básicas. Esta combinación evidencia una baja integración tecnológica, lo que limita la disponibilidad de información en tiempo real.
+  Indica que la información se registra generalmente después de las visitas, lo que genera retrasos en el monitoreo y dificulta la toma de decisiones oportunas. Asimismo, resalta que el clima es un factor determinante en su trabajo, influyendo directamente en decisiones relacionadas con riego, insumos y control de enfermedades.
+  Desde el punto de vista tecnológico, presenta un uso básico de herramientas digitales, utilizando principalmente el teléfono móvil como dispositivo de apoyo. Su estilo de trabajo es operativo y reactivo, dependiendo de condiciones cambiantes en campo.
+  Muestra apertura hacia el uso de herramientas digitales que permitan registrar información en tiempo real y generar alertas, lo que sugiere una necesidad de mejorar la capacidad de monitoreo continuo.
 
 ##### 2.2.3. Análisis de entrevistas
  

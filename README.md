@@ -460,6 +460,16 @@ Duración estimada: 20–25 minutos por entrevista.
 
 ##### 2.2.2. Registro de entrevistas
 
+### Entrevista
+
+Las entrevistas de validación realizadas con los segmentos objetivo
+fueron registradas en audiovideo y están disponibles para consulta en el
+siguiente enlace:
+
+🎥 Video de entrevistas KAMPO:
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202517474_upc_edu_pe/IQCYz5TmKwNyQr9GKcmFpzjTAdKGRzSTqsVxNC3inbQetsI?e=WhL1ir&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+### Resumen de Entrevistas
 ##### 2.2.3. Análisis de entrevistas
  
 

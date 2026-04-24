@@ -459,6 +459,64 @@ Duración estimada: 20–25 minutos por entrevista.
 5. Qué tendría que pasar para que dejes de usar esta herramienta después de haberla adoptado?
 
 ##### 2.2.2. Registro de entrevistas
+Entrevista 01:
+- Nombre: Roberto
+- Apellido: Azato
+- Distrito: Lima
+- Resumen:
+  El entrevistado se desempeña como asesor técnico independiente, brindando recomendaciones agronómicas a múltiples fundos de manera simultánea. Su trabajo implica visitas periódicas a campo, evaluación del estado de los cultivos y comunicación constante con los propietarios.
+  En cuanto a herramientas, utiliza principalmente Excel para el registro de información y WhatsApp como canal principal de comunicación. Esto evidencia una dependencia de herramientas no especializadas, lo que genera dispersión de datos y dificulta la organización de la información.
+  Su dinámica de trabajo se basa en la experiencia y en la observación directa, lo que implica que muchas decisiones se toman sin contar con información centralizada o histórica accesible. Además, la elaboración de reportes se realiza de manera manual, lo que incrementa su carga operativa.
+  A nivel tecnológico, presenta un manejo intermedio de herramientas digitales, utilizando principalmente su teléfono móvil como dispositivo principal. En términos de comportamiento, se muestra orientado a la eficiencia, pero limitado por procesos manuales.
+  Manifiesta interés en una solución que le permita centralizar la información, automatizar reportes y mejorar la comunicación con sus clientes, lo que evidencia una clara necesidad de optimización en su flujo de trabajo.
+
+Entrevista 02:
+- Nombre: Nills
+- Apellido: Bocanegra
+- Edad: 52
+- Distrito: Chiclayo
+- Resumen:
+  El entrevistado realiza labores de supervisión directa en campo, encargándose del seguimiento del estado de los cultivos y de la ejecución de actividades agrícolas.
+  Su proceso de trabajo combina registros manuales, como libretas de campo, con herramientas digitales básicas. Esta combinación evidencia una baja integración tecnológica, lo que limita la disponibilidad de información en tiempo real.
+  Indica que la información se registra generalmente después de las visitas, lo que genera retrasos en el monitoreo y dificulta la toma de decisiones oportunas. Asimismo, resalta que el clima es un factor determinante en su trabajo, influyendo directamente en decisiones relacionadas con riego, insumos y control de enfermedades.
+  Desde el punto de vista tecnológico, presenta un uso básico de herramientas digitales, utilizando principalmente el teléfono móvil como dispositivo de apoyo. Su estilo de trabajo es operativo y reactivo, dependiendo de condiciones cambiantes en campo.
+  Muestra apertura hacia el uso de herramientas digitales que permitan registrar información en tiempo real y generar alertas, lo que sugiere una necesidad de mejorar la capacidad de monitoreo continuo.
+
+  Entrevista 03:
+- Nombre: Eraldo
+- Apellidos: Hurtado Aguirre
+- Edad: 62
+- Distrito: Trujillo
+- Resumen:
+  El entrevistado se encarga de la gestión de múltiples fundos, lo que implica coordinar actividades, supervisar cultivos y manejar información proveniente de diversas fuentes.
+  Señala que actualmente no cuenta con un sistema que le permita visualizar de manera integrada el estado de los cultivos, lo que incrementa la complejidad en la organización de la información.
+  Indica que los datos se encuentran dispersos en diferentes formatos, dificultando el acceso al historial de cultivos y la toma de decisiones basada en información previa. Asimismo, menciona problemas en la comunicación con propietarios o administradores, debido a la falta de canales estructurados.
+  En términos tecnológicos, utiliza herramientas básicas y presenta un nivel intermedio de adaptación digital. Su forma de trabajo es principalmente organizativa, enfocada en coordinar múltiples unidades productivas.
+  Desde una perspectiva conductual, se observa que valora la claridad y el orden en la información, pero enfrenta limitaciones debido a la falta de herramientas adecuadas. Expresa interés en soluciones que centralicen datos y mejoren la comunicación mediante reportes claros.
+
+Entrevista 04:
+- Nombre: Leonardo
+- Apellido: Ochoa
+- Edad: 54
+- Distrito: Lima
+- Resumen:
+  El entrevistado participa en la gestión de operaciones agrícolas a escala, manejando información proveniente de distintos fundos o unidades productivas.
+  Indica que utiliza principalmente Excel y reportes manuales para consolidar información, lo que refleja una alta dependencia de procesos manuales.
+  Señala que no cuenta con visibilidad en tiempo real sobre el estado de los cultivos, lo que dificulta la planificación y la proyección de producción. Además, menciona que la toma de decisiones depende de información que muchas veces llega con retraso.
+  A nivel tecnológico, presenta familiaridad con herramientas digitales, aunque no utiliza soluciones especializadas. Su enfoque es más estratégico, orientado a la planificación y gestión de recursos.
+  Desde el punto de vista conductual, se caracteriza por priorizar la eficiencia y la precisión en la información. Muestra interés en herramientas que permitan integrar datos en tiempo real y mejorar la toma de decisiones a nivel organizacional.
+
+Entrevista 05:
+- Nombre: Fernando
+- Apellidos: Chunque Muñeco
+- Edad: 57
+- Distrito: Chiclayo
+- Resumen:
+  El entrevistado participa en la gestión operativa de actividades agrícolas, dependiendo principalmente de reportes generados por el personal de campo para obtener información sobre los cultivos.
+  Indica que la información suele llegar con retraso, lo que limita su capacidad de reacción ante cambios en las condiciones del cultivo y afecta la eficiencia de las operaciones.
+  Muestra interés en tecnologías como sensores y monitoreo en tiempo real, aunque expresa preocupación por el costo y la confiabilidad de estas soluciones.
+  En cuanto a tecnología, presenta un nivel intermedio de adopción digital, utilizando herramientas básicas para la gestión de información. Su estilo de trabajo es coordinativo, basado en la recepción y validación de datos provenientes de terceros.
+  Desde una perspectiva conductual, se observa una orientación hacia la optimización de procesos, pero con una actitud cautelosa frente a nuevas tecnologías. Considera que una solución digital sería viable siempre que demuestre beneficios concretos y confiabilidad.
 
 ### Entrevista
 
@@ -471,13 +529,96 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202517474_upc_edu_pe/IQCYz5Tm
 
 ### Resumen de Entrevistas
 ##### 2.2.3. Análisis de entrevistas
- 
+**SEGMENTO 01: Ingenieros agrónomos asesores y supervisores**
+
+
+A partir de las entrevistas realizadas a ingenieros agrónomos, se identificaron patrones consistentes en cuanto a la gestión de información, limitaciones operativas y necesidades tecnológicas.
+En primer lugar, se evidencia una alta dependencia de herramientas no especializadas. El 100 % de los entrevistados utiliza medios como Excel, WhatsApp o registros manuales (libretas de campo) para almacenar y comunicar información. Esta práctica genera una fragmentación de datos, dificultando la consolidación, trazabilidad y acceso oportuno a la información histórica de los cultivos.
+Asimismo, se observa que el monitoreo de los cultivos no se realiza en tiempo real, sino que depende principalmente de visitas periódicas o del registro posterior de la información. El 66 % de los entrevistados señaló que esta limitación afecta directamente su capacidad de reacción ante cambios en las condiciones del cultivo, generando retrasos en la toma de decisiones.
+Un hallazgo relevante es que el 100 % de los entrevistados considera el clima como un factor determinante en la toma de decisiones agrícolas, influyendo en aspectos como riego, aplicación de insumos y control de enfermedades. Sin embargo, se identificó la ausencia de herramientas que integren variables climáticas en tiempo real o que generen alertas tempranas, lo que incrementa la incertidumbre en la gestión.
+Adicionalmente, el 66% de los entrevistados manifestó dificultades en la gestión simultánea de múltiples fundos, lo que incrementa la complejidad operativa. Esta situación se traduce en problemas para organizar la información, acceder a historiales de cultivos y mantener un seguimiento adecuado de cada unidad productiva.
+En cuanto a la comunicación, el 66 % indicó que no existen canales estructurados para compartir información técnica con clientes o equipos de trabajo, lo que genera descoordinación y pérdida de información relevante.
+No obstante, se identificó una alta predisposición hacia la adopción de soluciones tecnológicas. El 100 % de los entrevistados manifestó interés en utilizar una plataforma que permita centralizar la información, automatizar procesos y mejorar el monitoreo de cultivos. Las funcionalidades más valoradas incluyen el registro histórico, alertas climáticas y generación automática de reportes.
+Sin embargo, el 66 % señaló el costo como una barrera significativa, lo que indica que cualquier solución propuesta deberá demostrar claramente su valor en términos de eficiencia y mejora en la toma de decisiones.
+En síntesis, este segmento presenta una problemática centrada en la fragmentación de la información, la falta de monitoreo en tiempo real y la ausencia de herramientas especializadas, lo que limita la eficiencia operativa y la calidad de las decisiones técnicas.
+
+**SEGEMENTO 02: Agroindustria mediana y grande**
+
+
+En el caso del segmento agroindustrial y gestión agrícola a escala, se identifican problemáticas asociadas principalmente a la complejidad operativa, la gestión de grandes volúmenes de información y la necesidad de mayor precisión en la toma de decisiones.
+El 100 % de los entrevistados indicó que la gestión de información se realiza mediante herramientas como Excel y reportes manuales generados a partir de datos recolectados en campo. Este enfoque evidencia una alta dependencia de procesos manuales, lo que limita la eficiencia y genera retrasos en la disponibilidad de información.
+Asimismo, se identificó que la toma de decisiones depende de múltiples variables críticas, como condiciones climáticas, estado del suelo y presencia de plagas. Sin embargo, la información relacionada a estas variables no se encuentra integrada ni disponible en tiempo real, sino que llega de manera diferida a través de reportes o comunicación con el personal de campo.
+Un aspecto clave es que el 100 % de los entrevistados manifestó la falta de visibilidad en tiempo real como una de las principales limitaciones. Esta carencia impacta directamente en la planificación, la proyección de la producción y la capacidad de respuesta ante cambios en el entorno agrícola.
+Adicionalmente, se observa que la estructura organizacional de este segmento genera una dependencia de la calidad y oportunidad de la información proveniente de terceros, lo que incrementa el riesgo de errores y decisiones tardías.
+En relación con la adopción tecnológica, se identificó interés en soluciones avanzadas como sensores y sistemas de monitoreo en tiempo real. No obstante, el 50 % de los entrevistados expresó preocupaciones relacionadas con el costo de implementación y la confiabilidad de los datos, lo que evidencia la necesidad de soluciones que no solo sean tecnológicamente robustas, sino también económicamente viables.
+En conclusión, este segmento enfrenta una problemática centrada en la falta de integración de información, la ausencia de monitoreo en tiempo real y la dependencia de procesos manuales, lo que afecta la eficiencia operativa y la toma de decisiones estratégicas en contextos de alta escala.
 
 ## 2.3. Needfinding
 ##### 2.3.1. User Personas
+Las User Personas representan arquetipos construidos a partir de la información recopilada en las entrevistas realizadas a los segmentos objetivo, complementadas con el análisis del contexto del sector agrícola. Estas permiten sintetizar comportamientos, necesidades y problemáticas comunes, facilitando la toma de decisiones en el diseño de soluciones centradas en el usuario.
+En este caso, se elaboraron dos User Personas correspondientes a los segmentos identificados: ingenieros agrónomos asesores y actores del sector agroindustrial. Las características incluidas en cada perfil se derivan directamente de los patrones observados en las entrevistas, tales como el uso de herramientas no especializadas, la falta de monitoreo en tiempo real y la necesidad de centralización de información
+
+USER PERSONA 01- Ingeniero agrónomo asesor
+<p align="center">
+  <img src="assets/img/cap-ii/Carlos Mendoza.png" width="500"/>
+  <br/>
+</p>
+
+USER PERSONA 02 - Agroindustria mediana y grande
+<p align="center">
+  <img src="assets/img/cap-ii/Luis Ramos.png" width="500"/>
+  <br/>
+</p>
+
 ##### 2.3.2. User Task Matrix
+En esta sección se presenta el User Task Matrix considerando los dos segmentos objetivo identificados: ingenieros agrónomos asesores y supervisores, representados por Calor Mendoza, y gestores del sector agroindustrial, representados por Luis Ramos. Las tareas listadas corresponden a actividades que ambos segmentos realizan en su trabajo cotidiano, independientemente de la existencia de la solución propuesta.
+
+| Tarea | Carlos Mendoza (UP1) Frecuencia | Carlos Mendoza (UP1) Importancia | Luis Ramos (UP2) Frecuencia | Luis Ramos (UP2) Importancia |
+|:------|:------------------------------:|:--------------------------------:|:---------------------------:|:----------------------------:|
+| Visitar fundos en campo | Alta | Alta | Media | Alta |
+| Evaluar estado de cultivos | Alta | Alta | Media | Alta |
+| Monitorear condiciones climáticas | Alta | Alta | Media | Alta |
+| Detectar plagas o enfermedades | Alta | Alta | Baja | Alta |
+| Registrar datos de campo | Alta | Alta | Media | Alta |
+| Consolidar información de múltiples fundos | Alta | Alta | Alta | Alta |
+| Acceder al historial de cultivos | Media | Alta | Media | Alta |
+| Decidir sobre riego e insumos | Alta | Alta | Media | Alta |
+| Planificar y proyectar producción | Media | Media | Alta | Alta |
+| Gestionar recursos operativos | Media | Media | Alta | Alta |
+| Comunicarse con clientes / propietarios | Alta | Alta | Media | Media |
+| Elaborar reportes de avance | Alta | Alta | Alta | Alta |
+| Coordinar con equipos de campo | Media | Media | Alta | Alta |
+
+Las tareas con mayor frecuencia e importancia para ambos segmentos son consolidar información de múltiples fundos y elaborar reportes de avance, lo que evidencia que la gestión de datos es el núcleo operativo compartido entre los dos perfiles. La principal diferencia radica en que Carlos Mendoza realiza visitas directas a campo con alta frecuencia y centraliza su trabajo en la supervisión técnica, mientras que Luis Ramos prioriza la planificación, proyección de producción y coordinación de equipos, tareas que Luis Ramos prioriza la planificación, proyección de producción y coordinación de equipos, tareas que ejecuta con mayor frecuencia que el primer segmento. La coincidencia más relevante es que ambos consideran el monitoreo climático, el acceso al historial de cultivos y la detección de plagas como tareas de alta importancia, aunque actualmente carecen de herramientas que las soporten de manera integrada y en tiempo real.
+
 ##### 2.3.3. User Journey Mapping
+SEGMENTO 01
+<p align="center">
+  <img src="assets/img/cap-ii/SEGMENTO 1.png" width="500"/>
+  <br/>
+</p>
+
+SEGMENTO 02
+<p align="center">
+  <img src="assets/img/cap-ii/SEGMENTO 2.png" width="500"/>
+  <br/>
+</p>
+
 ##### 2.3.4. Empathy Mapping
+El Empathy Mapping permite comprender de manera integral a los usuarios, identificando sus pensamientos, emociones, acciones y entorno. A partir de este análisis, se identifican los principales pains y gains, los cuales permiten detectar oportunidades de mejora y orientar el diseño de la solución propuesta.
+
+USER PERSONA 01
+<p align="center">
+  <img src="assets/img/cap-ii/PERSONA 1.png" width="500"/>
+  <br/>
+</p>
+
+USER PERSONA 02
+<p align="center">
+  <img src="assets/img/cap-ii/PERSONA 2.png" width="500"/>
+  <br/>
+</p>
+
 ## 2.4. Big Picture Event Storming
 
 ## 2.5. Ubiquitous Language

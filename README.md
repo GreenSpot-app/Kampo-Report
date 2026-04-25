@@ -526,7 +526,69 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming
+<div align="justify">
+    En esta sección se explica y evidencia el uso de Design-Level EventStorming, que nos sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+</div>
+<br>
 
+**Step 1: Unstructured Exploration**
+<div align="justify">
+    En este paso, se realizó una lluvia de ideas de los eventos del dominio.
+</div>
+<br>
+
+**Step 2: Timelines**
+<div align="justify">
+    En el segundo paso, el equipo ordeno los eventos de dominio según el orden que ocurren en el dominio empresarial.
+</div>
+<br>
+
+**Step 3: Pain Points**
+<div align="justify">
+    En el tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+</div>
+<br>
+
+**Step 4: Pivotal Points**
+<div align="justify">
+    En el cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+</div>
+<br>
+
+**Step 5: Commands**
+<div align="justify">
+    En este quinto paso, el equipo añadió comandos que desencadenen eventos o el flujo de eventos, junto a sus actores.
+</div>
+<br>
+
+**Step 6: Policies**
+<div align="justify">
+    En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
+</div>
+<br>
+
+**Step 7: Read Models**
+<div align="justify">
+    En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
+</div>
+<br>
+
+**Step 8: External Systems**
+<div align="justify">
+    En este octavo paso, el equipo identifico sistemas externos, en este caso solo se tiene uno que es la API que usaremos para el consumo de datos climáticos.
+</div>
+<br>
+
+**Step 9: Aggregates**
+<div align="justify">
+    En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en los read models, policies, eventos y commands.
+</div>
+<br>
+
+**Step 10: Bounded Contexts**
+<div align="justify">
+    En el último paso, es buscar agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente enmarco los eventos de dominio que fueron implementados.
+</div>
 
 ##### 4.6.2. Software Architecture Context Diagram
 

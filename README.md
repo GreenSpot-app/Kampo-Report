@@ -464,6 +464,14 @@
 
 ## 2.5. Ubiquitous Language
 <div align="justify">
+    Empleamos el Ubiquitous Language como un conjunto de términos y conceptos compartidos que nos permiten establecer una comunicación clara y consistente entre todos los miembros del equipo. Además, se construye a partir del dominio del negocio y busca eliminar ambigüedades en la interpretación de los procesos y entidades involucradas.
+</div>
+<br>
+<div align="justify">
+Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clave, los cuales, están definidos en inglés, incluyendo su equivalente en español, y sus definiciones permiten alinear el entendimiento del dominio entre todos los participantes del proyecto.
+</div>
+<br>
+<div align="justify">
   <ul>
     <li>Rustic property (Fundo): Unidad productiva completa que agrupa uno o varios lotes.</li>
     <li>Field (Lote): Subdivisión del fundo donde se gestiona un cultivo específico.</li>
@@ -518,6 +526,8 @@
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming
+
+
 ##### 4.6.2. Software Architecture Context Diagram
 
 ##### 4.6.3. Software Architecture Container Diagrams

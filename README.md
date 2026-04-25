@@ -2240,6 +2240,7 @@ Para validar la experiencia de usuario (UX), se desarrolló un prototipo funcion
 
 ## 4.8. Database Design
 ##### 4.8.1. Database Diagrams
+![Database-Diagrams](docs/assets/img/kampo-database-diagram.png)
 
 ---
 

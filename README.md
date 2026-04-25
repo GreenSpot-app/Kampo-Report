@@ -1912,8 +1912,6 @@ Ministerio de Desarrollo Agrario y Riego. (s.f.). *Problemas en la agricultura p
 
 Pizarro Valladares, J. F. (2022, octubre 18). *Tecnología, la clave para el impulso de la agricultura peruana 4.0*. Conexión ESAN.https://www.esan.edu.pe/conexion-esan/tecnologia-la-clave-para-el-impulso-de-la-agricultura-peruana-4-0
 
-Redacción Infobae Perú. (2025, octubre 25). *Agricultura inteligente: Un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae.https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru
-
 ## Anexos
 
 

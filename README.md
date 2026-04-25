@@ -495,12 +495,62 @@ Se han definido tres niveles de navegación para asegurar que el usuario nunca s
 
 ## 4.3. Landing Page UI Design
 ##### 4.3.1. Landing Page Wireframe
+El wireframe de la Landing Page se diseñó con un enfoque en la jerarquía de información. Se utilizó una estructura de una sola página (Single Page) para facilitar la navegación del usuario.
+
+* **Hero Section:** Ubicada en la parte superior para captar la atención inmediata con la propuesta de valor.
+
+* **Sección de Membresías:** Presentada en una cuadrícula de tres columnas, donde se destaca visualmente el plan "Cosecha" para incentivar la conversión hacia el plan intermedio.
+
+* **Navegación:** Un menú superior fijo (Sticky Navbar) que permite el acceso rápido a las secciones de beneficios y precios.
+
+![WireFrame1](assets/img/Web-Wireframe1.png)
+![WireFrame2](assets/img/Web-Wireframe2.png)
+![WireFrame3](assets/img/Page-Wireframe.png)
+![WireFrame4](assets/img/Page-Wireframe1.png)
+
 ##### 4.3.2. Landing Page Mock-up
+
+El mock-up aplica la identidad visual de la marca utilizando la paleta de colores Verde Agro (#1B4332) y Naranja Harvest (#FF9F1C).
+
+* **Contraste:** Se garantizó un contraste elevado entre el texto blanco y el fondo verde para asegurar la legibilidad.
+
+* **Componentes:** Se utilizaron botones con bordes redondeados (8px) y estados visuales (hover) para mejorar la interactividad.
+
+* **Imágenes:** Se incluyeron fotografías de alta resolución del sector agrícola peruano para generar cercanía y confianza con el usuario final.
+
+![Mockup1](assets/img/Web-Mockup.png)
+![Mockup2](assets/img/Web-Mockup1.png)
+![Mockup3](assets/img/Page-Mockup.png)
+![Mockup4](assets/img/Page-Mockup1.png)
+
 ## 4.4. Web Applications UX/UI Design
+
 ##### 4.4.1. Web Applications Wireframes
+Los wireframes de la aplicación web se dividieron en dos vistas principales para cubrir las necesidades tanto en oficina como en campo:
+
+* **Dashboard (Desktop):** Utiliza un sistema de sidebar para navegación lateral y Data-Cards para mostrar el resumen de los lotes.
+
+* **Registro de Visita (Mobile):** Diseñado bajo el principio de "Thumb-Driven Design", ubicando los controles principales en la zona de fácil acceso para el pulgar. Se reemplazó el teclado por sliders y dropdowns para agilizar el registro bajo la luz del sol.
+
+![Wireframes](assets/img/WireFrames.png)
+
 ##### 4.4.2. Web Applications Wireflow Diagrams
+El usuario puede manejar las diversas opciones que tiene cuando entra en su fundo, de esta manera se tiene un flujo centrandose en todo lo que puede realizar de manera autonoma, por lo cual es una manera interactiva de poder realizar esto.
+![Mockup4](assets/img/Page-Mockup1.png)
+
 ##### 4.4.3. Web Applications Mock-ups
+
+Los mock-ups finales integran el Color System semántico de KAMPO:
+
+* **Semáforos de Estado:** Uso de Rojo (Crítico), Naranja (Alerta) y Verde (Óptimo) en las tarjetas de datos para permitir un escaneo visual rápido de más de 10 lotes simultáneamente.
+
+* **Accesibilidad:** Se respetó el tamaño de los elementos táctiles (Target Size 48x48px) en la versión móvil, asegurando que la aplicación sea usable incluso con manos húmedas o en movimiento.
+
 ##### 4.4.4. Web Applications User Flow Diagrams
+Para validar la experiencia de usuario (UX), se desarrolló un prototipo funcional e interactivo en Figma. Este prototipo permite simular el flujo real de un ingeniero agrónomo, desde la recepción de una alerta hídrica hasta el registro de una inspección en campo. Se implementaron transiciones de tipo 'Smart Animate' para representar de forma fluida el despliegue de menús laterales y el movimiento de los sliders de severidad, garantizando que la navegación sea intuitiva y eficiente.
+
+![Mockups](assets/img/Mockups.png)
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming

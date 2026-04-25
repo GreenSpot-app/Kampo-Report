@@ -253,7 +253,15 @@ La mayoría de agricultores peruanos aún gestionan sus cultivos y finanzas de f
 
 ##### 1.1.2. Perfiles de integrantes del equipo
 
-                                                                               
+
+
+|                               Miembro                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  <img src="assets/img/Chapter1/members/Rommel.jpg " width="3000"/>  | **Hurtado Balcazar Rommel Daniel  \- U202517474** <br>  Soy Rommel Hurtado Balcázar, tengo 23 años y estudio Ingeniería de Software en el 5to-6to ciclo. Me considero un líder técnico orientado a la resolución de problemas, con capacidad para tomar decisiones y guiar al equipo hacia los objetivos del proyecto.<br>Cuento con experiencia en desarrollo fullstack, manejando tanto frontend como backend. En el lado del servidor trabajo principalmente con Java, y en el frontend utilizo React. Además, tengo conocimientos en bases de datos relacionales con SQL y no relacionales con MongoDB, así como experiencia con Node.js, Python y HTML/CSS.<br>He desarrollado proyectos propios fuera del ámbito universitario, lo que me ha dado una visión completa del ciclo de desarrollo de software. También me desenvuelvo en inglés a nivel intermedio-avanzado, lo que me permite acceder a documentación técnica y comunicarme en entornos internacionales. |
+| <img src="assets/img/Chapter1/members/Adriana.jpg " width="3000"/>  |                                                                   **Ramos Fuentes Rivera Adriana Nicole \- U202018427** <br> Soy Adriana Nicole Ramos Fuentes Rivera, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos no relacional como MongoDB. Dentro del equipo, me enfoco en el desarrollo de frontend y backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara y el modelo de arquitectura C4, para documentar la arquitectura de sistemas de software de una manera clara y jerárquica. Me considero una persona organizada y empática                                                                   |
+|  <img src="assets/img/Chapter1/members/Kiara.jpg " width="3000"/>   |                                                                                                                                                                                                                                                                                                       **Tuesta Girón Kiara Lucia \- U20251I477** <br> Soy estudiante de Ingeniería de Software, tengo 20 años y me interesa el desarrollo de aplicaciones. He trabajado con lenguajes como C++ y C#, y también tengo experiencia usando SQL para bases de datos. En trabajos en equipo me gusta participar activamente, aportar ideas y ayudar a que el grupo avance.                                                                                                                                                                                                                                                                                                       |
+|  <img src="assets/img/Chapter1/members/Emily.png " width="3000"/>   |                                                                                                                                                                                                                                                                                                                                            **Arroyo Gonzales Emily Juliette \- U202311469**   <br>  Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                                                                                                                                                            |
+| <img src="assets/img/Chapter1/members/Mathias.jpeg " width="3000"/> |                                                                                                                                                                                                                                                                                     **Acuache Lucas Mathias Joaquin \- U202314898**  <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta. Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigo cosas nuevas.                                                                                                                                                                                                                                                                                     |                                                                          
 
 #### 1.2. Solution Profile
 ##### 1.2.1. Antecedentes y problemática
@@ -294,16 +302,62 @@ El pequeño y mediano agricultor peruano opera con información insuficiente, to
 
 ##### 1.2.2. Lean UX Process
 ###### 1.2.2.1. Lean UX Problem Statements
+En el sector agrícola peruano, el pequeño y mediano productor (que gestiona entre 3 y 50 hectáreas) opera en un entorno de alta incertidumbre y falta de herramientas técnicas. 
+A diferencia de las grandes agroexportadoras que utilizan tecnología de precisión, el agricultor tradicional toma decisiones críticas basadas en la intuición o experiencias pasadas.
+¿Cómo podríamos facilitar que estos productores accedan a datos técnicos de su campo sin que puedan tener una inversión inalcanzable?
+
+Hemos observado que la gestión del riego es uno de los puntos más críticos. Actualmente, gran parte de los agricultores riega bajo un calendario fijo o por simple observación, 
+lo que genera un desperdicio de agua de hasta el 45%. Esto reduce la calidad del producto final e impide que se venda a un precio competitivo. Ante esto, surge la interrogante:
+¿Existe una forma de proporcionar indicadores precisos sobre el clima y la calidad del suelo para asegurar una cosecha óptima?
+
+Por otro lado, la administración financiera de las parcelas suele llevarse de forma manual en cuadernos o registros informales. Esto impide que el agricultor conozca con precisión
+la rentabilidad por cada campaña, lo cual es vital dado que la agricultura se rige por temporadas. No contabilizar adecuadamente los costos genera un desconocimiento crítico sobre
+la inversión en insumos y mano de obra. ¿De qué manera podríamos ayudar a los agricultores a que puedan gestionar sus costos y conocer su rentabilidad real?
+
+Finalmente, factores externos  como el cambio climático y el alza de precios en fertilizantes obligan a los productores a ser más eficientes que nunca. Sin embargo, la información 
+técnica sobre el estado de sus cultivos tarda en ser procesada o simplemente no existe, esto impide que el agricultor llegue a tomar decisiones a ciegas y no pueda gestionar de una 
+manera rentable su cultivo. ¿De qué manera podríamos ayudar a los agricultores a que puedan gestionar su cosecha de manera rentable?
 
 
 ###### 1.2.2.2. Lean UX Assumptions
 #### A. BUSINESS OUTCOMES
+Para que nuestro software pueda tener un mejor resultado, hemos realizado diversas suposiciones para validar el uso de la aplicación:
+
+* **Reducción de Abandono:** Mantener una tasa de abandono menor al 10% mensual, asegurando que el agricultor pueda gestionar sus datos con nuestra app luego de probarlo
+* gratuitamente.
+* **Crecimiento Orgánico:** Conseguir que cada usuario activo refiera al menos a más agricultores de su misma zona o asociación, reduciendo el costo de adquisición de clientes en
+* regiones rurales, de esta manera la aplicación crecerá de manera exponencial en el rubro de la agricultura.
+* **Escalabilidad del Dominio:** Validar que el modelo de "Campaña y Lote" funcione tanto para cultivos de costa como de la sierra, permitiendo tener una expansión por todo el Perú.
+* **Reducción de Pérdidas:** Disminuir en un 25% las pérdidas de cultivos reportadas por los usuarios gracias a la anticipación mediante alertas técnicas.
 
 
 #### B. USERS OUTCOMES
+Vamos a asumir diversos supuestos del cliente para que de esta manera tener una validación en la aplicación a realizar.
+
+* **¿Quién es el cliente?**
+  Pequeños y medianos agricultores peruanos ubicados en las regiones del Perú, que poseen smartphones pero carecen de herramientas digitales especializadas para el campo.
+* **¿Dónde encaja nuestro producto en su vida?**
+  Como una herramienta de consulta diaria en la parcela para la toma de decisiones técnicas y como libro digital para operaciones financieras.
+* **¿Qué problemas soluciona nuestro producto?**
+  Elimina la incertidumbre sobre el riego, previene la pérdida de cultivos por falta de datos técnicos y ambientales y ayuda a la gestión financiera de los usuarios.
+* **¿Cuándo y cómo se utiliza nuestro producto?**
+  Diariamente para monitorear el estado del suelo y clima, y de manera frecuente para el control de gastos operativos.
+* **¿Qué características son importantes?**
+  Alertas preventivas de riego/clima, registro simplificado de ingresos y egresos, historial de campañas, etc.
+* **¿Cómo deberían verse y comportarse nuestro producto?**
+  Con una interfaz amigable, iconos con fácil visibilidad, legibles, que pueda ser fácil el uso para los agricultores y que tengan un rendimiento bueno.
 
   
 ###### 1.2.2.3. Lean UX Hypothesis Statements
+* **Hipótesis 1:**
+**Creemos que** al proporcionar un sistema de alertas de riego basado en sensores de humedad y clima para los pequeños y medianos agricultores, lograremos que reduzcan el
+desperdicio de agua en un 20% y mejoren la calidad de su cosecha. **Sabremos que tenemos razón cuando** los registros de riego en la plataforma muestren resultados en comparación a
+como antes el usuarios desperdiciaba agua en sus cultivos.
+
+* **Hipótesis 2:**
+**Creemos que** al implementar un módulo de registro simplificado de ingresos y egresos por campaña para los productores, lograremos que el agricultor identifique su utilidad neta
+en tiempo real y tome mejores decisiones de inversión, además de tener una ayuda interna con la aplicación para dichas decisiones. **Sabremos que tenemos razón cuando** el 60% de
+los usuarios activos logren completar el flujo financiero total de su cosecha dentro de la aplicación.
 
 
 
@@ -524,8 +578,46 @@ un requisito competitivo y no solo una ventaja.
 ##### 2.1.2. Estrategias y tácticas frente a competidores
 
 
+#### Estrategias:
+
+- Posicionar a KAMPO como una alternativa práctica y económica, diseñada específicamente para agricultores que no cuentan con las herramientas digitales necesarias.
 
 
+- Permitir que el usuario empiece con funciones básicas y, a medida que gana confianza, pueda acceder a herramientas más avanzadas sin complicaciones.
+
+
+- Reducir la barrera de adopción tecnológica mediante una experiencia simple y clara, adaptada al contexto rural y al nivel digital del usuario.
+
+
+- Construir una propuesta de valor basada en el uso de datos simples y útiles, que permitan al agricultor tomar decisiones rápidas sin necesidad de conocimientos técnicos avanzados.
+
+
+- Diferenciarse al integrar en una sola plataforma el manejo del cultivo y el control de la rentabilidad, brindando una visión completa del negocio agrícola.
+
+#### Tácticas:
+
+
+- Implementar tutoriales interactivos y soporte dentro de la plataforma que acompañen al usuario en sus primeros usos.
+
+
+
+
+- Incorporar dashboards simples y alertas automáticas que conviertan los datos en acciones concretas para el agricultor.
+
+
+
+
+- Conectar el registro de cultivos con el análisis de costos y rentabilidad para ofrecer información en tiempo real.
+
+
+
+
+- Mostrar el valor de la plataforma mediante demostraciones en campo y contenido práctico en redes sociales.
+
+
+
+
+- Generar alianzas con agrónomos, asociaciones y cooperativas para impulsar la adopción y fortalecer la confianza en la herramienta.
 
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas
@@ -772,7 +864,9 @@ USER PERSONA 02
 <div align="justify">
     En esta etapa, se identifican los eventos relevantes del dominio del negocio, los cuales nos permiten tener una visión inicial del funcionamiento del negocio.
 </div>
+<br>
 
+![big_picture_event_storming_step1](docs\assets\img\event-storming\big_picture_event_storming_step1.png)
 <br>
 
 **Paso 2: Ordenar los eventos del dominio**
@@ -781,10 +875,21 @@ USER PERSONA 02
 </div>
 <br>
 
+![big_picture_event_storming_step2_1](docs\assets\img\event-storming\big_picture_event_storming_step2_1.png)
+
+![big_picture_event_storming_step2_2](docs\assets\img\event-storming\big_picture_event_storming_step2_2.png)
+
+<br>
+
 **Paso 3: Agregando actores y sistemas externos**
 <div align="justify">
     Por ultimo, se adicionan los actores y sistemas externos que interactúan con el dominio, permitiendo identificar quienes participan y qué herramientas o medios intervienen.
 </div>
+<br>
+
+![big_picture_event_storming_step3_1](docs\assets\img\event-storming\big_picture_event_storming_step3_1.png)
+
+![big_picture_event_storming_step3_2](docs\assets\img\event-storming\big_picture_event_storming_step3_2.png)
 
 ## 2.5. Ubiquitous Language
 <div align="justify">
@@ -822,168 +927,258 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ## Capítulo III: Requirements Specification
 ## 3.1. User Stories
 
-### US21 - Registrar costo operativo
+#### US11- Visualización de Historial de Cultivos
 
+**Relacionado con:** EP01
 
-**US22 - Registrar ingreso por cosecha**
+**Descripción:** Como usuario, quiero visualizar el historial de cultivos para analizar información previa.
 
-**Relacionado con:** EP06
+**Criterios de Aceptación:**
 
-**Descripción:** Como administrador de agroindustria quiero registrar los ingresos obtenidos por cada cosecha para calcular la rentabilidad real de la campaña.
+**Escenario 1: Consulta de historial**
 
-**Criterios de aceptación:**
+Dado que existen registros históricos
 
-**Escenario 1: Registro de ingreso exitoso**
-**Dado** que el usuario tiene una campaña con cosecha registrada
-**Cuando** el usuario ingresa monto obtenido, cantidad vendida y precio por unidad válidos
-**Entonces** el sistema registra el ingreso y lo vincula a la campaña
+Cuando el usuario selecciona un cultivo
 
-**Escenario 2:** Ingreso duplicado en la misma fecha
-**Dado** que ya existe un ingreso registrado para esa fecha y cultivo
-**Cuando** el usuario intenta registrar otro ingreso con los mismos datos
-**Entonces** el sistema advierte la posible duplicidad y solicita confirmación
+Entonces el sistema muestra la información pasada.
 
-**US23 - Consultar reporte de rentabilidad por campaña**
+**Escenario 2: Sin historial disponible**
 
-**Relacionado con:** EP06
+Dado que no existen registros
 
-**Descripción:** Como administrador de agroindustria quiero visualizar un reporte de rentabilidad por campaña para evaluar si la operación fue financieramente viable.
+Cuando el usuario consulta el historial
 
-**Criterios de aceptación:**
+Entonces el sistema indica que no hay información disponible.
 
-**Escenario 1: Reporte generado correctamente**
-**Dado** que la campaña tiene costos e ingresos registrados
-**Cuando** el usuario solicita el reporte de rentabilidad
-**Entonces** el sistema muestra ingresos totales, costos totales y utilidad neta de la campaña
+#### US12 - Registro Offline en Campo
 
-**Escenario 2: Datos insuficientes para generar reporte**
-**Dado** que la campaña no tiene costos o ingresos registrados
-**Cuando** el usuario solicita el reporte
-**Entonces** el sistema indica que no hay datos suficientes para generar el reporte
+**Relacionado con: EP02**
 
-**EP07 - Alertas y Notificaciones**
+**Descripción:** Como supervisor de campo, quiero registrar información sin conexión para no perder datos en zonas sin internet.
 
-**US24 - Configurar umbrales de alerta por lote**
+**Criterios de Aceptación:**
 
-**Relacionado con:** EP07
+**Escenario 1: Registro sin conexión**
 
-**Descripción:** Como ingeniero agrónomo quiero configurar umbrales mínimos y máximos para variables agronómicas por lote para recibir alertas cuando se superen los límites establecidos.
+Dado que el usuario no tiene conexión a internet
 
-**Criterios de aceptación:**
+Cuando registra información de cultivo
 
-**Escenario 1: Configuración exitosa de umbral**
-**Dado** que el usuario tiene un lote con sensor registrado
-**Cuando** el usuario define un valor mínimo y máximo para una variable (humedad, temperatura o pH) y guarda los cambios
-**Entonces** el sistema almacena la configuración y la asocia al lote
+Entonces el sistema guarda los datos localmente.
 
-**Escenario 2: Umbral con valores inválidos**
-**Dado** que el usuario intenta configurar un umbral
-**Cuando** el valor mínimo ingresado es mayor o igual al valor máximo
-**Entonces** el sistema rechaza la configuración e indica el error
+**Escenario 2: Sincronización posterior**
 
-**US25 - Recibir y gestionar alertas automáticas**
+Dado que el dispositivo recupera conexión
 
-**Relacionado con:** EP07
+Cuando el usuario accede al sistema
 
-**Descripción:** Como ingeniero agrónomo quiero recibir alertas automáticas cuando una variable del cultivo supere el umbral configurado para actuar de forma oportuna ante riesgos en el campo.
+Entonces los datos se sincronizan automáticamente.
 
-**Criterios de aceptación:**
+#### US13 - Seguimiento del Estado del Cultivo
 
-**Escenario 1: Alerta generada por umbral superado**
-**Dado** que un sensor registra un valor fuera del rango configurado
-**Cuando** el sistema procesa la lectura del sensor
-**Entonces** el sistema genera una alerta y la notifica al usuario asociado al lote
+**Relacionado con:** EP02
 
-**Escenario 2: Alerta marcada como atendida**
-**Dado** que el usuario visualiza una alerta activa en el sistema
-**Cuando** el usuario la marca como atendida
-**Entonces** el sistema registra la acción y actualiza el estado de la alerta a resuelta
+**Descripción:** Como ingeniero agrónomo, quiero visualizar el estado actual del cultivo para evaluar su condición.
 
-**EP08 - Autenticación y Gestión de Cuenta**
+**Criterios de Aceptación:**
 
-**US26 - Registrar cuenta de usuario**
+**Escenario 1: Visualización de estado**
 
-**Relacionado con:** EP08
+Dado que existen datos recientes del cultivo
 
-**Descripción:** Como visitante del sitio quiero registrarme con mis datos personales y credenciales para acceder a la plataforma KAMPO.
+Cuando el usuario accede al lote
 
-**Criterios de aceptación:**
+Entonces el sistema muestra el estado actual del cultivo.
 
-**Escenario 1: Registro exitoso**
-**Dado** que el visitante completa el formulario con nombre, correo, contraseña y tipo de perfil válidos
-**Cuando** el visitante envía el formulario de registro
-**Entonces** el sistema crea la cuenta y redirige al usuario al dashboard principal
+**Escenario 2: Falta de datos recientes**
 
-**Escenario 2: Correo ya registrado en el sistema**
-**Dado** que el visitante ingresa un correo que ya existe en la plataforma
-**Cuando** el visitante intenta completar el registro
-**Entonces** el sistema rechaza el registro e indica que el correo ya está en uso
+Dado que no hay información actualizada
 
-**US27 - Iniciar sesión en la plataforma**
+Cuando el usuario consulta el estado
 
-**Relacionado con:** EP08
+Entonces el sistema indica que no hay datos recientes.
 
-**Descripción:** Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis datos y funciones según mi perfil.
+#### US14 - Registro de Condiciones Climáticas Manuales
 
-**Criterios de aceptación:**
+**Relacionado con: EP02**
 
-**Escenario 1: Inicio de sesión exitoso**
-**Dado** que el usuario ingresa credenciales válidas registradas
-**Cuando** el usuario envía el formulario de inicio de sesión
-**Entonces** el sistema autentica al usuario y le otorga acceso al dashboard correspondiente a su perfil
+**Descripción:** Como supervisor, quiero registrar condiciones climáticas manualmente para complementar la información del cultivo.
 
-**Escenario 2: Credenciales incorrectas**
-**Dado** que el usuario ingresa un correo o contraseña incorrecto
-**Cuando** el usuario intenta iniciar sesión
-**Entonces** el sistema rechaza el acceso e informa que las credenciales son inválidas
+**Criterios de Aceptación:**
 
----
+**Escenario 1: Registro manual**
 
-**EP09 - Landing Page**
+Dado que el usuario ingresa datos climáticos
 
-**US28 - Visualizar propuesta de valor en la landing page**
+Cuando completa los campos requeridos
 
-**Relacionado con:** EP09
+Entonces el sistema registra la información correctamente.
 
-**Descripción:** Como visitante del sitio quiero ver claramente qué es KAMPO y qué problema resuelve para evaluar si la plataforma es relevante para mi operación agrícola.
+**Escenario 2: Validación de datos**
 
-**Criterios de aceptación:**
+Dado que el usuario ingresa datos incompletos
 
-**Escenario 1: Carga correcta de la sección principal**
-**Dado** que el visitante accede a la landing page
-**Cuando** la página termina de cargar
-**Entonces** el sistema muestra el nombre del producto, la propuesta de valor principal y un botón de llamado a la acción visible
+Cuando intenta guardar
 
-**Escenario 2: Visualización responsive en dispositivo móvil**
-**Dado** que el visitante accede desde un smartphone
-**Cuando** la página carga en una pantalla menor a 768px de ancho
-**Entonces** el contenido se adapta sin pérdida de información ni elementos superpuestos
+Entonces el sistema rechaza el registro.
 
-**US29 - Visualizar planes y precios en la landing page**
+#### US15 - Gestión de Actividades por Prioridad
 
-**Relacionado con:** EP09
+**Relacionado con:** EP05
 
-**Descripción:** Como visitante del segmento agroindustria quiero ver los planes disponibles y sus precios en la landing page para evaluar cuál se ajusta a mi operación antes de registrarme.
+**Descripción:** Como supervisor, quiero priorizar actividades para optimizar la ejecución en campo.
 
-**Criterios de aceptación:**
+**Criterios de Aceptación:**
 
-**Escenario 1: Visualización correcta de los planes**
+**Escenario 1: Asignación de prioridad**
 
-**Dado** que el visitante navega a la sección de precios de la landing
-**Cuando** la sección carga correctamente
-**Entonces** el sistema muestra los tres planes (Semilla, Cosecha y Hacienda) con sus funciones principales y precios mensuales
+Dado que el usuario registra una actividad
 
-**Escenario 2: Redirección al registro desde un plan**
+Cuando selecciona un nivel de prioridad
 
-**Dado** que el visitante revisa un plan de su interés
-**Cuando** el visitante hace clic en el botón de ese plan
-**Entonces** el sistema redirige al visitante al formulario de registro
+Entonces el sistema la clasifica correctamente.
 
+**Escenario 2: Orden de actividades**
 
+Dado que existen múltiples actividades
 
+Cuando el usuario consulta la lista
 
+Entonces el sistema las ordena por prioridad.
+
+#### EP05 - Gestión de Actividades Agrícolas
+
+#### US16 - Acceso Rápido a Información Crítica
+
+**Relacionado con:** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero acceder rápidamente a información crítica para tomar decisiones oportunas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Visualización rápida**
+
+Dado que el usuario accede al sistema
+
+Cuando ingresa al dashboard
+
+Entonces visualiza información clave de forma inmediata.
+
+**Escenario 2: Falta de datos**
+
+Dado que no hay información relevante disponible
+
+Cuando el usuario accede
+
+Entonces el sistema muestra un estado vacío.
+
+#### US17 - Dashboard Ejecutivo Consolidado
+
+**Relacionado con:** EP02
+
+**Descripción:** Como gerente agrícola, quiero visualizar un dashboard consolidado para tener una visión general de toda la operación.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Visualización general**
+
+Dado que existen datos registrados en múltiples módulos
+
+Cuando el usuario accede al dashboard
+
+Entonces el sistema muestra indicadores clave (estado de cultivos, alertas, actividades).
+
+**Escenario 2: Sin datos suficientes**
+
+Dado que no hay información registrada
+
+Cuando el usuario accede
+
+Entonces el sistema muestra un estado vacío informativo.
+
+#### US18 - Detección de Anomalías en Cultivo
+
+**Relacionado con:** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero detectar cambios anómalos en variables del cultivo para prevenir problemas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Detección automática**
+
+Dado que existen registros históricos
+
+Cuando el sistema detecta una variación fuera de lo normal
+
+Entonces genera una alerta.
+
+**Escenario 2: Sin anomalías**
+
+Dado que los valores están dentro del rango esperado
+
+Cuando el sistema analiza los datos
+
+Entonces no genera alertas.
+
+#### US19 - Asignación de Responsables por Lote
+
+**Relacionado con:** EP01
+
+**Descripción:** Como gerente agrícola, quiero asignar responsables a cada lote para mejorar la organización del trabajo.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Asignación exitosa**
+
+Dado que existen usuarios registrados
+
+Cuando el gerente asigna un responsable a un lote
+
+Entonces el sistema guarda la asignación.
+
+**Escenario 2: Reasignación**
+
+Dado que un lote ya tiene responsable
+
+Cuando el gerente asigna uno nuevo
+
+Entonces el sistema actualiza la información.
+
+#### US20 - Notificación de Retrasos en Actividades
+
+**Relacionado con:** EP05
+
+**Descripción:** Como gerente agrícola, quiero recibir notificaciones de retrasos para tomar acciones correctivas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Detección de retraso**
+
+Dado que una actividad tiene fecha límite
+
+Cuando no se completa a tiempo
+
+Entonces el sistema genera una alerta.
+
+**Escenario 2: Actividad completada a tiempo**
+
+Dado que la actividad se ejecuta correctamente
+
+Cuando se revisa el estado
+
+Entonces no se genera alerta.
 
 ## 3.2. Impact Mapping
+
+Para esta sección se ha realizado la creación del Impact Mapping de KAMPO, basado en los objetivos del negocio para los ingenieros agrónomos. Se definen los impactos esperados, los entregables necesarios y su relación con las historias de usuario.
+
+#### Impact Mapping - Ingeniero agrónomo asesor
+
+<img alt="Impact Mapping Ingeniero Agrónomo Asesor" src="assets/img/Impact Mapping/Impact Mapping.png">
+
+[Ver Imagen](https://raw.githubusercontent.com/GreenSpot-app/Kampo-Report/refs/heads/feature/sprint1-emily/assets/img/Impact%20Mapping/Impact%20Mapping.png)
+
 ## 3.3. Product Backlog
 ## EP01 – Gestión de Cultivos y Unidades Productivas
 
@@ -1103,23 +1298,199 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ---
 
 ## Capítulo IV: Product Design
-## 4.1. Style Guidelines](#41-style-guidelines)
+## 4.1. Style Guidelines
 ##### 4.1.1. General Style Guidelines
+
+Las Decisiones de Estilo de Kampo se basan en la necesidad de poder transmitir una cierta confianza, cercanía y profesionalismo en el contexto de la gestión de campos para pequeños y medianos agricultores. Se busca una interfaz clara, accesible y consistente, que pueda facilitar la interacción que tengan nuestros segmentos usuarios al momento de ayudarlos en sus diversos objetivos.
+
+Branding
+El branding de KAMPO no es solo estética; es una declaración de intenciones. El nombre, con la sustitución de la "C" por la "K", denota una evolución tecnológica del campo tradicional.
+
+* Isotipo: El logotipo integra surcos de siembra en perspectiva con una flecha de crecimiento ascendente y ondas de señal inalámbrica (IoT). Esto comunica que el campo no solo crece, sino que se comunica y se optimiza.
+* Identidad Visual: Se aleja de los verdes pasteles para usar verdes profundos y saturados que representan la salud de un cultivo maduro, contrastados con el naranja del sol y las alertas críticas
+
+## Tipografía
+
+| Tipo | Fuente | Uso | Razón |
+| :--- | :--- | :--- | :--- |
+| **Display/Heading** | Montserrat | Títulos y métricas clave | Transmite solidez y autoridad en los reportes. |
+| **Body** | Open Sans | Texto de contenido y tablas | Optimizada para lectura en pantallas móviles bajo condiciones de alta luminosidad solar. |
+| **Monospace** | JetBrains Mono | Datos de sensores e ID de lotes | Facilita la lectura de coordenadas y valores numéricos precisos sin errores de interpretación. |
+
+## Colors
+
+| Nombre | Hex | Uso |
+| :--- | :--- | :--- |
+| Agro Primary | `#1B4332` | Marca, Sidebar y Títulos |
+| Harvest Gold | `#FF9F1C` | Botones de acción y Alertas |
+| Soil Neutral | `#E9ECEF` | Fondos de aplicación |
+| Critical Red | `#D00000` | Alertas de plagas o estrés hídrico |
+
+La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
+
+Spacing:
+
+El sistema de espaciado de KAMPO se basa en una unidad base de 8px, siguiendo buenas prácticas de diseño UI modernas.
+
+Se utilizan múltiplos de esta unidad para mantener consistencia:
+
+8px → separación mínima
+16px → separación estándar
+24px / 32px → separación entre secciones
+48px → separación de bloques principales
+
+Lo que se quiere transmitir con todo esto es poder generar una confianza a los usuarios los cuales van a utilizar esta app y que ellos puedan interactuar de una manera positiva.
+
+
 ##### 4.1.2. Web Style Guidelines
+
+Las Web Style Guidelines de KAMPO establecen los estándares de diseño de interfaz (UI) y experiencia de usuario (UX) específicos para nuestra plataforma. Estas guías aseguran que la herramienta sea funcional bajo condiciones extremas de uso, como alta luminosidad solar, conectividad intermitente y el uso de dispositivos móviles en movimiento.
+
+Diseño Responsive:
+
+La aplicación se adapta a los siguientes dispositivos:
+
+* Desktop
+* Mobile
+* Tablet
+
+Componentes Críticos del Sistema de Diseño:
+
+Los componentes del sistema de KAMPO han sido diseñados bajo principios de robustez, eficiencia y escalabilidad
+
+* **Navbar & Sidebar:** En la Landing Page, se utiliza una Navbar superior fija para acceso rápido a "Planes" y "Nosotros". En la Web App, se implementa una Sidebar colapsable que prioriza el espacio para los mapas y gráficos, permitiendo navegar entre "Mis Fundos", "Reportes" y "Finanzas".
+* **Action Buttons:** Diseñados con bordes redondeados (8px) y un tamaño mínimo de 48px para facilitar el uso táctil en campo.
+    * **Primary:** Color Verde Agro (#1B4332) para acciones de guardado y registro de visitas.
+    * **Secondary:** Color Naranja Harvest (#FF9F1C) para alertas de riego o llamadas a la acción crítica.
+* **Hero Section:** Ubicada al inicio de la Landing Page, presenta un mensaje de alto impacto sobre la digitalización del agro peruano, acompañado de una imagen de alta resolución que evoca profesionalismo y un botón de "Comenzar Prueba Gratis".
+* **Data-Driven Cards:** Componente central de la interfaz. Se utilizan para mostrar el resumen de cada lote. Incluyen un indicador de color semántico y métricas clave como humedad y temperatura, permitiendo una lectura rápida sin entrar al detalle.
+* **Field Forms:** Inputs optimizados para la entrada de datos en movimiento. Utilizan Steppers para cantidades de fertilizantes y Sliders para niveles de severidad de plagas, reduciendo la necesidad de usar el teclado virtual del celular.
+* **Status Badges:** Pequeños elementos visuales que indican la etapa actual del cultivo (Siembra, Crecimiento, Cosecha) o el estado de sincronización de los datos IoT (Sincronizado / Pendiente).
+* **Icons:** Set de iconos minimalistas y reconocibles basados en el sector: una gota para riego, un brote para cultivo, un billete para finanzas y un sensor para datos IoT.
+
+### Estándares de Interacción
+Para garantizar que el usuario sepa que su acción fue registrada en entornos de distracción se implementan:
+
+* **Micro-interacciones de Confirmación:** Los botones de guardado cambian a un estado de "Cargando" y luego a un "Check" verde mediante transiciones suaves de 300ms, proporcionando certeza visual.
+* **Skeleton Screens:** Durante la carga de datos de sensores IoT, se muestran estructuras grises que imitan el contenido final, reduciendo la percepción de tiempo de espera y la ansiedad del usuario.
+* **Haptic Feedback (Mobile):** El uso de vibraciones ligeras al detectar una "Alerta Crítica" para captar la atención del usuario sin necesidad de que esté mirando la pantalla constantemente.
+
 ## 4.2. Information Architecture
+
+En KAMPO, la arquitectura de información ha sido diseñada para que el usuario tenga una buena interacción. Se diferencia estratégicamente la experiencia del Landing Page (orientada a la persuasión y conversión de agrónomos y empresas) de la Web Application (orientada a la eficiencia operativa y toma de decisiones técnicas). El objetivo primordial es minimizar la carga cognitiva, permitiendo que el usuario acceda a datos críticos de sensores o registros financieros con la menor cantidad de interacciones posibles. 
+
 ##### 4.2.1. Organization Systems
+
+### Sistema de Organización
+El sistema de organización se ha estructurado de tres formas distintas según el contexto de uso:
+
+* **Organización Jerárquica (Visual Hierarchy):** Se aplica en el Dashboard principal. La información fluye de lo macro a lo micro: **Fundo > Sector > Lote > Planta**. Esto permite que un gerente agrícola pueda ver el estado general de su empresa y descender hasta el detalle de un sensor específico.
+* **Organización Secuencial (Step-by-Step):** Utilizada para procesos críticos como el "Registro de Visita de Campo" y el "Cierre de Campaña Financiera". Estos flujos guían al usuario paso a paso para asegurar que no se omitan datos técnicos (como severidad de plagas) ni contables (como costos de insumos).
+* **Esquema de Categorización por Tópicos:** Dentro de la ficha de cada lote, la información se agrupa por temas: **Monitoreo Técnico** (clima y suelo), **Gestión de Insumos** (fertilizantes) y **Cronograma** (etapas del cultivo).
+
 ##### 4.2.2. Labeling Systems
+
+Se ha implementado un sistema de la siguiente manera:
+
+| Etiqueta | Descripción del contenido |
+| :--- | :--- |
+| **Mis Fundos** | Panel central que agrupa todas las unidades productivas del usuario. |
+| **Bitácora** | Historial cronológico de observaciones, fotos y notas tomadas en campo. |
+| **Alertas** | Notificaciones automáticas de estrés hídrico o anomalías climáticas. |
+| **Campaña** | Sección para la gestión financiera y técnica de un ciclo de cultivo específico. |
+| **Lote** | Vista detallada de una subdivisión específica del fundo con datos de sensores. |
+
 ##### 4.2.3. SEO Tags and Meta Tags
+
+**Landing Page**
+
+* **Title:** KAMPO | Gestión Agrícola Inteligente e IoT en Perú
+* **Description:** Digitaliza tu fundo con KAMPO. Monitoreo de cultivos por sensores y control de rentabilidad para ingenieros agrónomos y pequeños productores.
+* **Keywords:** agricultura digital perú, software agrónomos, riego inteligente iot, gestión de fundos, rentabilidad agrícola.
+* **Author:** GreenSpot-app
+
+**Web Application**
+
+* **Title:** Dashboard KAMPO | Panel de Control Agrícola
+* **Description:** Sistema de gestión operativa: registro de visitas, alertas técnicas y análisis de costos en tiempo real.
+* **Keywords:** dashboard agrícola, monitoreo iot, reporte de plagas, control de cosecha.
+
 ##### 4.2.4. Searching Systems
+
+
+El sistema de búsqueda está diseñado para manejar grandes volúmenes de datos históricos y múltiples parcelas:
+
+* **Búsqueda Predictiva:** En el Dashboard, el usuario puede buscar por nombre de **Fundo** o **Lote**, obteniendo sugerencias inmediatas mientras escribe.
+* **Filtros de Estado:** En la sección de reportes, se incluyen filtros avanzados por **Fecha**, **Tipo de Cultivo** y **Nivel de Severidad** de plagas detectadas.
+* **Búsqueda por Atributos:** Permite localizar rápidamente lotes que se encuentren en una etapa específica (ej. *"Lotes en Cosecha"*) para optimizar la logística del personal.
+
+
 ##### 4.2.5. Navigation Systems
+
+Se han definido tres niveles de navegación para asegurar que el usuario nunca se sienta perdido:
+
+* **Navegación Estructural:** Una barra lateral persistente en la Web App con iconos reconocibles que permiten saltar entre las funciones principales.
+* **Navegación de Contexto:** Indicadores de ruta (breadcrumbs) que permiten al usuario retroceder niveles jerárquicos fácilmente.
+* **Navegación de Utilidad:** Ubicada en la parte superior derecha, incluye el perfil del ingeniero, configuración de sensores y acceso directo a notificaciones de alerta crítica.
+
 ## 4.3. Landing Page UI Design
 ##### 4.3.1. Landing Page Wireframe
+El wireframe de la Landing Page se diseñó con un enfoque en la jerarquía de información. Se utilizó una estructura de una sola página (Single Page) para facilitar la navegación del usuario.
+
+* **Hero Section:** Ubicada en la parte superior para captar la atención inmediata con la propuesta de valor.
+
+* **Sección de Membresías:** Presentada en una cuadrícula de tres columnas, donde se destaca visualmente el plan "Cosecha" para incentivar la conversión hacia el plan intermedio.
+
+* **Navegación:** Un menú superior fijo (Sticky Navbar) que permite el acceso rápido a las secciones de beneficios y precios.
+
+![WireFrame1](assets/img/Web-Wireframe1.png)
+![WireFrame2](assets/img/Web-Wireframe2.png)
+![WireFrame3](assets/img/Page-Wireframe.png)
+![WireFrame4](assets/img/Page-Wireframe1.png)
+
 ##### 4.3.2. Landing Page Mock-up
+
+El mock-up aplica la identidad visual de la marca utilizando la paleta de colores Verde Agro (#1B4332) y Naranja Harvest (#FF9F1C).
+
+* **Contraste:** Se garantizó un contraste elevado entre el texto blanco y el fondo verde para asegurar la legibilidad.
+
+* **Componentes:** Se utilizaron botones con bordes redondeados (8px) y estados visuales (hover) para mejorar la interactividad.
+
+* **Imágenes:** Se incluyeron fotografías de alta resolución del sector agrícola peruano para generar cercanía y confianza con el usuario final.
+
+![Mockup1](assets/img/Web-Mockup.png)
+![Mockup2](assets/img/Web-Mockup1.png)
+![Mockup3](assets/img/Page-Mockup.png)
+![Mockup4](assets/img/Page-Mockup1.png)
+
 ## 4.4. Web Applications UX/UI Design
+
 ##### 4.4.1. Web Applications Wireframes
+Los wireframes de la aplicación web se dividieron en dos vistas principales para cubrir las necesidades tanto en oficina como en campo:
+
+* **Dashboard (Desktop):** Utiliza un sistema de sidebar para navegación lateral y Data-Cards para mostrar el resumen de los lotes.
+
+* **Registro de Visita (Mobile):** Diseñado bajo el principio de "Thumb-Driven Design", ubicando los controles principales en la zona de fácil acceso para el pulgar. Se reemplazó el teclado por sliders y dropdowns para agilizar el registro bajo la luz del sol.
+
+![Wireframes](assets/img/WireFrames.png)
+
 ##### 4.4.2. Web Applications Wireflow Diagrams
+El usuario puede manejar las diversas opciones que tiene cuando entra en su fundo, de esta manera se tiene un flujo centrandose en todo lo que puede realizar de manera autonoma, por lo cual es una manera interactiva de poder realizar esto.
+![Mockup4](assets/img/Page-Mockup1.png)
+
 ##### 4.4.3. Web Applications Mock-ups
+
+Los mock-ups finales integran el Color System semántico de KAMPO:
+
+* **Semáforos de Estado:** Uso de Rojo (Crítico), Naranja (Alerta) y Verde (Óptimo) en las tarjetas de datos para permitir un escaneo visual rápido de más de 10 lotes simultáneamente.
+
+* **Accesibilidad:** Se respetó el tamaño de los elementos táctiles (Target Size 48x48px) en la versión móvil, asegurando que la aplicación sea usable incluso con manos húmedas o en movimiento.
+
 ##### 4.4.4. Web Applications User Flow Diagrams
+Para validar la experiencia de usuario (UX), se desarrolló un prototipo funcional e interactivo en Figma. Este prototipo permite simular el flujo real de un ingeniero agrónomo, desde la recepción de una alerta hídrica hasta el registro de una inspección en campo. Se implementaron transiciones de tipo 'Smart Animate' para representar de forma fluida el despliegue de menús laterales y el movimiento de los sliders de severidad, garantizando que la navegación sea intuitiva y eficiente.
+
+![Mockups](assets/img/Mockups.png)
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming
@@ -1188,6 +1559,11 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 </div>
 
 ##### 4.6.2. Software Architecture Context Diagram
+<div align="justify">
+    Kampo es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objetivos principales, el ingeniero agrónomo quien utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor  de agroindustria mediana o grande se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicación intercambia datos con servicios externos para obtener información climática en tiempo real.
+</div>
+
+
 
 ##### 4.6.3. Software Architecture Container Diagrams
 ##### 4.6.4. Software Architecture Components Diagrams
@@ -1911,6 +2287,8 @@ Ernst & Young Perú. (2025, diciembre 22). *¿Cómo le va al agro en el Perú?*E
 Ministerio de Desarrollo Agrario y Riego. (s.f.). *Problemas en la agricultura peruana*. MIDAGRI.https://www.midagri.gob.pe/portal/22-sector-agrario/vision-general/190-problemas-en-la-agricultura-peruana
 
 Pizarro Valladares, J. F. (2022, octubre 18). *Tecnología, la clave para el impulso de la agricultura peruana 4.0*. Conexión ESAN.https://www.esan.edu.pe/conexion-esan/tecnologia-la-clave-para-el-impulso-de-la-agricultura-peruana-4-0
+
+Redacción Infobae Perú. (2025, octubre 25). *Agricultura inteligente: Un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae.https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru
 
 ## Anexos
 

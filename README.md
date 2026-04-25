@@ -376,13 +376,13 @@ En este caso, se elaboraron dos User Personas correspondientes a los segmentos i
 
 USER PERSONA 01- Ingeniero agrónomo asesor
 <p align="center">
-  <img src="assets/img/cap-ii/Carlos Mendoza.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/Carlos Mendoza.png" width="500"/>
   <br/>
 </p>
 
 USER PERSONA 02 - Agroindustria mediana y grande
 <p align="center">
-  <img src="assets/img/cap-ii/Luis Ramos.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/Luis Ramos.png" width="500"/>
   <br/>
 </p>
 
@@ -410,13 +410,13 @@ Las tareas con mayor frecuencia e importancia para ambos segmentos son consolida
 ##### 2.3.3. User Journey Mapping
 SEGMENTO 01
 <p align="center">
-  <img src="assets/img/cap-ii/SEGMENTO 1.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/SEGMENTO 1.png" width="500"/>
   <br/>
 </p>
 
 SEGMENTO 02
 <p align="center">
-  <img src="assets/img/cap-ii/SEGMENTO 2.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/SEGMENTO 2.png" width="500"/>
   <br/>
 </p>
 
@@ -425,13 +425,13 @@ El Empathy Mapping permite comprender de manera integral a los usuarios, identif
 
 USER PERSONA 01
 <p align="center">
-  <img src="assets/img/cap-ii/PERSONA 1.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/PERSONA 1.png" width="500"/>
   <br/>
 </p>
 
 USER PERSONA 02
 <p align="center">
-  <img src="assets/img/cap-ii/PERSONA 2.png" width="500"/>
+  <img src="docs/assets/img/cap-ii/PERSONA 2.png" width="500"/>
   <br/>
 </p>
 

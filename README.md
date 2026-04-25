@@ -1169,6 +1169,508 @@ Cuando se revisa el estado
 
 Entonces no se genera alerta.
 
+**US21 - Registrar costo operativo**
+
+**Relacionado con:** EP06
+
+**Descripción:** Como ingeniero agrónomo quiero registrar los costos operativos de una campaña (mano de obra, insumos, maquinaria) para conocer el gasto real por periodo productivo.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro exitoso de costo**
+**Dado** que el usuario tiene una campaña activa registrada
+**Cuando** el usuario ingresa un costo con categoría, monto y fecha válidos
+**Entonces** el sistema registra el costo y lo asocia a la campaña activa
+
+**Escenario 2: Campos obligatorios incompletos**
+**Dado** que el usuario intenta guardar un costo
+**Cuando** deja algún campo requerido vacío
+**Entonces** el sistema rechaza el registro e indica los campos faltantes
+
+**US22 - Registrar ingreso por cosecha**
+
+**Relacionado con:** EP06
+
+**Descripción:** Como administrador de agroindustria quiero registrar los ingresos obtenidos por cada cosecha para calcular la rentabilidad real de la campaña.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro de ingreso exitoso**
+**Dado** que el usuario tiene una campaña con cosecha registrada
+**Cuando** el usuario ingresa monto obtenido, cantidad vendida y precio por unidad válidos
+**Entonces** el sistema registra el ingreso y lo vincula a la campaña
+
+**Escenario 2: Ingreso duplicado en la misma fecha**
+**Dado** que ya existe un ingreso registrado para esa fecha y cultivo
+**Cuando** el usuario intenta registrar otro ingreso con los mismos datos
+**Entonces** el sistema advierte la posible duplicidad y solicita confirmación
+
+**US23 - Consultar reporte de rentabilidad por campaña**
+
+**Relacionado con:** EP06
+
+**Descripción:** Como administrador de agroindustria quiero visualizar un reporte de rentabilidad por campaña para evaluar si la operación fue financieramente viable.
+
+**Criterios de aceptación:**
+**Escenario 1: Reporte generado correctamente**
+**Dado** que la campaña tiene costos e ingresos registrados
+**Cuando** el usuario solicita el reporte de rentabilidad
+**Entonces** el sistema muestra ingresos totales, costos totales y utilidad neta de la campaña
+
+**Escenario 2: Datos insuficientes para generar reporte**
+**Dado** que la campaña no tiene costos o ingresos registrados
+**Cuando** el usuario solicita el reporte
+**Entonces** el sistema indica que no hay datos suficientes para generar el reporte
+
+**EP07 - Alertas y Notificaciones**
+
+**US24 - Configurar umbrales de alerta por lote**
+
+**Relacionado con:** EP07
+
+**Descripción:** Como ingeniero agrónomo quiero configurar umbrales mínimos y máximos para variables agronómicas por lote para recibir alertas cuando se superen los límites establecidos.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Configuración exitosa de umbral**
+**Dado** que el usuario tiene un lote con sensor registrado
+**Cuando** el usuario define un valor mínimo y máximo para una variable (humedad, temperatura o pH) y guarda los cambios
+**Entonces** el sistema almacena la configuración y la asocia al lote
+
+**Escenario 2: Umbral con valores inválidos**
+**Dado** que el usuario intenta configurar un umbral
+**Cuando** el valor mínimo ingresado es mayor o igual al valor máximo
+**Entonces** el sistema rechaza la configuración e indica el error
+
+**US25 - Recibir y gestionar alertas automáticas**
+
+**Relacionado con:** EP07
+
+**Descripción:** Como ingeniero agrónomo quiero recibir alertas automáticas cuando una variable del cultivo supere el umbral configurado para actuar de forma oportuna ante riesgos en el campo.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Alerta generada por umbral superado**
+**Dado** que un sensor registra un valor fuera del rango configurado
+**Cuando** el sistema procesa la lectura del sensor
+**Entonces** el sistema genera una alerta y la notifica al usuario asociado al lote
+
+**Escenario 2: Alerta marcada como atendida**
+**Dado** que el usuario visualiza una alerta activa en el sistema
+**Cuando** el usuario la marca como atendida
+**Entonces** el sistema registra la acción y actualiza el estado de la alerta a resuelta
+
+**EP08 - Autenticación y Gestión de Cuenta**
+
+**US26 - Registrar cuenta de usuario**
+
+**Relacionado con:** EP08
+
+**Descripción:** Como visitante del sitio quiero registrarme con mis datos personales y credenciales para acceder a la plataforma KAMPO.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro exitoso**
+**Dado** que el visitante completa el formulario con nombre, correo, contraseña y tipo de perfil válidos
+**Cuando** el visitante envía el formulario de registro
+**Entonces** el sistema crea la cuenta y redirige al usuario al dashboard principal
+
+**Escenario 2: Correo ya registrado en el sistema**
+**Dado** que el visitante ingresa un correo que ya existe en la plataforma
+**Cuando** el visitante intenta completar el registro
+**Entonces** el sistema rechaza el registro e indica que el correo ya está en uso
+
+**US27 - Iniciar sesión en la plataforma**
+
+**Relacionado con:** EP08
+
+**Descripción:** Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis datos y funciones según mi perfil.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Inicio de sesión exitoso**
+**Dado** que el usuario ingresa credenciales válidas registradas
+**Cuando** el usuario envía el formulario de inicio de sesión
+**Entonces** el sistema autentica al usuario y le otorga acceso al dashboard correspondiente a su perfil
+
+**Escenario 2: Credenciales incorrectas**
+**Dado** que el usuario ingresa un correo o contraseña incorrecto
+**Cuando** el usuario intenta iniciar sesión
+**Entonces** el sistema rechaza el acceso e informa que las credenciales son inválidas
+
+—-----------------------------------------------------------------------------------------------------------------------
+
+**EP09 - Landing Page**
+
+**US28 - Visualizar propuesta de valor en la landing page**
+
+**Relacionado con:** EP09
+
+**Descripción:** Como visitante del sitio quiero ver claramente qué es KAMPO y qué problema resuelve para evaluar si la plataforma es relevante para mi operación agrícola.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Carga correcta de la sección principal**
+**Dado** que el visitante accede a la landing page
+**Cuando** la página termina de cargar
+**Entonces** el sistema muestra el nombre del producto, la propuesta de valor principal y un botón de llamado a la acción visible
+
+**Escenario 2: Visualización responsive en dispositivo móvil**
+**Dado** que el visitante accede desde un smartphone
+**Cuando** la página carga en una pantalla menor a 768px de ancho
+**Entonces** el contenido se adapta sin pérdida de información ni elementos superpuestos
+
+**US29 - Visualizar planes y precios en la landing page**
+
+**Relacionado con: EP09**
+
+**Descripción:** Como visitante del segmento agroindustria quiero ver los planes disponibles y sus precios en la landing page para evaluar cuál se ajusta a mi operación antes de registrarme.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Visualización correcta de los planes**
+
+**Dado** que el visitante navega a la sección de precios de la landing
+**Cuando** la sección carga correctamente
+**Entonces** el sistema muestra los tres planes (Semilla, Cosecha y Hacienda) con sus funciones principales y precios mensuales
+
+**Escenario 2: Redirección al registro desde un plan**
+
+**Dado** que el visitante revisa un plan de su interés
+**Cuando** el visitante hace clic en el botón de ese plan
+**Entonces** el sistema redirige al visitante al formulario de registro
+
+**US30 - Gestión de Unidades Productivas**
+
+**Relacionado con:** EP01
+
+**Descripción:** Como ingeniero agrónomo, quiero registrar lotes con su área y ubicación para organizar la base de la operación agrícola.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Registro Exitoso**
+**Dado** que el usuario tiene permisos de edición
+**Cuando** ingrese el nombre, área y ubicación del lote.
+**Entonces** el sistema guarda el lote y lo muestra en el listado.
+
+**Escenario 2: Datos Incompletos**
+
+**Dado** que el usuario intenta guardar un lote.
+**Cuando** deje un campo vacío es de suma importancia.
+**Entonces** el sistema muestra un error y no permite el guardado.
+
+**US31 - Visualización Geoespacial**
+
+**Relacionado con :** EP01
+
+**Descripción:** Como ingeniero agrónomo, quiero visualizar los lotes en un mapa interactivo para supervisar las unidades productivas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Ubicación en mapa**
+
+**Dado** que existen lotes con coordenadas registradas
+**Cuando** el usuario accede a la vista de mapa
+**Entonces** el sistema renderiza marcadores geográficos por cada lote.
+
+**Escenario 2: Filtro de lotes en mapa**
+
+**Dado** que el mapa muestra múltiples lotes.
+**Cuando** el usuario aplica un filtro por “Tipo de Cultivo”
+**Entonces** el sistema actualiza el mapa mostrando solo los marcadores que cumplan con ese criterio.
+
+
+
+**US32 - Monitoreo con Sensores IoT**
+
+**Relacionado con :** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero vincular sensores a lotes específicos para automatizar la captura de humedad y temperatura.
+
+**Escenario 1: Vinculación de sensor**
+
+**Dado** que existe un sensor disponible y un lote cerrado.
+**Cuando** el usuario asigna el ID del sensor al lote.
+**Entonces** el sistema comienza a mostrar lecturas en tiempo real.
+
+**Escenario 2: Sensor Asignado**
+
+**Dado** que un sensor ya está vinculado a un “Lote A”
+**Cuando** el usuario intenta asignarlo a un “Lote B”
+**Entonces** el sistema rechaza la acción e informa que el sensor ya está en uso
+
+**US33 - Control de Inventario y Almacenes**
+
+**Relacionado con :** EP03
+
+**Descripción:** Como administrador, quiero gestionar el stock de insumos por almacén para evitar desabastecimiento.
+
+**Escenario 1: Transferencia de Stock**
+
+**Dado** que hay 100L de fertilizante en el “Almacén A”
+**Cuando** el usuario quiera transferir 20L al “Almacén B”
+**Entonces** el sistema actualiza los balances en ambas ubicaciones automáticamente.
+
+**Escenario 2: Stock insuficiente para transferencia**
+
+**Dado** que el “Almacén A” solo tiene 10L de un insumo
+**Cuando** el usuario intenta transferir 50L al “Almacén B”
+**Entonces** el sistema bloquea la operación y notifica que no hay existencias suficientes.
+
+**US34 - Planificación de Campañas**
+**Relacionado con :** EP04
+
+**Descripción:** Como gerente agrícola, quiero crear y editar campañas para agrupar cultivos y actividades en un periodo de tiempo.
+
+**Escenario 1: Creación de campaña**
+
+**Dado** que el usuario define una fecha de inicio y fin.
+**Cuando** selecciona los cultivos participantes.
+**Entonces** la campaña queda activa y lista para recibir registros.
+
+**Escenario 2: Superposición de fechas**
+**Dado** que existe una campaña activa para un lote.
+**Cuando** el usuario intenta crear otra campaña en el mismo rango de fechas para ese lote.
+**Entonces** el sistema emite una advertencia de conflicto de fechas.
+
+**US35 - Registro de Labores de Campo**
+**Relacionado con :** Ep05
+
+**Descripción:** Como supervisor, quiero registrar actividades para tener trazabilidad del trabajo realizado.
+
+**Escenario 1: Registro de actividad**
+
+**Dado** que hay una campaña en curso.
+**Cuando** el supervisor registra una "Aplicación de Insumo" en el Lote 1.
+**Entonces** el registro se guarda con fecha, responsable y descripción.
+
+**Escenario 2: Modificación de actividad finalizada**
+**Dado** que una actividad fue registrada hace más de 48 horas.
+**Cuando** un supervisor sin permisos especiales intenta editarla.
+**Entonces** el sistema bloquea la edición para mantener la integridad de la bitácora.
+
+**US36 - Análisis Financiero y Rentabilidad**
+**Relacionado con :** EP06
+
+**Descripción:** Como administrador, quiero registrar costos e ingresos por cosecha para obtener el reporte de rentabilidad.
+
+**Escenario 1: Generación de reporte**
+
+**Dado** que la campaña tiene costos operativos e ingresos cargados.
+**Cuando** el usuario solicita el balance.
+**Entonces** el sistema calcula la Utilidad Neta: $Ingresos - Costos$.
+
+**Escenario 2: Registro de costo sin categoría**
+**Dado** que el usuario intenta ingresar un gasto.
+**Cuando** no selecciona si es "Mano de obra", "Insumo" o "Maquinaria".
+**Entonces** el sistema no permite el registro hasta categorizar el gasto.
+
+**US37 - Configuración de Alertas Críticas**
+**Relacionado con :** EP07
+
+**Descripción:** Como ingeniero agrónomo, quiero configurar umbrales de alerta para recibir notificaciones ante riesgos climáticos o de suelo.
+
+**Escenario 1: Disparo de alerta**
+
+**Dado** que el umbral de humedad mínima es 20%.
+**Cuando** el sensor IoT reporta 15%.
+**Entonces** el sistema envía una notificación inmediata al dashboard y correo.
+
+**Escenario 2: Resolución de alerta**
+**Dado** que existe una alerta activa por baja humedad.
+**Cuando** el sensor reporta un valor de 25% (dentro del rango).
+**Entonces** el sistema marca la alerta como "Normalizada" automáticamente.
+
+**US38 - Seguridad y Perfiles de Acceso**
+**Relacionado con :** EP08
+
+**Descripción:** Como administrador del sistema, quiero gestionar cuentas de usuario para asegurar que cada empleado acceda solo a sus funciones.
+
+**Escenario 1: Restricción de acceso**
+
+**Dado** que un usuario tiene perfil de "Supervisor".
+**Cuando** intenta acceder al módulo financiero (EP06).
+**Entonces** el sistema deniega el acceso y muestra un mensaje de "Permiso insuficiente".
+
+**Escenario 2: Bloqueo por intentos fallidos**
+**Dado** que un usuario ingresa la contraseña incorrecta 5 veces.
+**Cuando** intenta un sexto ingreso.
+**Entonces** el sistema bloquea la cuenta temporalmente por seguridad.
+
+**US39 - Landing Page y Conversión**
+**Relacionado con :** EP09
+
+**Descripción:** Como visitante, quiero visualizar los planes y precios para elegir la suscripción que mejor se adapte a mi agroindustria.
+
+**Escenario 1: Selección de plan**
+
+**Dado** que el visitante está en la sección de precios.
+**Cuando** haga clic en el plan "Cosecha".
+**Entonces** el sistema lo redirige al formulario de registro con el plan pre-seleccionado.
+
+**Escenario 2: Comparativa de funciones**
+**Dado** que el visitante duda entre dos planes.
+**Cuando** visualiza la tabla comparativa.
+**Entonces** el sistema resalta las diferencias técnicas y de capacidad entre "Semilla" y "Cosecha".
+
+**US40 - Finalizar campaña agrícola**
+
+**Relacionado con:** EP04
+
+**Descripción:** Como gerente agrícola, quiero finalizar una campaña agrícola para cerrar el periodo productivo y consolidar sus resultados.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Finalización exitosa**
+**Dado** que la campaña se encuentra activa
+**Cuando** el gerente decide finalizarla
+**Entonces** el sistema cambia su estado a finalizada y registra la fecha de cierre
+
+**Escenario 2: Restricción por actividades pendientes**
+**Dado** que existen actividades no completadas en la campaña
+**Cuando** el gerente intenta finalizarla
+**Entonces** el sistema rechaza la acción e informa que existen tareas pendientes
+
+—----------------------------------------------------------------------------------------------------------------------------
+**EP10 - Technical Stories RESTful API**
+
+**TS01 - Endpoint de registro de cultivo**
+
+**Relacionado con: EP10**
+
+**Descripción:** Como developer quiero implementar el endpoint POST /api/v1/crops para registrar un nuevo cultivo asociado a un lote y un usuario autenticado.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro exitoso**
+**Dado** que el developer envía POST /api/v1/crops con un body válido y token JWT en el header de autorización
+**Cuando** el sistema procesa la solicitud
+**Entonces** el sistema responde con HTTP 201 Created y el objeto del cultivo creado en formato JSON
+
+**Escenario 2: Token ausente o expirado**
+**Dado** que el developer envía la solicitud sin token o con token expirado en el header
+**Cuando** el sistema valida la autenticación
+**Entonces** el sistema responde con HTTP 401 Unauthorized y un mensaje indicando acceso no autorizado
+
+**TS02 - Endpoint de reporte de rentabilidad por campaña**
+
+**Relacionado con:** EP10
+
+**Descripción:** Como developer quiero implementar el endpoint GET /api/v1/campaigns/{id}/profitability para retornar el cálculo de rentabilidad de una campaña específica.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Campaña con datos completos**
+
+**Dado** que el developer envía GET /api/v1/campaigns/{id}/profitability con un id de campaña existente y token JWT válido
+**Cuando** el sistema calcula ingresos totales menos costos totales
+**Entonces** el sistema responde con HTTP 200 OK y un JSON con los campos totalIncome, totalCost y netProfit
+
+**Escenario 2: Campaña no encontrada**
+**Dado** que el developer envía el request con un id de campaña que no existe en la base de datos
+**Cuando** el sistema intenta recuperar la campaña
+**Entonces** el sistema responde con HTTP 404 Not Found y un mensaje descriptivo del error
+
+**TS03 - Endpoint de consulta de cultivos por lote**
+
+**Relacionado con:** EP10
+**Descripción:** Como developer quiero implementar el endpoint GET /api/v1/lots/{id}/crops para listar los cultivos asociados a un lote específico.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Consulta exitosa**
+
+**Dado** que el developer envía GET /api/v1/lots/{id}/crops con un id de lote existente y token JWT válido
+**Cuando** el sistema procesa la solicitud
+**Entonces** el sistema responde con HTTP 200 OK y una lista de cultivos en formato JSON
+
+**Escenario 2: Lote no encontrado**
+
+**Dado** que el developer envía el request con un id de lote inexistente
+**Cuando** el sistema intenta recuperar los cultivos asociados
+**Entonces** el sistema responde con HTTP 404 Not Found y un mensaje descriptivo del error
+
+**TS04 - Endpoint de registro de actividad agrícola**
+
+**Relacionado con:** EP10
+
+**Descripción:** Como developer quiero implementar el endpoint POST /api/v1/agricultural-activities para registrar actividades agrícolas.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Validación de reglas de negocio**
+
+**Dado** que la actividad está asociada a una campaña cerrada
+**Cuando** el developer envía la solicitud
+**Entonces** el sistema responde con HTTP 409 Conflict indicando que no se pueden registrar actividades
+
+**Escenario 2: Registro con trazabilidad**
+
+**Dado** que el developer envía una solicitud válida
+**Cuando** el sistema registra la actividad
+**Entonces** se guarda junto con createdBy y timestamp
+
+**TS05 - Endpoint de consulta de stock de insumos por almacén**
+
+**Relacionado con:** EP10
+
+**Descripción:** Como developer quiero implementar el endpoint GET /api/v1/warehouses/{id}/supplies-stock.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Filtrado por tipo de insumo**
+**Dado** que existen distintos tipos de insumos
+**Cuando** el developer envía el parámetro type
+**Entonces** el sistema responde con los insumos filtrados
+
+**Escenario 2: Consistencia de datos**
+**Dado** que se realizan operaciones concurrentes de entrada y salida de stock
+**Cuando** el sistema procesa la consulta
+**Entonces** los datos devueltos reflejan el estado actualizado del inventario
+
+**TS06 - Endpoint de consulta de campañas activas**
+
+**Relacionado con:** EP10
+
+**Descripción:** Como developer quiero implementar el endpoint GET /api/v1/campaigns?status=active.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Ordenamiento de resultados**
+**Dado** que existen múltiples campañas activas
+**Cuando** el developer envía el parámetro sortBy=startDate
+**Entonces** el sistema responde con campañas ordenadas
+
+**Escenario 2: Caché de respuesta**
+**Dado** que la información de campañas no cambia constantemente
+**Cuando** múltiples requests consultan el endpoint
+**Entonces** el sistema utiliza cache para optimizar el tiempo de respuesta
+
+**TS07 - Endpoint de registro de movimiento de stock**
+
+**Relacionado con:** EP10
+
+**Descripción:** Como developer quiero implementar el endpoint POST /api/v1/stock-movements para registrar entradas, salidas y transferencias de insumos entre almacenes.
+
+**Criterios de aceptación:**
+
+**Escenario 1: Registro de entrada de stock**
+**Dado** que el developer envía una solicitud con tipo de movimiento ENTRY y cantidad válida
+**Cuando** el sistema procesa el movimiento
+**Entonces** responde con HTTP 201 Created y actualiza el stock del almacén correspondiente
+
+**Escenario 2: Validación por stock insuficiente**
+
+**Dado** que el developer envía una solicitud con tipo de movimiento EXIT o TRANSFER
+**Cuando** la cantidad solicitada supera el stock disponible
+**Entonces** el sistema responde con HTTP 409 Conflict e informa que no hay stock suficiente
+
+**Escenario 3: Trazabilidad del movimiento**
+**Dado** que el movimiento de stock fue registrado correctamente
+**Cuando** el sistema guarda la operación
+**Entonces** almacena el usuario responsable, fecha, almacén de origen y almacén de destino cuando corresponda
+
+
 ## 3.2. Impact Mapping
 
 Para esta sección se ha realizado la creación del Impact Mapping de KAMPO, basado en los objetivos del negocio para los ingenieros agrónomos. Se definen los impactos esperados, los entregables necesarios y su relación con las historias de usuario.

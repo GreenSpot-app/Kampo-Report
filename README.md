@@ -442,6 +442,13 @@
 <div align="justify">
     A continuación, se siguieron tres pasos esenciales para elaborar el Big Picture Event Storming:
 </div>
+<br>
+
+**Paso 1: Generar los eventos de dominio**
+<div align="justify">
+    En esta etapa, se identifican los eventos relevantes del dominio del negocio, los cuales nos permiten tener una visión inicial del funcionamiento del negocio.
+</div>
+
 
 
 ## 2.5. Ubiquitous Language

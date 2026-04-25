@@ -404,6 +404,36 @@ Lo que se quiere transmitir con todo esto es poder generar una confianza a los u
 
 ##### 4.1.2. Web Style Guidelines
 
+Las Web Style Guidelines de KAMPO establecen los estándares de diseño de interfaz (UI) y experiencia de usuario (UX) específicos para nuestra plataforma. Estas guías aseguran que la herramienta sea funcional bajo condiciones extremas de uso, como alta luminosidad solar, conectividad intermitente y el uso de dispositivos móviles en movimiento.
+
+Diseño Responsive:
+
+La aplicación se adapta a los siguientes dispositivos:
+
+* Desktop
+* Mobile
+* Tablet
+
+Componentes Críticos del Sistema de Diseño:
+
+Los componentes del sistema de KAMPO han sido diseñados bajo principios de robustez, eficiencia y escalabilidad
+
+* **Navbar & Sidebar:** En la Landing Page, se utiliza una Navbar superior fija para acceso rápido a "Planes" y "Nosotros". En la Web App, se implementa una Sidebar colapsable que prioriza el espacio para los mapas y gráficos, permitiendo navegar entre "Mis Fundos", "Reportes" y "Finanzas".
+* **Action Buttons:** Diseñados con bordes redondeados (8px) y un tamaño mínimo de 48px para facilitar el uso táctil en campo.
+    * **Primary:** Color Verde Agro (#1B4332) para acciones de guardado y registro de visitas.
+    * **Secondary:** Color Naranja Harvest (#FF9F1C) para alertas de riego o llamadas a la acción crítica.
+* **Hero Section:** Ubicada al inicio de la Landing Page, presenta un mensaje de alto impacto sobre la digitalización del agro peruano, acompañado de una imagen de alta resolución que evoca profesionalismo y un botón de "Comenzar Prueba Gratis".
+* **Data-Driven Cards:** Componente central de la interfaz. Se utilizan para mostrar el resumen de cada lote. Incluyen un indicador de color semántico y métricas clave como humedad y temperatura, permitiendo una lectura rápida sin entrar al detalle.
+* **Field Forms:** Inputs optimizados para la entrada de datos en movimiento. Utilizan Steppers para cantidades de fertilizantes y Sliders para niveles de severidad de plagas, reduciendo la necesidad de usar el teclado virtual del celular.
+* **Status Badges:** Pequeños elementos visuales que indican la etapa actual del cultivo (Siembra, Crecimiento, Cosecha) o el estado de sincronización de los datos IoT (Sincronizado / Pendiente).
+* **Icons:** Set de iconos minimalistas y reconocibles basados en el sector: una gota para riego, un brote para cultivo, un billete para finanzas y un sensor para datos IoT.
+
+### Estándares de Interacción
+Para garantizar que el usuario sepa que su acción fue registrada en entornos de distracción se implementan:
+
+* **Micro-interacciones de Confirmación:** Los botones de guardado cambian a un estado de "Cargando" y luego a un "Check" verde mediante transiciones suaves de 300ms, proporcionando certeza visual.
+* **Skeleton Screens:** Durante la carga de datos de sensores IoT, se muestran estructuras grises que imitan el contenido final, reduciendo la percepción de tiempo de espera y la ansiedad del usuario.
+* **Haptic Feedback (Mobile):** El uso de vibraciones ligeras al detectar una "Alerta Crítica" para captar la atención del usuario sin necesidad de que esté mirando la pantalla constantemente.
 
 ## 4.2. Information Architecture
 ##### 4.2.1. Organization Systems

@@ -792,6 +792,120 @@ USER PERSONA 02
 
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
+## EP01 – Gestión de Cultivos y Unidades Productivas
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 1 | US01 | Registrar cultivo por lote | Como ingeniero agrónomo quiero registrar cultivos por lote para organizar la operación agrícola. | 5 |
+| 2 | US02 | Asociación de características del lote | Como ingeniero agrónomo quiero registrar datos del lote (m², mano de obra, etc.) para análisis técnico. | 3 |
+| 3 | US30 | Gestión de Unidades Productivas | Como ingeniero agrónomo quiero registrar lotes con su área y ubicación para organizar la base de la operación agrícola. | 3 |
+| 4 | US03 | Visualización geográfica de lotes | Como ingeniero agrónomo quiero visualizar los lotes en un mapa interactivo para ubicar y supervisar las unidades productivas de forma eficiente. | 5 |
+| 5 | US31 | Visualización Geoespacial | Como ingeniero agrónomo quiero visualizar los lotes en un mapa interactivo para supervisar las unidades productivas. | 5 |
+ 
+---
+
+## EP02 – Monitoreo Agronómico e IoT
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 6 | US04 | Registro de variables agronómicas | Como ingeniero agrónomo quiero registrar variables (humedad, temperatura, pH) para monitorear el cultivo. | 3 |
+| 7 | US06 | Configuración de sensores | Como ingeniero agrónomo quiero registrar y configurar sensores IoT para asociarlos a lotes y capturar datos automáticamente. | 5 |
+| 8 | US05 | Integración con sensores IoT | Como ingeniero agrónomo quiero recibir datos automáticos desde sensores para monitorear los cultivos en tiempo real. | 8 |
+| 9 | US07 | Visualización en tiempo real | Como ingeniero agrónomo quiero visualizar datos de sensores en tiempo real para tomar decisiones inmediatas sobre el cultivo. | 5 |
+| 10 | US32 | Monitoreo con Sensores IoT | Como ingeniero agrónomo quiero vincular sensores a lotes específicos para automatizar la captura de humedad y temperatura. | 5 |
+ 
+---
+
+## EP03 – Gestión de Insumos
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 11 | US08 | Registro de insumos | Como administrador de agroindustria quiero registrar insumos con información detallada (tipo, proveedor, unidad de medida y costo) para tener un control estandarizado y preciso. | 3 |
+| 12 | US09 | Gestión de stock por múltiples almacenes | Como administrador de agroindustria quiero gestionar el stock de insumos por almacén o ubicación para tener visibilidad del inventario distribuido. | 5 |
+| 13 | US33 | Control de Inventario y Almacenes | Como administrador quiero gestionar el stock de insumos por almacén para evitar desabastecimiento. | 5 |
+| 14 | US10 | Proyección inteligente de consumo | Como administrador de agroindustria quiero proyectar el consumo futuro de insumos basado en datos históricos para optimizar compras y planificación. | 8 |
+ 
+---
+
+## EP04 – Gestión de Campañas Agrícolas
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 15 | US34 | Planificación de Campañas | Como gerente agrícola quiero crear y editar campañas para agrupar cultivos y actividades en un periodo de tiempo. | 5 |
+| 16 | US13 | Asociar cultivos a campaña | Como ingeniero agrónomo quiero asociar cultivos a una campaña para organizar la producción por periodo. | 3 |
+| 17 | US14 | Consultar campañas activas | Como gerente agrícola quiero poder ver las campañas activas para gestionar las actividades en curso. | 2 |
+| 18 | US11 | Editar campaña agrícola | Como ingeniero agrónomo quiero poder editar una campaña agrícola para actualizar su información según cambios en la planificación. | 3 |
+| 19 | US15 | Filtrar campañas por estado o fecha | Como administrador de agroindustria quiero filtrar las campañas por estado o fecha para facilitar su análisis. | 3 |
+| 20 | US40 | Finalizar campaña agrícola | Como gerente agrícola quiero finalizar una campaña agrícola para cerrar el periodo productivo y consolidar sus resultados. | 3 |
+| 21 | US12 | Eliminar campaña agrícola | Como ingeniero agrónomo quiero eliminar una campaña agrícola para evitar registros innecesarios o incorrectos. | 2 |
+ 
+---
+
+## EP05 – Gestión de Actividades Agrícolas
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 22 | US16 | Registrar actividad agrícola | Como supervisor de cultivo quiero registrar actividades para llevar el control de las labores realizadas en cada lote. | 3 |
+| 23 | US35 | Registro de Labores de Campo | Como supervisor quiero registrar actividades para tener trazabilidad del trabajo realizado. | 3 |
+| 24 | US19 | Consultar historial de actividades | Como gerente agrícola quiero consultar el historial de actividades para evaluar el desempeño operativo. | 3 |
+| 25 | US17 | Editar actividad agrícola | Como supervisor de cultivo quiero editar actividades registradas para corregir o actualizar la información. | 2 |
+| 26 | US20 | Filtrar actividades por lote o fecha | Como administrador de agroindustria quiero filtrar actividades por lote o fecha para analizar información específica. | 3 |
+| 27 | US18 | Eliminar actividad agrícola | Como supervisor de cultivos quiero eliminar actividades registradas para evitar información incorrecta en campo. | 2 |
+ 
+---
+
+## EP06 – Gestión Financiera
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 28 | US21 | Registrar costo operativo | Como ingeniero agrónomo quiero registrar los costos operativos de una campaña (mano de obra, insumos, maquinaria) para conocer el gasto real por periodo productivo. | 3 |
+| 29 | US22 | Registrar ingreso por cosecha | Como administrador de agroindustria quiero registrar los ingresos obtenidos por cada cosecha para calcular la rentabilidad real de la campaña. | 3 |
+| 30 | US23 | Consultar reporte de rentabilidad por campaña | Como administrador de agroindustria quiero visualizar un reporte de rentabilidad por campaña para evaluar si la operación fue financieramente viable. | 5 |
+| 31 | US36 | Análisis Financiero y Rentabilidad | Como administrador quiero registrar costos e ingresos por cosecha para obtener el reporte de rentabilidad. | 5 |
+ 
+---
+
+## EP07 – Alertas y Notificaciones
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 32 | US24 | Configurar umbrales de alerta por variable | Como ingeniero agrónomo quiero configurar umbrales de alerta para recibir notificaciones ante riesgos en el cultivo. | 5 |
+| 33 | US37 | Configuración de Alertas Críticas | Como ingeniero agrónomo quiero configurar umbrales de alerta para recibir notificaciones ante riesgos climáticos o de suelo. | 5 |
+| 34 | US25 | Recibir y gestionar alertas automáticas | Como ingeniero agrónomo quiero recibir alertas automáticas cuando una variable del cultivo supere el umbral configurado para actuar de forma oportuna. | 5 |
+ 
+---
+
+## EP08 – Autenticación y Gestión de Cuenta
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 35 | US26 | Registrar cuenta de usuario | Como visitante del sitio quiero registrarme con mis datos personales y credenciales para acceder a la plataforma KAMPO. | 3 |
+| 36 | US27 | Iniciar sesión en la plataforma | Como usuario registrado quiero iniciar sesión con mi correo y contraseña para acceder a mis datos y funciones según mi perfil. | 2 |
+| 37 | US38 | Seguridad y Perfiles de Acceso | Como administrador del sistema quiero gestionar cuentas de usuario para asegurar que cada empleado acceda solo a sus funciones. | 5 |
+ 
+---
+
+## EP09 – Landing Page
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 38 | US28 | Visualizar propuesta de valor en la landing page | Como visitante del sitio quiero ver claramente qué es KAMPO y qué problema resuelve para evaluar si la plataforma es relevante para mi operación agrícola. | 3 |
+| 39 | US29 | Visualizar planes y precios en la landing page | Como visitante quiero ver los planes disponibles y sus precios en la landing page para evaluar cuál se ajusta a mi operación antes de registrarme. | 3 |
+| 40 | US39 | Landing Page y Conversión | Como visitante quiero visualizar los planes y precios para elegir la suscripción que mejor se adapte a mi agroindustria. | 3 |
+ 
+---
+
+## EP10 – Technical Stories RESTful API
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|--------------|--------|-------------|-----------------------------------|
+| 41 | TS01 | Endpoint de registro de cultivo | Como developer quiero implementar el endpoint POST /api/v1/crops para registrar un nuevo cultivo asociado a un lote y un usuario autenticado. | 5 |
+| 42 | TS03 | Endpoint de consulta de cultivos por lote | Como developer quiero implementar el endpoint GET /api/v1/lots/{id}/crops para listar los cultivos asociados a un lote específico. | 3 |
+| 43 | TS05 | Endpoint de consulta de stock de insumos por almacén | Como developer quiero implementar el endpoint GET /api/v1/warehouses/{id}/supplies-stock. | 3 |
+| 44 | TS06 | Endpoint de consulta de campañas activas | Como developer quiero implementar el endpoint GET /api/v1/campaigns?status=active. | 3 |
+| 45 | TS07 | Endpoint de registro de movimiento de stock | Como developer quiero implementar el endpoint POST /api/v1/stock-movements para registrar entradas, salidas y transferencias de insumos entre almacenes. | 5 |
+| 46 | TS04 | Endpoint de registro de actividad agrícola | Como developer quiero implementar el endpoint POST /api/v1/agricultural-activities para registrar actividades agrícolas. | 3 |
+| 47 | TS02 | Endpoint de reporte de rentabilidad por campaña | Como developer quiero implementar el endpoint GET /api/v1/campaigns/{id}/profitability para retornar el cálculo de rentabilidad de una campaña específica. | 5 |
 
 ---
 

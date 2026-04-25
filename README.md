@@ -650,9 +650,251 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ## Capítulo III: Requirements Specification
 ## 3.1. User Stories
 
+#### US11- Visualización de Historial de Cultivos
 
+**Relacionado con:** EP01
+
+**Descripción:** Como usuario, quiero visualizar el historial de cultivos para analizar información previa.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Consulta de historial**
+
+Dado que existen registros históricos
+
+Cuando el usuario selecciona un cultivo
+
+Entonces el sistema muestra la información pasada.
+
+**Escenario 2: Sin historial disponible**
+
+Dado que no existen registros
+
+Cuando el usuario consulta el historial
+
+Entonces el sistema indica que no hay información disponible.
+
+#### US12 - Registro Offline en Campo
+
+**Relacionado con: EP02**
+
+**Descripción:** Como supervisor de campo, quiero registrar información sin conexión para no perder datos en zonas sin internet.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Registro sin conexión**
+
+Dado que el usuario no tiene conexión a internet
+
+Cuando registra información de cultivo
+
+Entonces el sistema guarda los datos localmente.
+
+**Escenario 2: Sincronización posterior**
+
+Dado que el dispositivo recupera conexión
+
+Cuando el usuario accede al sistema
+
+Entonces los datos se sincronizan automáticamente.
+
+#### US13 - Seguimiento del Estado del Cultivo
+
+**Relacionado con:** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero visualizar el estado actual del cultivo para evaluar su condición.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Visualización de estado**
+
+Dado que existen datos recientes del cultivo
+
+Cuando el usuario accede al lote
+
+Entonces el sistema muestra el estado actual del cultivo.
+
+**Escenario 2: Falta de datos recientes**
+
+Dado que no hay información actualizada
+
+Cuando el usuario consulta el estado
+
+Entonces el sistema indica que no hay datos recientes.
+
+#### US14 - Registro de Condiciones Climáticas Manuales
+
+**Relacionado con: EP02**
+
+**Descripción:** Como supervisor, quiero registrar condiciones climáticas manualmente para complementar la información del cultivo.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Registro manual**
+
+Dado que el usuario ingresa datos climáticos
+
+Cuando completa los campos requeridos
+
+Entonces el sistema registra la información correctamente.
+
+**Escenario 2: Validación de datos**
+
+Dado que el usuario ingresa datos incompletos
+
+Cuando intenta guardar
+
+Entonces el sistema rechaza el registro.
+
+#### US15 - Gestión de Actividades por Prioridad
+
+**Relacionado con:** EP05
+
+**Descripción:** Como supervisor, quiero priorizar actividades para optimizar la ejecución en campo.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Asignación de prioridad**
+
+Dado que el usuario registra una actividad
+
+Cuando selecciona un nivel de prioridad
+
+Entonces el sistema la clasifica correctamente.
+
+**Escenario 2: Orden de actividades**
+
+Dado que existen múltiples actividades
+
+Cuando el usuario consulta la lista
+
+Entonces el sistema las ordena por prioridad.
+
+#### EP05 - Gestión de Actividades Agrícolas
+
+#### US16 - Acceso Rápido a Información Crítica
+
+**Relacionado con:** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero acceder rápidamente a información crítica para tomar decisiones oportunas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Visualización rápida**
+
+Dado que el usuario accede al sistema
+
+Cuando ingresa al dashboard
+
+Entonces visualiza información clave de forma inmediata.
+
+**Escenario 2: Falta de datos**
+
+Dado que no hay información relevante disponible
+
+Cuando el usuario accede
+
+Entonces el sistema muestra un estado vacío.
+
+#### US17 - Dashboard Ejecutivo Consolidado
+
+**Relacionado con:** EP02
+
+**Descripción:** Como gerente agrícola, quiero visualizar un dashboard consolidado para tener una visión general de toda la operación.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Visualización general**
+
+Dado que existen datos registrados en múltiples módulos
+
+Cuando el usuario accede al dashboard
+
+Entonces el sistema muestra indicadores clave (estado de cultivos, alertas, actividades).
+
+**Escenario 2: Sin datos suficientes**
+
+Dado que no hay información registrada
+
+Cuando el usuario accede
+
+Entonces el sistema muestra un estado vacío informativo.
+
+#### US18 - Detección de Anomalías en Cultivo
+
+**Relacionado con:** EP02
+
+**Descripción:** Como ingeniero agrónomo, quiero detectar cambios anómalos en variables del cultivo para prevenir problemas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Detección automática**
+
+Dado que existen registros históricos
+
+Cuando el sistema detecta una variación fuera de lo normal
+
+Entonces genera una alerta.
+
+**Escenario 2: Sin anomalías**
+
+Dado que los valores están dentro del rango esperado
+
+Cuando el sistema analiza los datos
+
+Entonces no genera alertas.
+
+#### US19 - Asignación de Responsables por Lote
+
+**Relacionado con:** EP01
+
+**Descripción:** Como gerente agrícola, quiero asignar responsables a cada lote para mejorar la organización del trabajo.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Asignación exitosa**
+
+Dado que existen usuarios registrados
+
+Cuando el gerente asigna un responsable a un lote
+
+Entonces el sistema guarda la asignación.
+
+**Escenario 2: Reasignación**
+
+Dado que un lote ya tiene responsable
+
+Cuando el gerente asigna uno nuevo
+
+Entonces el sistema actualiza la información.
+
+#### US20 - Notificación de Retrasos en Actividades
+
+**Relacionado con:** EP05
+
+**Descripción:** Como gerente agrícola, quiero recibir notificaciones de retrasos para tomar acciones correctivas.
+
+**Criterios de Aceptación:**
+
+**Escenario 1: Detección de retraso**
+
+Dado que una actividad tiene fecha límite
+
+Cuando no se completa a tiempo
+
+Entonces el sistema genera una alerta.
+
+**Escenario 2: Actividad completada a tiempo**
+
+Dado que la actividad se ejecuta correctamente
+
+Cuando se revisa el estado
+
+Entonces no se genera alerta.
 
 ## 3.2. Impact Mapping
+
+
 ## 3.3. Product Backlog
 
 ---
@@ -922,6 +1164,8 @@ Para validar la experiencia de usuario (UX), se desarrolló un prototipo funcion
 <did align="justify">
     Kampo es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objetivos principales, el ingeniero agrónomo quien utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor  de agroindustria mediana o grande se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicación intercambia datos con servicios externos para obtener información climática en tiempo real.
 </div>
+
+
 
 ##### 4.6.3. Software Architecture Container Diagrams
 ##### 4.6.4. Software Architecture Components Diagrams

@@ -301,78 +301,78 @@
         KAMPO
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="" style="width: 100;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Agrisoft
     <div style="text-align: center;">
-                <img src="" alt="" style="width: 80;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Agricolum
       <div style="text-align: center; margin-top: 20px;">
-                <img src="" alt="" style="width: 80;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Prismab
       <div style="text-align: center; margin-top: 10px;">
-                <img src="" alt="" style="width: 180;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
             </div>
     </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Plataforma web y móvil enfocada en ingenieros agrónomos y fundos peruanos. Combina control de cultivos, rentabilidad e inventario, con la opción de escalar a servicios IoT.</td>
+    <td colspan="1" valign="top">ERP agrícola robusto para agroexportadoras y fundos grandes. Muy orientado a costos, almacenes, planillas y logística.</td>
+    <td colspan="1" valign="top">App agrícola enfocada en cuaderno de campo, trazabilidad, GPS y cumplimiento normativo.</td>
+    <td colspan="1" valign="top">Solución orientada a trazabilidad agrícola, packing y control operativo de empresas agroexportadoras.</td>
   </tr>
   <tr>
     <td colspan="2">Ventaja competitiva¿Qué valor ofrece a los clientes?</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Capacidad de traducir la gestión del cultivo en decisiones financieras simples, integrando en una sola plataforma el control operativo, el uso de recursos y la rentabilidad, mediante una experiencia accesible y adaptada a los usuarios.</td>
+    <td colspan="1" valign="top">Tiene amplia experiencia, módulos empresariales y fuerte control financiero.</td>
+    <td colspan="1" valign="top">Es muy fuerte en trazabilidad y facilidad de uso móvil.</td>
+    <td colspan="1" valign="top">Está especializado en trazabilidad y operaciones agroindustriales.</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Ingenieros agrónomos y fundos peruanos.</td>
+    <td colspan="1" valign="top">Agroexportadoras, fundos medianos y grandes, empresas con procesos complejos.</td>
+    <td colspan="1" valign="top">Agricultores, cooperativas y asesores agrícolas.</td>
+    <td colspan="1" valign="top">Empresas agrícolas y exportadoras medianas/grandes.</td>
   </tr>
   <tr>
     <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Venta directa, alianzas con ingerieros agrónomos, cooperativas, y fundos.</td>
+    <td colspan="1" valign="top">Ventas consultivas, demos empresariales, referencias y soporte especializado.</td>
+    <td colspan="1" valign="top">Marketing digital, prueba gratuita y enfoque en cumplimiento normativo.</td>
+    <td colspan="1" valign="top">B2B, relaciones comerciales y proyectos a medida.</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Registro de parcelas y cultivos, gastos, cosechas, stock de insumos, rentabilidad, dashboard y alertas.</td>
+    <td colspan="1" valign="top">Costos de producción, almacenes, planillas, maquinaria, logística y tesorería.</td>
+    <td colspan="1" valign="top">Cuaderno de campo digital, GPS, trazabilidad, gestión de cultivos y reportes.</td>
+    <td colspan="1" valign="top">Trazabilidad, control de procesos, producción y gestión agrícola.</td>
   </tr>
   <tr>
     <td colspan="2">Precios & Costos</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">La primera membresía basica cuesta S/.20 mensual, la membresia intermedia cuesta S/.45 mensual y la membresia premium cuesta S/.95 mensual.</td>
+    <td colspan="1" valign="top">El costo depende del tamaño de la operación y los módulos requeridos.</td>
+    <td colspan="1" valign="top">La primera membresía es gratuita, la segunda cuesta 168€ al año y la tercera, 336€ al año</td>
+    <td colspan="1" valign="top">No tiene membresías. Vende productos IoT (sensores, transmisores, etc.)</td>
   </tr>
   <tr>
-    <td colspan="2"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web.</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web.</td>
   </tr>
   <tr>
     <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
@@ -380,31 +380,31 @@
   </tr>
   <tr>
     <td colspan="2">Fortalezas</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Capacidad de integrar la gestión del cultivo con el análisis de rentabilidad.</td>
+    <td colspan="1" valign="top">Muy completo, experiencia de mercado y soporte sólido.</td>
+    <td colspan="1" valign="top">Interfaz sencilla, gran adopción y fuerte trazabilidad.</td>
+    <td colspan="1" valign="top">Conocimiento del sector agroindustrial y trazabilidad.</td>
   </tr>
   <tr>
     <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">No cuenta con funcionalidades avanzadas o una marca posicionada.</td>
+    <td colspan="1" valign="top">Complejo, caro y poco atractivo para fundos.</td>
+    <td colspan="1" valign="top">Menor enfoque financiero y de rentabilidad.</td>
+    <td colspan="1" valign="top">Menos orientado a fundos y menor simplicidad.</td>
   </tr>
   <tr>
     <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Gran cantidad de ingenieros agrónomos y fundos peruanos que todavía gestionan sus actividades en papel o Excel.</td>
+    <td colspan="1" valign="top">Expandirse hacia agricultura de precisión e IoT.</td>
+    <td colspan="1" valign="top">Agregar más analítica financiera.</td>
+    <td colspan="1" valign="top">Aprovechar la digitalización del sector exportador.</td>
   </tr>
   <tr>
     <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
-    <td colspan="1" valign="top"></td>
+    <td colspan="1" valign="top">Apps o ERPs existentes puedan replicar sus funcionalidades básicas o lanzar versiones simplificadas.</td>
+    <td colspan="1" valign="top">Plataformas más simples, económicas y rápidas de implementar.</td>
+    <td colspan="1" valign="top">Pierde relevancia frente a soluciones que implementan automatización, analítica y recomendaciones inteligentes basadas en datos.</td>
+    <td colspan="1" valign="top">Depende principalmente de empresas agroindustriales grandes y limita su escalabilidad hacia segmentos más amplios.</td>
   </tr>
 </table>
 

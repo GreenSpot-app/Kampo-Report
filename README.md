@@ -900,6 +900,8 @@ Para esta sección se ha realizado la creación del Impact Mapping de KAMPO, bas
 
 <img alt="Impact Mapping Ingeniero Agrónomo Asesor" src="assets/img/Impact Mapping/Impact Mapping.png">
 
+[Ver Imagen](https://raw.githubusercontent.com/GreenSpot-app/Kampo-Report/refs/heads/feature/sprint1-emily/assets/img/Impact%20Mapping/Impact%20Mapping.png)
+
 ## 3.3. Product Backlog
 
 ---

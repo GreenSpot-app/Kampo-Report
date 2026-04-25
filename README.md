@@ -866,7 +866,7 @@ USER PERSONA 02
 </div>
 <br>
 
-![big_picture_event_storming_step1](docs\assets\img\event-storming\big_picture_event_storming_step1.png)
+![big_picture_event_storming_step1](docs/assets/img/event-storming/big_picture_event_storming_step1.png)
 <br>
 
 **Paso 2: Ordenar los eventos del dominio**
@@ -875,9 +875,9 @@ USER PERSONA 02
 </div>
 <br>
 
-![big_picture_event_storming_step2_1](docs\assets\img\event-storming\big_picture_event_storming_step2_1.png)
+![big_picture_event_storming_step2_1](docs/assets/img/event-storming/big_picture_event_storming_step2_1.png)
 
-![big_picture_event_storming_step2_2](docs\assets\img\event-storming\big_picture_event_storming_step2_2.png)
+![big_picture_event_storming_step2_2](docs/assets/img/event-storming/big_picture_event_storming_step2_2.png)
 
 <br>
 
@@ -887,9 +887,9 @@ USER PERSONA 02
 </div>
 <br>
 
-![big_picture_event_storming_step3_1](docs\assets\img\event-storming\big_picture_event_storming_step3_1.png)
+![big_picture_event_storming_step3_1](docs/assets/img/event-storming/big_picture_event_storming_step3_1.png)
 
-![big_picture_event_storming_step3_2](docs\assets\img\event-storming\big_picture_event_storming_step3_2.png)
+![big_picture_event_storming_step3_2](docs/assets/img/event-storming/big_picture_event_storming_step3_2.png)
 
 ## 2.5. Ubiquitous Language
 <div align="justify">
@@ -1563,12 +1563,22 @@ Para validar la experiencia de usuario (UX), se desarrolló un prototipo funcion
     Kampo es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objetivos principales, el ingeniero agrónomo quien utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor  de agroindustria mediana o grande se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicación intercambia datos con servicios externos para obtener información climática en tiempo real.
 </div>
 
+![Context-Diagram](docs/assets/img/SystemContext-001.png)
 
 
 ##### 4.6.3. Software Architecture Container Diagrams
+
+![Container-Diagram](docs/assets/img/Container-001.png)
+
 ##### 4.6.4. Software Architecture Components Diagrams
+
+![Container-Diagram](docs/assets/img/Component-001.png)
+
 ## 4.7. Software Object-Oriented Design
 ##### 4.7.1. Class Diagrams
+
+![Class-Diagrams](docs/assets/img/class-diagram.jpeg)
+
 ## 4.8. Database Design
 ##### 4.8.1. Database Diagrams
 

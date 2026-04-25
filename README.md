@@ -283,8 +283,46 @@
 ##### 2.1.2. Estrategias y tácticas frente a competidores
 
 
+#### Estrategias:
+
+- Posicionar a KAMPO como una alternativa práctica y económica, diseñada específicamente para agricultores que no cuentan con las herramientas digitales necesarias.
 
 
+- Permitir que el usuario empiece con funciones básicas y, a medida que gana confianza, pueda acceder a herramientas más avanzadas sin complicaciones.
+
+
+- Reducir la barrera de adopción tecnológica mediante una experiencia simple y clara, adaptada al contexto rural y al nivel digital del usuario.
+
+
+- Construir una propuesta de valor basada en el uso de datos simples y útiles, que permitan al agricultor tomar decisiones rápidas sin necesidad de conocimientos técnicos avanzados.
+
+
+- Diferenciarse al integrar en una sola plataforma el manejo del cultivo y el control de la rentabilidad, brindando una visión completa del negocio agrícola.
+
+#### Tácticas:
+
+
+- Implementar tutoriales interactivos y soporte dentro de la plataforma que acompañen al usuario en sus primeros usos.
+
+
+
+
+- Incorporar dashboards simples y alertas automáticas que conviertan los datos en acciones concretas para el agricultor.
+
+
+
+
+- Conectar el registro de cultivos con el análisis de costos y rentabilidad para ofrecer información en tiempo real.
+
+
+
+
+- Mostrar el valor de la plataforma mediante demostraciones en campo y contenido práctico en redes sociales.
+
+
+
+
+- Generar alianzas con agrónomos, asociaciones y cooperativas para impulsar la adopción y fortalecer la confianza en la herramienta.
 
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas

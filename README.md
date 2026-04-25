@@ -245,16 +245,62 @@
 
 ##### 1.2.2. Lean UX Process
 ###### 1.2.2.1. Lean UX Problem Statements
+En el sector agrícola peruano, el pequeño y mediano productor (que gestiona entre 3 y 50 hectáreas) opera en un entorno de alta incertidumbre y falta de herramientas técnicas. 
+A diferencia de las grandes agroexportadoras que utilizan tecnología de precisión, el agricultor tradicional toma decisiones críticas basadas en la intuición o experiencias pasadas.
+¿Cómo podríamos facilitar que estos productores accedan a datos técnicos de su campo sin que puedan tener una inversión inalcanzable?
+
+Hemos observado que la gestión del riego es uno de los puntos más críticos. Actualmente, gran parte de los agricultores riega bajo un calendario fijo o por simple observación, 
+lo que genera un desperdicio de agua de hasta el 45%. Esto reduce la calidad del producto final e impide que se venda a un precio competitivo. Ante esto, surge la interrogante:
+¿Existe una forma de proporcionar indicadores precisos sobre el clima y la calidad del suelo para asegurar una cosecha óptima?
+
+Por otro lado, la administración financiera de las parcelas suele llevarse de forma manual en cuadernos o registros informales. Esto impide que el agricultor conozca con precisión
+la rentabilidad por cada campaña, lo cual es vital dado que la agricultura se rige por temporadas. No contabilizar adecuadamente los costos genera un desconocimiento crítico sobre
+la inversión en insumos y mano de obra. ¿De qué manera podríamos ayudar a los agricultores a que puedan gestionar sus costos y conocer su rentabilidad real?
+
+Finalmente, factores externos  como el cambio climático y el alza de precios en fertilizantes obligan a los productores a ser más eficientes que nunca. Sin embargo, la información 
+técnica sobre el estado de sus cultivos tarda en ser procesada o simplemente no existe, esto impide que el agricultor llegue a tomar decisiones a ciegas y no pueda gestionar de una 
+manera rentable su cultivo. ¿De qué manera podríamos ayudar a los agricultores a que puedan gestionar su cosecha de manera rentable?
 
 
 ###### 1.2.2.2. Lean UX Assumptions
 #### A. BUSINESS OUTCOMES
+Para que nuestro software pueda tener un mejor resultado, hemos realizado diversas suposiciones para validar el uso de la aplicación:
+
+* **Reducción de Abandono:** Mantener una tasa de abandono menor al 10% mensual, asegurando que el agricultor pueda gestionar sus datos con nuestra app luego de probarlo
+* gratuitamente.
+* **Crecimiento Orgánico:** Conseguir que cada usuario activo refiera al menos a más agricultores de su misma zona o asociación, reduciendo el costo de adquisición de clientes en
+* regiones rurales, de esta manera la aplicación crecerá de manera exponencial en el rubro de la agricultura.
+* **Escalabilidad del Dominio:** Validar que el modelo de "Campaña y Lote" funcione tanto para cultivos de costa como de la sierra, permitiendo tener una expansión por todo el Perú.
+* **Reducción de Pérdidas:** Disminuir en un 25% las pérdidas de cultivos reportadas por los usuarios gracias a la anticipación mediante alertas técnicas.
 
 
 #### B. USERS OUTCOMES
+Vamos a asumir diversos supuestos del cliente para que de esta manera tener una validación en la aplicación a realizar.
+
+* **¿Quién es el cliente?**
+  Pequeños y medianos agricultores peruanos ubicados en las regiones del Perú, que poseen smartphones pero carecen de herramientas digitales especializadas para el campo.
+* **¿Dónde encaja nuestro producto en su vida?**
+  Como una herramienta de consulta diaria en la parcela para la toma de decisiones técnicas y como libro digital para operaciones financieras.
+* **¿Qué problemas soluciona nuestro producto?**
+  Elimina la incertidumbre sobre el riego, previene la pérdida de cultivos por falta de datos técnicos y ambientales y ayuda a la gestión financiera de los usuarios.
+* **¿Cuándo y cómo se utiliza nuestro producto?**
+  Diariamente para monitorear el estado del suelo y clima, y de manera frecuente para el control de gastos operativos.
+* **¿Qué características son importantes?**
+  Alertas preventivas de riego/clima, registro simplificado de ingresos y egresos, historial de campañas, etc.
+* **¿Cómo deberían verse y comportarse nuestro producto?**
+  Con una interfaz amigable, iconos con fácil visibilidad, legibles, que pueda ser fácil el uso para los agricultores y que tengan un rendimiento bueno.
 
   
 ###### 1.2.2.3. Lean UX Hypothesis Statements
+* **Hipótesis 1:**
+**Creemos que** al proporcionar un sistema de alertas de riego basado en sensores de humedad y clima para los pequeños y medianos agricultores, lograremos que reduzcan el
+desperdicio de agua en un 20% y mejoren la calidad de su cosecha. **Sabremos que tenemos razón cuando** los registros de riego en la plataforma muestren resultados en comparación a
+como antes el usuarios desperdiciaba agua en sus cultivos.
+
+* **Hipótesis 2:**
+**Creemos que** al implementar un módulo de registro simplificado de ingresos y egresos por campaña para los productores, lograremos que el agricultor identifique su utilidad neta
+en tiempo real y tome mejores decisiones de inversión, además de tener una ayuda interna con la aplicación para dichas decisiones. **Sabremos que tenemos razón cuando** el 60% de
+los usuarios activos logren completar el flujo financiero total de su cosecha dentro de la aplicación.
 
 
 
@@ -301,24 +347,24 @@
         KAMPO
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/Logos-%20Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100px;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Agrisoft
     <div style="text-align: center;">
-                <img src="assets/img/Logos-%20Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80px;"></img>
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Agricolum
       <div style="text-align: center; margin-top: 20px;">
-                <img src="assets/img/Logos-%20Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80px;"></img>
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Prismab
       <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/Logos-%20Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180px;"></img>
             </div>
     </td>
   </tr>
@@ -427,9 +473,56 @@
 
 ## 2.3. Needfinding
 ##### 2.3.1. User Personas
+<<<<<<< HEAD
+=======
+Las User Personas representan arquetipos construidos a partir de la información recopilada en las entrevistas realizadas a los segmentos objetivo, complementadas con el análisis del contexto del sector agrícola. Estas permiten sintetizar comportamientos, necesidades y problemáticas comunes, facilitando la toma de decisiones en el diseño de soluciones centradas en el usuario.
+En este caso, se elaboraron dos User Personas correspondientes a los segmentos identificados: ingenieros agrónomos asesores y actores del sector agroindustrial. Las características incluidas en cada perfil se derivan directamente de los patrones observados en las entrevistas, tales como el uso de herramientas no especializadas, la falta de monitoreo en tiempo real y la necesidad de centralización de información
+
+USER PERSONA 01- Ingeniero agrónomo asesor
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202docs//Carlos MenLogos-Competidores/>
+  <br/>
+</p>
+
+USER PERSONA 02 - Agroindustria mediana y grande
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202docs//Luis RamosLogos-Competidores<br/>
+</p>
+
+>>>>>>> d0efd1d5801a2299addc682027924d72cebb5b62
 ##### 2.3.2. User Task Matrix
 ##### 2.3.3. User Journey Mapping
+<<<<<<< HEAD
 ##### 2.3.4. Empathy Mapping
+=======
+SEGMENTO 01
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202/SEGMENTO 1.png" width="500"/>
+  <br/>
+</p>
+
+SEGMENTO 02
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202/SEGMENTO 2.png" width="500"/>
+  <br/>
+</p>
+
+##### 2.3.4. Empathy Mapping
+El Empathy Mapping permite comprender de manera integral a los usuarios, identificando sus pensamientos, emociones, acciones y entorno. A partir de este análisis, se identifican los principales pains y gains, los cuales permiten detectar oportunidades de mejora y orientar el diseño de la solución propuesta.
+
+USER PERSONA 01
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202/PERSONA 1.png" width="500"/>
+  <br/>
+</p>
+
+USER PERSONA 02
+<p align="center">
+  <img src="docs/assets/img/Capítulo%202/PERSONA 2.png" width="500"/>
+  <br/>
+</p>
+
+>>>>>>> d0efd1d5801a2299addc682027924d72cebb5b62
 ## 2.4. Big Picture Event Storming
 <div align="justify">
     Empleamos la técnica de Big Picture Event para que, a través del modelado, se pueda explorar y comprender el dominio del negocio identificando eventos clave, actores y sus interacciones. Además, nos brinda una visión global del funcionamiento del sistema, facilitando la detección de procesos, relaciones y posibles problemáticas dentro del negocio.
@@ -519,15 +612,141 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ---
 
 ## Capítulo IV: Product Design
-## 4.1. Style Guidelines](#41-style-guidelines)
+## 4.1. Style Guidelines
 ##### 4.1.1. General Style Guidelines
+
+Las Decisiones de Estilo de Kampo se basan en la necesidad de poder transmitir una cierta confianza, cercanía y profesionalismo en el contexto de la gestión de campos para pequeños y medianos agricultores. Se busca una interfaz clara, accesible y consistente, que pueda facilitar la interacción que tengan nuestros segmentos usuarios al momento de ayudarlos en sus diversos objetivos.
+
+Branding
+El branding de KAMPO no es solo estética; es una declaración de intenciones. El nombre, con la sustitución de la "C" por la "K", denota una evolución tecnológica del campo tradicional.
+
+* Isotipo: El logotipo integra surcos de siembra en perspectiva con una flecha de crecimiento ascendente y ondas de señal inalámbrica (IoT). Esto comunica que el campo no solo crece, sino que se comunica y se optimiza.
+* Identidad Visual: Se aleja de los verdes pasteles para usar verdes profundos y saturados que representan la salud de un cultivo maduro, contrastados con el naranja del sol y las alertas críticas
+
+## Tipografía
+
+| Tipo | Fuente | Uso | Razón |
+| :--- | :--- | :--- | :--- |
+| **Display/Heading** | Montserrat | Títulos y métricas clave | Transmite solidez y autoridad en los reportes. |
+| **Body** | Open Sans | Texto de contenido y tablas | Optimizada para lectura en pantallas móviles bajo condiciones de alta luminosidad solar. |
+| **Monospace** | JetBrains Mono | Datos de sensores e ID de lotes | Facilita la lectura de coordenadas y valores numéricos precisos sin errores de interpretación. |
+
+## Colors
+
+| Nombre | Hex | Uso |
+| :--- | :--- | :--- |
+| Agro Primary | `#1B4332` | Marca, Sidebar y Títulos |
+| Harvest Gold | `#FF9F1C` | Botones de acción y Alertas |
+| Soil Neutral | `#E9ECEF` | Fondos de aplicación |
+| Critical Red | `#D00000` | Alertas de plagas o estrés hídrico |
+
+La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
+
+Spacing:
+
+El sistema de espaciado de KAMPO se basa en una unidad base de 8px, siguiendo buenas prácticas de diseño UI modernas.
+
+Se utilizan múltiplos de esta unidad para mantener consistencia:
+
+8px → separación mínima
+16px → separación estándar
+24px / 32px → separación entre secciones
+48px → separación de bloques principales
+
+Lo que se quiere transmitir con todo esto es poder generar una confianza a los usuarios los cuales van a utilizar esta app y que ellos puedan interactuar de una manera positiva.
+
+
 ##### 4.1.2. Web Style Guidelines
+
+Las Web Style Guidelines de KAMPO establecen los estándares de diseño de interfaz (UI) y experiencia de usuario (UX) específicos para nuestra plataforma. Estas guías aseguran que la herramienta sea funcional bajo condiciones extremas de uso, como alta luminosidad solar, conectividad intermitente y el uso de dispositivos móviles en movimiento.
+
+Diseño Responsive:
+
+La aplicación se adapta a los siguientes dispositivos:
+
+* Desktop
+* Mobile
+* Tablet
+
+Componentes Críticos del Sistema de Diseño:
+
+Los componentes del sistema de KAMPO han sido diseñados bajo principios de robustez, eficiencia y escalabilidad
+
+* **Navbar & Sidebar:** En la Landing Page, se utiliza una Navbar superior fija para acceso rápido a "Planes" y "Nosotros". En la Web App, se implementa una Sidebar colapsable que prioriza el espacio para los mapas y gráficos, permitiendo navegar entre "Mis Fundos", "Reportes" y "Finanzas".
+* **Action Buttons:** Diseñados con bordes redondeados (8px) y un tamaño mínimo de 48px para facilitar el uso táctil en campo.
+    * **Primary:** Color Verde Agro (#1B4332) para acciones de guardado y registro de visitas.
+    * **Secondary:** Color Naranja Harvest (#FF9F1C) para alertas de riego o llamadas a la acción crítica.
+* **Hero Section:** Ubicada al inicio de la Landing Page, presenta un mensaje de alto impacto sobre la digitalización del agro peruano, acompañado de una imagen de alta resolución que evoca profesionalismo y un botón de "Comenzar Prueba Gratis".
+* **Data-Driven Cards:** Componente central de la interfaz. Se utilizan para mostrar el resumen de cada lote. Incluyen un indicador de color semántico y métricas clave como humedad y temperatura, permitiendo una lectura rápida sin entrar al detalle.
+* **Field Forms:** Inputs optimizados para la entrada de datos en movimiento. Utilizan Steppers para cantidades de fertilizantes y Sliders para niveles de severidad de plagas, reduciendo la necesidad de usar el teclado virtual del celular.
+* **Status Badges:** Pequeños elementos visuales que indican la etapa actual del cultivo (Siembra, Crecimiento, Cosecha) o el estado de sincronización de los datos IoT (Sincronizado / Pendiente).
+* **Icons:** Set de iconos minimalistas y reconocibles basados en el sector: una gota para riego, un brote para cultivo, un billete para finanzas y un sensor para datos IoT.
+
+### Estándares de Interacción
+Para garantizar que el usuario sepa que su acción fue registrada en entornos de distracción se implementan:
+
+* **Micro-interacciones de Confirmación:** Los botones de guardado cambian a un estado de "Cargando" y luego a un "Check" verde mediante transiciones suaves de 300ms, proporcionando certeza visual.
+* **Skeleton Screens:** Durante la carga de datos de sensores IoT, se muestran estructuras grises que imitan el contenido final, reduciendo la percepción de tiempo de espera y la ansiedad del usuario.
+* **Haptic Feedback (Mobile):** El uso de vibraciones ligeras al detectar una "Alerta Crítica" para captar la atención del usuario sin necesidad de que esté mirando la pantalla constantemente.
+
 ## 4.2. Information Architecture
+
+En KAMPO, la arquitectura de información ha sido diseñada para que el usuario tenga una buena interacción. Se diferencia estratégicamente la experiencia del Landing Page (orientada a la persuasión y conversión de agrónomos y empresas) de la Web Application (orientada a la eficiencia operativa y toma de decisiones técnicas). El objetivo primordial es minimizar la carga cognitiva, permitiendo que el usuario acceda a datos críticos de sensores o registros financieros con la menor cantidad de interacciones posibles. 
+
 ##### 4.2.1. Organization Systems
+
+### Sistema de Organización
+El sistema de organización se ha estructurado de tres formas distintas según el contexto de uso:
+
+* **Organización Jerárquica (Visual Hierarchy):** Se aplica en el Dashboard principal. La información fluye de lo macro a lo micro: **Fundo > Sector > Lote > Planta**. Esto permite que un gerente agrícola pueda ver el estado general de su empresa y descender hasta el detalle de un sensor específico.
+* **Organización Secuencial (Step-by-Step):** Utilizada para procesos críticos como el "Registro de Visita de Campo" y el "Cierre de Campaña Financiera". Estos flujos guían al usuario paso a paso para asegurar que no se omitan datos técnicos (como severidad de plagas) ni contables (como costos de insumos).
+* **Esquema de Categorización por Tópicos:** Dentro de la ficha de cada lote, la información se agrupa por temas: **Monitoreo Técnico** (clima y suelo), **Gestión de Insumos** (fertilizantes) y **Cronograma** (etapas del cultivo).
+
 ##### 4.2.2. Labeling Systems
+
+Se ha implementado un sistema de la siguiente manera:
+
+| Etiqueta | Descripción del contenido |
+| :--- | :--- |
+| **Mis Fundos** | Panel central que agrupa todas las unidades productivas del usuario. |
+| **Bitácora** | Historial cronológico de observaciones, fotos y notas tomadas en campo. |
+| **Alertas** | Notificaciones automáticas de estrés hídrico o anomalías climáticas. |
+| **Campaña** | Sección para la gestión financiera y técnica de un ciclo de cultivo específico. |
+| **Lote** | Vista detallada de una subdivisión específica del fundo con datos de sensores. |
+
 ##### 4.2.3. SEO Tags and Meta Tags
+
+**Landing Page**
+
+* **Title:** KAMPO | Gestión Agrícola Inteligente e IoT en Perú
+* **Description:** Digitaliza tu fundo con KAMPO. Monitoreo de cultivos por sensores y control de rentabilidad para ingenieros agrónomos y pequeños productores.
+* **Keywords:** agricultura digital perú, software agrónomos, riego inteligente iot, gestión de fundos, rentabilidad agrícola.
+* **Author:** GreenSpot-app
+
+**Web Application**
+
+* **Title:** Dashboard KAMPO | Panel de Control Agrícola
+* **Description:** Sistema de gestión operativa: registro de visitas, alertas técnicas y análisis de costos en tiempo real.
+* **Keywords:** dashboard agrícola, monitoreo iot, reporte de plagas, control de cosecha.
+
 ##### 4.2.4. Searching Systems
+
+
+El sistema de búsqueda está diseñado para manejar grandes volúmenes de datos históricos y múltiples parcelas:
+
+* **Búsqueda Predictiva:** En el Dashboard, el usuario puede buscar por nombre de **Fundo** o **Lote**, obteniendo sugerencias inmediatas mientras escribe.
+* **Filtros de Estado:** En la sección de reportes, se incluyen filtros avanzados por **Fecha**, **Tipo de Cultivo** y **Nivel de Severidad** de plagas detectadas.
+* **Búsqueda por Atributos:** Permite localizar rápidamente lotes que se encuentren en una etapa específica (ej. *"Lotes en Cosecha"*) para optimizar la logística del personal.
+
+
 ##### 4.2.5. Navigation Systems
+
+Se han definido tres niveles de navegación para asegurar que el usuario nunca se sienta perdido:
+
+* **Navegación Estructural:** Una barra lateral persistente en la Web App con iconos reconocibles que permiten saltar entre las funciones principales.
+* **Navegación de Contexto:** Indicadores de ruta (breadcrumbs) que permiten al usuario retroceder niveles jerárquicos fácilmente.
+* **Navegación de Utilidad:** Ubicada en la parte superior derecha, incluye el perfil del ingeniero, configuración de sensores y acceso directo a notificaciones de alerta crítica.
+
 ## 4.3. Landing Page UI Design
 ##### 4.3.1. Landing Page Wireframe
 ##### 4.3.2. Landing Page Mock-up
@@ -657,6 +876,23 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 
 ## Bibliografía
 
+<<<<<<< HEAD
+=======
+Business Empresarial. (2024). *Perú enfrenta rezagos de tecnificación en el agro: Solo el 20% de su superficie agrícola cuenta con riego tecnificado*. https://www.businessempresarial.com.pe/peru-enfrenta-rezagos-de-tecnificacion-en-el-agro-solo-el-20-de-su-superficie-agricola-cuenta-con-riego-tecnificado-2/
+
+Centro Nacional de Planeamiento Estratégico. (s.f.). *Agricultura 4.0: La revolución tecnológica transformará el futuro del cultivo y la producción alimentaria*.CEPLAN - Plataforma del Estado Peruano.https://www.gob.pe/institucion/ceplan/noticias/822019-agricultura-4-0-la-revolucion-tecnologica-transformara-el-futuro-del-cultivo-y-la-produccion-limentaria
+
+Corporación ADAMA Perú. (2025, agosto 20). *Tecnología en el agro: Los softwares agrícolas que están revolucionando la producción*.https://www.adama.com/peru/es/noticias/tecnologia-en-el-agro-los-softwares-agricolas-que-estan-revolucionando-la-produccion
+
+Ernst & Young Perú. (2025, diciembre 22). *¿Cómo le va al agro en el Perú?*EY Insights.https://www.ey.com/es_pe/insights/revista-execution/tendencias/agro-en-peru
+
+Ministerio de Desarrollo Agrario y Riego. (s.f.). *Problemas en la agricultura peruana*. MIDAGRI.https://www.midagri.gob.pe/portal/22-sector-agrario/vision-general/190-problemas-en-la-agricultura-peruana
+
+Pizarro Valladares, J. F. (2022, octubre 18). *Tecnología, la clave para el impulso de la agricultura peruana 4.0*. Conexión ESAN.https://www.esan.edu.pe/conexion-esan/tecnologia-la-clave-para-el-impulso-de-la-agricultura-peruana-4-0
+
+Redacción Infobae Perú. (2025, octubre 25). *Agricultura inteligente: Un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae.https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru
+
+>>>>>>> d0efd1d5801a2299addc682027924d72cebb5b62
 ## Anexos
 
 

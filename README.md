@@ -414,24 +414,24 @@ un requisito competitivo y no solo una ventaja.
         KAMPO
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/Logos-%20Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100px;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Agrisoft
     <div style="text-align: center;">
-                <img src="assets/img/Logos-%20Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80px;"></img>
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Agricolum
       <div style="text-align: center; margin-top: 20px;">
-                <img src="assets/img/Logos-%20Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80px;"></img>
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Prismab
       <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/Logos-%20Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
+                <img src="docs/assets/img/Logos-Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180px;"></img>
             </div>
     </td>
   </tr>
@@ -696,14 +696,13 @@ En este caso, se elaboraron dos User Personas correspondientes a los segmentos i
 
 USER PERSONA 01- Ingeniero agrónomo asesor
 <p align="center">
-  <img src="assets/img/cap-ii/Carlos Mendoza.png" width="500"/>
+  <img src="docs/assets/img/Capítulo%202docs//Carlos MenLogos-Competidores/>
   <br/>
 </p>
 
 USER PERSONA 02 - Agroindustria mediana y grande
 <p align="center">
-  <img src="assets/img/cap-ii/Luis Ramos.png" width="500"/>
-  <br/>
+  <img src="docs/assets/img/Capítulo%202docs//Luis RamosLogos-Competidores<br/>
 </p>
 
 ##### 2.3.2. User Task Matrix
@@ -730,13 +729,13 @@ Las tareas con mayor frecuencia e importancia para ambos segmentos son consolida
 ##### 2.3.3. User Journey Mapping
 SEGMENTO 01
 <p align="center">
-  <img src="assets/img/cap-ii/SEGMENTO 1.png" width="500"/>
+  <img src="docs/assets/img/Capítulo%202/SEGMENTO 1.png" width="500"/>
   <br/>
 </p>
 
 SEGMENTO 02
 <p align="center">
-  <img src="assets/img/cap-ii/SEGMENTO 2.png" width="500"/>
+  <img src="docs/assets/img/Capítulo%202/SEGMENTO 2.png" width="500"/>
   <br/>
 </p>
 
@@ -745,13 +744,13 @@ El Empathy Mapping permite comprender de manera integral a los usuarios, identif
 
 USER PERSONA 01
 <p align="center">
-  <img src="assets/img/cap-ii/PERSONA 1.png" width="500"/>
+  <img src="docs/assets/img/Capítulo%202/PERSONA 1.png" width="500"/>
   <br/>
 </p>
 
 USER PERSONA 02
 <p align="center">
-  <img src="assets/img/cap-ii/PERSONA 2.png" width="500"/>
+  <img src="docs/assets/img/Capítulo%202/PERSONA 2.png" width="500"/>
   <br/>
 </p>
 

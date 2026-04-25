@@ -436,11 +436,63 @@ Para garantizar que el usuario sepa que su acción fue registrada en entornos de
 * **Haptic Feedback (Mobile):** El uso de vibraciones ligeras al detectar una "Alerta Crítica" para captar la atención del usuario sin necesidad de que esté mirando la pantalla constantemente.
 
 ## 4.2. Information Architecture
+
+En KAMPO, la arquitectura de información ha sido diseñada para que el usuario tenga una buena interacción. Se diferencia estratégicamente la experiencia del Landing Page (orientada a la persuasión y conversión de agrónomos y empresas) de la Web Application (orientada a la eficiencia operativa y toma de decisiones técnicas). El objetivo primordial es minimizar la carga cognitiva, permitiendo que el usuario acceda a datos críticos de sensores o registros financieros con la menor cantidad de interacciones posibles. 
+
 ##### 4.2.1. Organization Systems
+
+### Sistema de Organización
+El sistema de organización se ha estructurado de tres formas distintas según el contexto de uso:
+
+* **Organización Jerárquica (Visual Hierarchy):** Se aplica en el Dashboard principal. La información fluye de lo macro a lo micro: **Fundo > Sector > Lote > Planta**. Esto permite que un gerente agrícola pueda ver el estado general de su empresa y descender hasta el detalle de un sensor específico.
+* **Organización Secuencial (Step-by-Step):** Utilizada para procesos críticos como el "Registro de Visita de Campo" y el "Cierre de Campaña Financiera". Estos flujos guían al usuario paso a paso para asegurar que no se omitan datos técnicos (como severidad de plagas) ni contables (como costos de insumos).
+* **Esquema de Categorización por Tópicos:** Dentro de la ficha de cada lote, la información se agrupa por temas: **Monitoreo Técnico** (clima y suelo), **Gestión de Insumos** (fertilizantes) y **Cronograma** (etapas del cultivo).
+
 ##### 4.2.2. Labeling Systems
+
+Se ha implementado un sistema de la siguiente manera:
+
+| Etiqueta | Descripción del contenido |
+| :--- | :--- |
+| **Mis Fundos** | Panel central que agrupa todas las unidades productivas del usuario. |
+| **Bitácora** | Historial cronológico de observaciones, fotos y notas tomadas en campo. |
+| **Alertas** | Notificaciones automáticas de estrés hídrico o anomalías climáticas. |
+| **Campaña** | Sección para la gestión financiera y técnica de un ciclo de cultivo específico. |
+| **Lote** | Vista detallada de una subdivisión específica del fundo con datos de sensores. |
+
 ##### 4.2.3. SEO Tags and Meta Tags
+
+**Landing Page**
+
+* **Title:** KAMPO | Gestión Agrícola Inteligente e IoT en Perú
+* **Description:** Digitaliza tu fundo con KAMPO. Monitoreo de cultivos por sensores y control de rentabilidad para ingenieros agrónomos y pequeños productores.
+* **Keywords:** agricultura digital perú, software agrónomos, riego inteligente iot, gestión de fundos, rentabilidad agrícola.
+* **Author:** GreenSpot-app
+
+**Web Application**
+
+* **Title:** Dashboard KAMPO | Panel de Control Agrícola
+* **Description:** Sistema de gestión operativa: registro de visitas, alertas técnicas y análisis de costos en tiempo real.
+* **Keywords:** dashboard agrícola, monitoreo iot, reporte de plagas, control de cosecha.
+
 ##### 4.2.4. Searching Systems
+
+
+El sistema de búsqueda está diseñado para manejar grandes volúmenes de datos históricos y múltiples parcelas:
+
+* **Búsqueda Predictiva:** En el Dashboard, el usuario puede buscar por nombre de **Fundo** o **Lote**, obteniendo sugerencias inmediatas mientras escribe.
+* **Filtros de Estado:** En la sección de reportes, se incluyen filtros avanzados por **Fecha**, **Tipo de Cultivo** y **Nivel de Severidad** de plagas detectadas.
+* **Búsqueda por Atributos:** Permite localizar rápidamente lotes que se encuentren en una etapa específica (ej. *"Lotes en Cosecha"*) para optimizar la logística del personal.
+
+
 ##### 4.2.5. Navigation Systems
+
+Se han definido tres niveles de navegación para asegurar que el usuario nunca se sienta perdido:
+
+* **Navegación Estructural:** Una barra lateral persistente en la Web App con iconos reconocibles que permiten saltar entre las funciones principales.
+* **Navegación de Contexto:** Indicadores de ruta (breadcrumbs) que permiten al usuario retroceder niveles jerárquicos fácilmente.
+* **Navegación de Utilidad:** Ubicada en la parte superior derecha, incluye el perfil del ingeniero, configuración de sensores y acceso directo a notificaciones de alerta crítica.
+
 ## 4.3. Landing Page UI Design
 ##### 4.3.1. Landing Page Wireframe
 ##### 4.3.2. Landing Page Mock-up

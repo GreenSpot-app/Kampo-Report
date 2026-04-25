@@ -380,10 +380,146 @@ un requisito competitivo y no solo una ventaja.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
-
+<div align="justify">
+    Agrisoft es una empresa peruana centrada en la gestión administrativa y financiera del sector agroindustrial, la cual ofrece un sistema ERP completo que permite controlar costos por hectárea, manejar planillas, gestionar almacenes, llevar trazabilidad de cosechas y facturar electrónicamente integrado con SUNAT. Asimismo, algunas de sus funcionalidades son el registro detallado de insumos, maquinaria y mano de obra, la generación de reportes financieros por cultivo o temporada, y el control de stock y compras. Por último, este sistema está enfocado en grandes agroexportadoras, cooperativas agrícolas de tamaño mediano a grande y empresas del agro peruano que requieren un control contable riguroso.
+</div>
+<br>
+<div align="justify">
+    Agricolum es una plataforma internacional de origen español que combina el cuaderno de campo digital con la gestión operativa y financiera de una explotación agrícola. Además, permite registrar tareas y tratamientos fitosanitarios, controlar costos por cultivo, gestionar mano de obra, generar trazabilidad obligatoria para normativas europeas y exportar informes regulatorios, y sus funcionalidades incluyen la planificación de cosechas, el control de inventario de insumos, el registro de jornales y la generación automática de reportes para certificaciones. Finalmente, esta plataforma está enfocada en empresas de servicios agrícolas, cooperativas y asesores agrónomos que necesitan cumplir con exigencias legales de trazabilidad y cuaderno de campo digital.
+</div>
+<br>
+<div align="justify">
+    Prismab es una solución especializada en el monitoreo técnico del riego, con un fuerte enfoque en la eficiencia hídrica y la reducción del consumo de agua, por esta razón, utiliza sensores inalámbricos que miden humedad del suelo y salinidad, enviando datos en tiempo real a una plataforma digital. También incluye funcionalidades como alertas automáticas por condiciones críticas, reportes históricos de consumo de agua, recomendaciones precisas para optimizar el riego e integración con sistemas de riego automatizado. En resumen, Prismab está enfocada en agricultores que ya utilizan o desean implementar riego tecnificado, especialmente en zonas con estrés hídrico, y en cultivos de alto valor.
+</div>
 
 ##### 2.1.1. Análisis competitivo
-
+<div align="justify">
+    El análisis competitivo implica examinar detenidamente a nuestros competidores para identificar sus fortalezas, debilidades, oportunidades y amenazas. Esto nos proporcionará una visión clara de nuestro posicionamiento en el mercado y nos ayudará a desarrollar estrategias efectivas.
+</div>
+<br>
+<table>
+  <tr>
+    <th colspan="7" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+  </tr>
+  <tr>
+    <td colspan="5">El análisis competitivo es fundamental para entender el entorno en el que KAMPO opera, identificar las fortalezas y debilidades de los competidores, y descubrir oportunidades y amenazas en el mercado. Este análisis ayuda a posicionar mejor nuestra startup en relación con los competidores y a definir estrategias que maximicen nuestra ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td colspan="3">Nombre y Logo</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        KAMPO
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/img/Logos-%20Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
+        </div>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+    Agrisoft
+    <div style="text-align: center;">
+                <img src="assets/img/Logos-%20Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      Agricolum
+      <div style="text-align: center; margin-top: 20px;">
+                <img src="assets/img/Logos-%20Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
+            </div>
+      </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" >
+      Prismab
+      <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/img/Logos-%20Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
+            </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td colspan="1" valign="top">Plataforma web y móvil enfocada en ingenieros agrónomos y fundos peruanos. Combina control de cultivos, rentabilidad e inventario, con la opción de escalar a servicios IoT.</td>
+    <td colspan="1" valign="top">ERP agrícola robusto para agroexportadoras y fundos grandes. Muy orientado a costos, almacenes, planillas y logística.</td>
+    <td colspan="1" valign="top">App agrícola enfocada en cuaderno de campo, trazabilidad, GPS y cumplimiento normativo.</td>
+    <td colspan="1" valign="top">Solución orientada a trazabilidad agrícola, packing y control operativo de empresas agroexportadoras.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1" valign="top">Capacidad de traducir la gestión del cultivo en decisiones financieras simples, integrando en una sola plataforma el control operativo, el uso de recursos y la rentabilidad, mediante una experiencia accesible y adaptada a los usuarios.</td>
+    <td colspan="1" valign="top">Tiene amplia experiencia, módulos empresariales y fuerte control financiero.</td>
+    <td colspan="1" valign="top">Es muy fuerte en trazabilidad y facilidad de uso móvil.</td>
+    <td colspan="1" valign="top">Está especializado en trazabilidad y operaciones agroindustriales.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td colspan="1" valign="top">Ingenieros agrónomos y fundos peruanos.</td>
+    <td colspan="1" valign="top">Agroexportadoras, fundos medianos y grandes, empresas con procesos complejos.</td>
+    <td colspan="1" valign="top">Agricultores, cooperativas y asesores agrícolas.</td>
+    <td colspan="1" valign="top">Empresas agrícolas y exportadoras medianas/grandes.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td colspan="1" valign="top">Venta directa, alianzas con ingerieros agrónomos, cooperativas, y fundos.</td>
+    <td colspan="1" valign="top">Ventas consultivas, demos empresariales, referencias y soporte especializado.</td>
+    <td colspan="1" valign="top">Marketing digital, prueba gratuita y enfoque en cumplimiento normativo.</td>
+    <td colspan="1" valign="top">B2B, relaciones comerciales y proyectos a medida.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td colspan="1" valign="top">Registro de parcelas y cultivos, gastos, cosechas, stock de insumos, rentabilidad, dashboard y alertas.</td>
+    <td colspan="1" valign="top">Costos de producción, almacenes, planillas, maquinaria, logística y tesorería.</td>
+    <td colspan="1" valign="top">Cuaderno de campo digital, GPS, trazabilidad, gestión de cultivos y reportes.</td>
+    <td colspan="1" valign="top">Trazabilidad, control de procesos, producción y gestión agrícola.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Precios & Costos</td>
+    <td colspan="1" valign="top">La primera membresía basica cuesta S/.20 mensual, la membresia intermedia cuesta S/.45 mensual y la membresia premium cuesta S/.95 mensual.</td>
+    <td colspan="1" valign="top">El costo depende del tamaño de la operación y los módulos requeridos.</td>
+    <td colspan="1" valign="top">La primera membresía es gratuita, la segunda cuesta 168€ al año y la tercera, 336€ al año</td>
+    <td colspan="1" valign="top">No tiene membresías. Vende productos IoT (sensores, transmisores, etc.)</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web.</td>
+    <td colspan="1" valign="top">Web y móvil.</td>
+    <td colspan="1" valign="top">Web.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="5"><p>Análisis SWOT</p></td>
+    <td colspan="6">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top">Capacidad de integrar la gestión del cultivo con el análisis de rentabilidad.</td>
+    <td colspan="1" valign="top">Muy completo, experiencia de mercado y soporte sólido.</td>
+    <td colspan="1" valign="top">Interfaz sencilla, gran adopción y fuerte trazabilidad.</td>
+    <td colspan="1" valign="top">Conocimiento del sector agroindustrial y trazabilidad.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top">No cuenta con funcionalidades avanzadas o una marca posicionada.</td>
+    <td colspan="1" valign="top">Complejo, caro y poco atractivo para fundos.</td>
+    <td colspan="1" valign="top">Menor enfoque financiero y de rentabilidad.</td>
+    <td colspan="1" valign="top">Menos orientado a fundos y menor simplicidad.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top">Gran cantidad de ingenieros agrónomos y fundos peruanos que todavía gestionan sus actividades en papel o Excel.</td>
+    <td colspan="1" valign="top">Expandirse hacia agricultura de precisión e IoT.</td>
+    <td colspan="1" valign="top">Agregar más analítica financiera.</td>
+    <td colspan="1" valign="top">Aprovechar la digitalización del sector exportador.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top">Apps o ERPs existentes puedan replicar sus funcionalidades básicas o lanzar versiones simplificadas.</td>
+    <td colspan="1" valign="top">Plataformas más simples, económicas y rápidas de implementar.</td>
+    <td colspan="1" valign="top">Pierde relevancia frente a soluciones que implementan automatización, analítica y recomendaciones inteligentes basadas en datos.</td>
+    <td colspan="1" valign="top">Depende principalmente de empresas agroindustriales grandes y limita su escalabilidad hacia segmentos más amplios.</td>
+  </tr>
+</table>
 
 ##### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -620,9 +756,67 @@ USER PERSONA 02
 </p>
 
 ## 2.4. Big Picture Event Storming
+<div align="justify">
+    Empleamos la técnica de Big Picture Event para que, a través del modelado, se pueda explorar y comprender el dominio del negocio identificando eventos clave, actores y sus interacciones. Además, nos brinda una visión global del funcionamiento del sistema, facilitando la detección de procesos, relaciones y posibles problemáticas dentro del negocio.
+</div>
+<br>
+<div align="justify">
+    En consecuencia, al aplicar esta herramienta, nos ayudo a comprender el dominio del negocio de gestión de fundos dentro del sector agrícola y su funcionamiento general, brindando el contexto donde se desarrolla nuestra solución, Kampo.
+</div>
+<br>
+<div align="justify">
+    A continuación, se siguieron tres pasos esenciales para elaborar el Big Picture Event Storming:
+</div>
+<br>
+
+**Paso 1: Generar los eventos de dominio**
+<div align="justify">
+    En esta etapa, se identifican los eventos relevantes del dominio del negocio, los cuales nos permiten tener una visión inicial del funcionamiento del negocio.
+</div>
+
+<br>
+
+**Paso 2: Ordenar los eventos del dominio**
+<div align="justify">
+    En esta etapa, se organizan los eventos cronológicamente, mejorando la visualización del flujo de los procesos del negocio. Además, facilita la comprensión de cómo se desarrollan las operaciones y cómo se relacionan los distintos eventos entre sí.
+</div>
+<br>
+
+**Paso 3: Agregando actores y sistemas externos**
+<div align="justify">
+    Por ultimo, se adicionan los actores y sistemas externos que interactúan con el dominio, permitiendo identificar quienes participan y qué herramientas o medios intervienen.
+</div>
 
 ## 2.5. Ubiquitous Language
-
+<div align="justify">
+    Empleamos el Ubiquitous Language como un conjunto de términos y conceptos compartidos que nos permiten establecer una comunicación clara y consistente entre todos los miembros del equipo. Además, se construye a partir del dominio del negocio y busca eliminar ambigüedades en la interpretación de los procesos y entidades involucradas.
+</div>
+<br>
+<div align="justify">
+Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clave, los cuales, están definidos en inglés, incluyendo su equivalente en español, y sus definiciones permiten alinear el entendimiento del dominio entre todos los participantes del proyecto.
+</div>
+<br>
+<div align="justify">
+  <ul>
+    <li>Rustic property (Fundo): Unidad productiva completa que agrupa uno o varios lotes.</li>
+    <li>Field (Lote): Subdivisión del fundo donde se gestiona un cultivo específico.</li>
+    <li>Crop (Cultivo): Tipo de planta sembrada en un lote durante una campaña.</li>
+    <li>Input (Insumo): Recurso, material y materia prima que se utiliza en el proceso productivo.</li>
+    <li>Stock: Cantidad de productos.</li>
+    <li>Season (Temporada): Periodo productivo de un cultivo en un lote.</li>
+    <li>Field visit (Visita de campo): Evento en el que un ingeniero inspecciona un lote en una fecha específica.</li>
+    <li>Observation (Observación): Registro del estado general del cultivo durante una visita.</li>
+    <li>Pest (Plaga): Organismo visible que daña el cultivo.</li>
+    <li>Disease (Enfermedad): Alteración del cultivo causada por patógenos (hongos, bacterias, virus).</li>
+    <li>Severity (Severidad): Nivel de impacto de una plaga o enfermedad en el cultivo.</li>
+    <li>Treatment application (Aplicación de insumo): Uso de productos (fertilizantes, pesticidas, etc.) en el cultivo.</li>
+    <li>Recommendation (Recomendación): Acción sugerida tras una evaluación.</li>
+    <li>Weather condition (Condición climática): Datos del clima en un momento específico.</li>
+    <li>Weather alert (Alerta climática): Notificación generada por condiciones climáticas riesgosas.</li>
+    <li>Historical data (Historial): Conjunto de registros organizados en el tiempo.</li>
+    <li>Report (Reporte): Documento generado automáticamente con información técnica.</li>
+  </ul> 
+</div>
 
 ---
 
@@ -930,6 +1124,70 @@ USER PERSONA 02
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming
+<div align="justify">
+    En esta sección se explica y evidencia el uso de Design-Level EventStorming, que nos sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+</div>
+<br>
+
+**Step 1: Unstructured Exploration**
+<div align="justify">
+    En este paso, se realizó una lluvia de ideas de los eventos del dominio.
+</div>
+<br>
+
+**Step 2: Timelines**
+<div align="justify">
+    En el segundo paso, el equipo ordeno los eventos de dominio según el orden que ocurren en el dominio empresarial.
+</div>
+<br>
+
+**Step 3: Pain Points**
+<div align="justify">
+    En el tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+</div>
+<br>
+
+**Step 4: Pivotal Points**
+<div align="justify">
+    En el cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+</div>
+<br>
+
+**Step 5: Commands**
+<div align="justify">
+    En este quinto paso, el equipo añadió comandos que desencadenen eventos o el flujo de eventos, junto a sus actores.
+</div>
+<br>
+
+**Step 6: Policies**
+<div align="justify">
+    En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
+</div>
+<br>
+
+**Step 7: Read Models**
+<div align="justify">
+    En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
+</div>
+<br>
+
+**Step 8: External Systems**
+<div align="justify">
+    En este octavo paso, el equipo identifico sistemas externos, en este caso solo se tiene uno que es la API que usaremos para el consumo de datos climáticos.
+</div>
+<br>
+
+**Step 9: Aggregates**
+<div align="justify">
+    En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en los read models, policies, eventos y commands.
+</div>
+<br>
+
+**Step 10: Bounded Contexts**
+<div align="justify">
+    En el último paso, es buscar agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts y finalmente enmarco los eventos de dominio que fueron implementados.
+</div>
+
 ##### 4.6.2. Software Architecture Context Diagram
 
 ##### 4.6.3. Software Architecture Container Diagrams

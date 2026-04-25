@@ -280,6 +280,10 @@
 </div>
 
 ##### 2.1.1. Análisis competitivo
+<div align="justify">
+    El análisis competitivo implica examinar detenidamente a nuestros competidores para identificar sus fortalezas, debilidades, oportunidades y amenazas. Esto nos proporcionará una visión clara de nuestro posicionamiento en el mercado y nos ayudará a desarrollar estrategias efectivas.
+</div>
+<br>
 
 
 ##### 2.1.2. Estrategias y tácticas frente a competidores

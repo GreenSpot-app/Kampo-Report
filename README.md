@@ -1198,11 +1198,15 @@ los sprints de implementación posteriores.
 
 </table>
 
-###### 5.2.X.2. Aspect Leaders and Collaborators
+###### 5.2.1.2. Aspect Leaders and Collaborators
 
-|Team Member|github Username|Aspect Name 1|Aspect Name n|
-|---|---|---|---|
-|Rommel Hurtado Balcazar|rommelDN|||
+| Team Member (Last Name, First Name) | GitHub Username | Aspecto 1: Lean UX (DOC03–DOC06) Leader (L) / Collaborator (C) | Aspecto 2: Contexto y Segmentos (DOC01, DOC02, DOC07, DOC08) Leader (L) / Collaborator (C) | Aspecto 3: User Stories y Epics (DOC09) Leader (L) / Collaborator (C) | Aspecto 4: Software Config Management (DOC10) Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|
+| Hurtado Balcazar, Rommel | rommelDN | C | C | L | C |
+| Ramos Fuentes Rivera, Adriana Nicole | adriana832 | L | C | C | C |
+| Tuesta Girón, Kiara Lucia | Kitu05g | C | C | C | L |
+| Arroyo Gonzales, Emily Juliette | Em2920 | C | L | C | C |
+| Acuache Lucas, Mathias Joaquin | MathiasA25 | C | C | C | L |
 
 ###### 5.2.1.3. Sprint Backlog 1
 
@@ -1213,7 +1217,7 @@ del producto, cubriendo desde el perfil de la startup hasta la configuración
 del entorno de desarrollo. El board de control de tareas fue gestionado
 mediante Trello, cuyo acceso público se encuentra en:
 
-🔗 URL del Board: [https://trello.com/b/XXXXXXXX/kampo-sprint-1]
+🔗 URL del Board: [https://kamporeport.atlassian.net/jira/software/projects/KR/summary?atlOrigin=eyJpIjoiYzk0Nzk0ZGFiZGJiNDA5MmFiODIyNGJjMjAzMjZkMTUiLCJwIjoiaiJ9]
 📸 [Insertar screenshot del board de Trello aquí]
 
 ---
@@ -1376,10 +1380,13 @@ redacción, revisión de las distintas secciones del informe.
 
 **Distribución de contribuciones por integrante**
 
-| Integrante | Secciones lideradas | Commits realizados |
-|---|---|---|
-| [Integrante 1] | Startup Profile, Antecedentes y Problemática, Lean UX Canvas, Segmentos Objetivo, SCM Deployment Configuration | [N] commits |
-| [Integrante 2] | Lean UX Problem Statements, Assumptions, Hypothesis Statements, Diseño de Entrevistas, User Stories EP01–EP05, SCM Source Code Style Guide | [N] commits |
+| Integrante | Secciones lideradas                                                                                                                                                              | Commits realizados |
+|---|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Hurtado Balcazar, Rommel  | Lean UX Canvas/Diseño de entrevistas/Software Configuration Management./Landing Page, Services & Applications Implementation/Conclusiones y recomendaciones.                     | [9] commits        |
+| Ramos Fuentes Rivera, Adriana Nicole | Análisis competitivo. / Big Picture Event Storming. /Ubiquitous Language /Domain-Driven Software Architecture/ Database Design. /Database Diagrams.                              | [16] commits       |
+| Tuesta Girón, Kiara Lucia  | Registro de entrevistas. / Análisis de entrevistas./Needfinding. /Software Object-Oriented Design./ Class Diagrams.                                                              | [21] commits       |
+| Arroyo Gonzales, Emily Juliette | Startup Profile/ Antecedentes y problemática / Lean UX Process/ Lean UX Hypothesis Statements. /Segmentos objetivo./Estrategias y tácticas frente a competidores./Impact Mapping. | [5] commits        |
+| Acuache Lucas, Mathias Joaquin | Lean UX Problem Statements. / Lean UX Assumptions./Style Guidelines. /Information Architecture./ Landing Page UI Design. / Web Applications UX/UI Design. | [5] commits        |
 
 ---
 

@@ -927,6 +927,163 @@ Dentro de Kampo, nuestro contexto, se han definido los siguientes términos clav
 ## Capítulo III: Requirements Specification
 ## 3.1. User Stories
 
+EP01 - Gestión de Cultivos y Unidades Productivas
+
+US01 - Registrar cultivo por lote
+Relacionado con: EP01
+Descripción: Como ingeniero agrónomo y agroindustria mediana y grande quiero registrar cultivos por lote, para organizar la operación agrícola.
+
+Criterios de aceptación:
+Escenario 1: Registro exitoso
+Dado que el usuario cuenta con permisos para gestionar inventario
+Cuando el usuario registra un cultivo con datos válidos
+Entonces el cultivo queda registrado correctamente
+
+Escenario 2: Validación de datos obligatorios
+Dado que el usuario cuenta con permisos para gestionar inventario
+Cuando el usuario no completa los datos requeridos
+Entonces el sistema rechaza el registro e informa que los datos son incompletos.
+
+
+US2: Asociación de características del lote
+Relacionado con: EP01
+Descripción: Como ingeniero agrónomo quiero registrar datos del lote (m^2, mano de obra encargada, etc.) para análisis técnico.
+
+Criterios de aceptación:
+Escenario 1: Registro de datos nuevos
+Dado que el usuario ingresa los datos necesarios
+Cuando el usuario guarda los cambios
+Entonces el sistema registra los datos ingresados y los incorpora al historial.
+
+Escenario 2: Actualización de datos
+Dado que el usuario registro previamente los datos
+Cuando el usuario modifica los datos
+Entonces el sistema guarda y actualiza correctamente la información.
+
+US03 - Visualización geográfica de lotes
+Relacionado con: EP01
+Descripción: Como ingeniero agrónomo quiero visualizar los lotes en un mapa interactivo para ubicar y supervisar las unidades productivas de forma eficiente.
+
+Criterios de aceptación:
+Escenario 1: Visualización de lotes en mapa
+Dado que existen lotes registrados con coordenadas geográficas
+Cuando el usuario accede al módulo de mapa
+Entonces el sistema muestra los lotes ubicados en el mapa
+
+Escenario 2: Consulta de detalle de lote
+Dado que el mapa muestra los lotes
+Cuando el usuario selecciona un lote
+Entonces el sistema muestra la información detallada del lote
+
+
+
+EP02 - Monitoreo Agronómico e IoT
+
+US4 - Registro de variables agronómicas
+Relacionado con: EP02
+Descripción: Como ingeniero agrónomo, quiero registrar variables (humedad, temperatura, pH), para monitorear el cultivo.
+
+Criterios de aceptación:
+Escenario 1: Registro manual
+Dado que el usuario ingreso las variables manualmente
+Cuando el usuario completo los campos requeridos
+Entonces el sistema registra correctamente la información.
+
+Escenario 2: Visualización del historial
+Dado que existen registros previos
+Cuando el usuario consulte el historial por fecha o temporada
+Entonces el usuario ve los registros ordenados por fecha o temporada
+
+US05: Integración con sensores IoT
+Relacionado con: EP02
+Descripción: Como ingeniero agrónomo asesor y supervisor de cultivos quiero recibir datos automáticos desde sensores para monitorear los cultivos en tiempo real
+
+Criterios de aceptación:
+Escenario 1: Recepción de datos
+Dado que un sensor envía datos
+Cuando el sistema los recibe
+Entonces se registran automáticamente
+
+Escenario 2: Manejo de fallos
+Dado que el sensor deja de enviar datos
+Cuando ocurre una desconexión
+Entonces el sistema notifica el error
+
+US06 - Configuración de sensores
+Relacionado con: EP02
+Descripción: Como ingeniero agrónomo quiero registrar y configurar sensores IoT para asociarlos a lotes y capturar datos automáticamente
+
+Criterios de aceptación:
+Escenario 1: Registro de sensor
+Dado que el usuario ingresa los datos del sensor (ID, tipo, ubicación)
+Cuando el usuario guarda el sensor
+Entonces el sistema lo registra correctamente
+
+Escenario 2: Asociación al lote
+Dado que el sensor está registrado
+Cuando el usuario lo asigna a un lote
+Entonces el sistema lo vincula correctamente
+
+US7 - Visualización en tiempo real
+Relacionado con: EP02
+Descripción: Como ingeniero agrónomo quiero visualizar datos de sensores en tiempo real para tomar decisiones inmediatas sobre el cultivo
+
+Criterios de aceptación:
+Escenario 1: Actualización automática de datos
+Dado que los sensores, ya registrados y configurados, están enviando datos
+Cuando el usuario visualiza el dashboard
+Entonces los datos se actualizan automáticamente
+
+Escenario 2: Indicador de última lectura
+Dado que se muestran datos en tiempo real
+Cuando el usuario consulta un sensor en específico
+Entonces el sistema muestra la fecha y hora de la última lectura
+
+
+
+EP03 - Gestión de insumos
+
+US08 - Registro de insumos
+Relacionado con: EP03
+Descripción: Como administrador de agroindustria quiero registrar insumos con información detallada (tipo, proveedor, unidad de medida y costo) para tener un control estandarizado y preciso de los recursos utilizados
+
+Criterios de aceptación:
+Escenario 1: Registro correcto
+Dado que el administrador de agroindustria completa los datos requeridos
+Cuando el administrador de agroindustria guarda el insumo
+Entonces el sistema lo registra correctamente
+
+US09 - Gestión de stock por múltiples almacenes
+Relacionado con: EP03
+Descripción: Como administrador de agroindustria quiero gestionar el stock de insumos por almacén o ubicación para tener visibilidad del inventario distribuido
+
+Criterios de aceptación:
+Escenario 1: Consulta de stock por almacén
+Dado que existen múltiples almacenes
+Cuando el administrador de agroindustria consulta el inventario
+Entonces visualiza el stock por cada almacén
+
+Escenario 2: Transferencia entre almacenes
+Dado que existe stock en un almacén
+Cuando el administrador de agroindustria realiza una transferencia de stock
+Entonces el sistema descuenta el stock del almacén de origen y suma el stock del almacén de destino
+
+US10 - Proyección inteligente de consumo
+Relacionado con: EP03
+Descripción: Como administrador de agroindustria quiero proyectar el consumo futuro de insumos basado en datos históricos para optimizar compras y planificación
+
+Criterios de aceptación:
+Escenario 1: Generación de proyección
+Dado que existen datos históricos de consumo
+Cuando el administrador de agroindustria consulta la información
+Entonces el sistema genera una estimación futura
+
+Escenario 2: Visualización de proyección
+Dado que existe una proyección
+Cuando el administrador de agroindustria consulta la proyección
+Entonces el sistema permite visualizar métricas y tendencias
+
+
 #### US11- Visualización de Historial de Cultivos
 
 **Relacionado con:** EP01

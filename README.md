@@ -455,7 +455,12 @@
 <div align="justify">
     En esta etapa, se organizan los eventos cronológicamente, mejorando la visualización del flujo de los procesos del negocio. Además, facilita la comprensión de cómo se desarrollan las operaciones y cómo se relacionan los distintos eventos entre sí.
 </div>
+<br>
 
+**Paso 3: Agregando actores y sistemas externos**
+<div align="justify">
+    Por ultimo, se adicionan los actores y sistemas externos que interactúan con el dominio, permitiendo identificar quienes participan y qué herramientas o medios intervienen.
+</div>
 
 ## 2.5. Ubiquitous Language
 

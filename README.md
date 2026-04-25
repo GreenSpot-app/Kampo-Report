@@ -594,6 +594,11 @@ Entonces no se genera alerta.
 
 ## 3.2. Impact Mapping
 
+Para esta sección se ha realizado la creación del Impact Mapping de KAMPO, basado en los objetivos del negocio para los ingenieros agrónomos. Se definen los impactos esperados, los entregables necesarios y su relación con las historias de usuario.
+
+#### Impact Mapping - Ingeniero agrónomo asesor
+
+<img alt="Impact Mapping Ingeniero Agrónomo Asesor" src="assets/img/Impact Mapping/Impact Mapping.png">
 
 ## 3.3. Product Backlog
 

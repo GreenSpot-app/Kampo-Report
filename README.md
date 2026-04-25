@@ -358,9 +358,53 @@ los usuarios activos logren completar el flujo financiero total de su cosecha de
 ---
 
 ## Capítulo IV: Product Design
-## 4.1. Style Guidelines](#41-style-guidelines)
+## 4.1. Style Guidelines
 ##### 4.1.1. General Style Guidelines
+
+Las Decisiones de Estilo de Kampo se basan en la necesidad de poder transmitir una cierta confianza, cercanía y profesionalismo en el contexto de la gestión de campos para pequeños y medianos agricultores. Se busca una interfaz clara, accesible y consistente, que pueda facilitar la interacción que tengan nuestros segmentos usuarios al momento de ayudarlos en sus diversos objetivos.
+
+Branding
+El branding de KAMPO no es solo estética; es una declaración de intenciones. El nombre, con la sustitución de la "C" por la "K", denota una evolución tecnológica del campo tradicional.
+
+* Isotipo: El logotipo integra surcos de siembra en perspectiva con una flecha de crecimiento ascendente y ondas de señal inalámbrica (IoT). Esto comunica que el campo no solo crece, sino que se comunica y se optimiza.
+* Identidad Visual: Se aleja de los verdes pasteles para usar verdes profundos y saturados que representan la salud de un cultivo maduro, contrastados con el naranja del sol y las alertas críticas
+
+## Tipografía
+
+| Tipo | Fuente | Uso | Razón |
+| :--- | :--- | :--- | :--- |
+| **Display/Heading** | Montserrat | Títulos y métricas clave | Transmite solidez y autoridad en los reportes. |
+| **Body** | Open Sans | Texto de contenido y tablas | Optimizada para lectura en pantallas móviles bajo condiciones de alta luminosidad solar. |
+| **Monospace** | JetBrains Mono | Datos de sensores e ID de lotes | Facilita la lectura de coordenadas y valores numéricos precisos sin errores de interpretación. |
+
+## Colors
+
+| Nombre | Hex | Uso |
+| :--- | :--- | :--- |
+| Agro Primary | `#1B4332` | Marca, Sidebar y Títulos |
+| Harvest Gold | `#FF9F1C` | Botones de acción y Alertas |
+| Soil Neutral | `#E9ECEF` | Fondos de aplicación |
+| Critical Red | `#D00000` | Alertas de plagas o estrés hídrico |
+
+La paleta busca generar una experiencia visual equilibrada, transmitiendo seguridad, limpieza y accesibilidad.
+
+Spacing:
+
+El sistema de espaciado de KAMPO se basa en una unidad base de 8px, siguiendo buenas prácticas de diseño UI modernas.
+
+Se utilizan múltiplos de esta unidad para mantener consistencia:
+
+8px → separación mínima
+16px → separación estándar
+24px / 32px → separación entre secciones
+48px → separación de bloques principales
+
+Lo que se quiere transmitir con todo esto es poder generar una confianza a los usuarios los cuales van a utilizar esta app y que ellos puedan interactuar de una manera positiva.
+
+
 ##### 4.1.2. Web Style Guidelines
+
+
 ## 4.2. Information Architecture
 ##### 4.2.1. Organization Systems
 ##### 4.2.2. Labeling Systems

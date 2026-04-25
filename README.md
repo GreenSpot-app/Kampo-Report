@@ -1900,6 +1900,19 @@ dos representantes de agroindustria
 
 ## Bibliografía
 
+Business Empresarial. (2024). *Perú enfrenta rezagos de tecnificación en el agro: Solo el 20% de su superficie agrícola cuenta con riego tecnificado*. https://www.businessempresarial.com.pe/peru-enfrenta-rezagos-de-tecnificacion-en-el-agro-solo-el-20-de-su-superficie-agricola-cuenta-con-riego-tecnificado-2/
+
+Centro Nacional de Planeamiento Estratégico. (s.f.). *Agricultura 4.0: La revolución tecnológica transformará el futuro del cultivo y la producción alimentaria*.CEPLAN - Plataforma del Estado Peruano.https://www.gob.pe/institucion/ceplan/noticias/822019-agricultura-4-0-la-revolucion-tecnologica-transformara-el-futuro-del-cultivo-y-la-produccion-limentaria
+
+Corporación ADAMA Perú. (2025, agosto 20). *Tecnología en el agro: Los softwares agrícolas que están revolucionando la producción*.https://www.adama.com/peru/es/noticias/tecnologia-en-el-agro-los-softwares-agricolas-que-estan-revolucionando-la-produccion
+
+Ernst & Young Perú. (2025, diciembre 22). *¿Cómo le va al agro en el Perú?*EY Insights.https://www.ey.com/es_pe/insights/revista-execution/tendencias/agro-en-peru
+
+Ministerio de Desarrollo Agrario y Riego. (s.f.). *Problemas en la agricultura peruana*. MIDAGRI.https://www.midagri.gob.pe/portal/22-sector-agrario/vision-general/190-problemas-en-la-agricultura-peruana
+
+Pizarro Valladares, J. F. (2022, octubre 18). *Tecnología, la clave para el impulso de la agricultura peruana 4.0*. Conexión ESAN.https://www.esan.edu.pe/conexion-esan/tecnologia-la-clave-para-el-impulso-de-la-agricultura-peruana-4-0
+
+Redacción Infobae Perú. (2025, octubre 25). *Agricultura inteligente: Un puente entre la justicia hídrica y la sostenibilidad empresarial en el Perú*. Infobae.https://www.infobae.com/peru/2025/10/25/agricultura-inteligente-un-puente-entre-la-justicia-hidrica-y-la-sostenibilidad-empresarial-en-el-peru
 
 ## Anexos
 
